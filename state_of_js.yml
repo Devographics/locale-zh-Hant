@@ -97,7 +97,7 @@ translations:
 
     # CSS for email
     - key: options.css_for_email.0
-      t:  我（幾乎）沒寫過電子郵件客戶端的 CSS
+      t: 我（幾乎）沒寫過電子郵件客戶端的 CSS
     - key: options.css_for_email.1
       t: 我偶爾寫電子郵件客戶端的 CSS
     - key: options.css_for_email.2
