@@ -204,19 +204,19 @@ translations:
     ###########################################################################
 
     # heatmaps
-    - key: blocks.tools_company_size_heatmap.title
+    - key: blocks.tools_company_size_heatmap
       t: 根據公司規模劃分使用程度
     - key: blocks.tools_company_size_heatmap.description
       t: |
         每個技術裡，根據已填寫公司規模的回應來看使用程度。
 
-    - key: blocks.tools_yearly_salary_heatmap.title
+    - key: blocks.tools_yearly_salary_heatmap
       t: 根據薪資劃分使用程度
     - key: blocks.tools_yearly_salary_heatmap.description
       t: |
         每個技術裡，根據已填寫薪資的回應來看使用程度。
 
-    - key: blocks.tools_years_of_experience_heatmap.title
+    - key: blocks.tools_years_of_experience_heatmap
       t: 根據年資劃分使用程度
     - key: blocks.tools_years_of_experience_heatmap.description
       t: |
@@ -229,7 +229,7 @@ translations:
       t: GitHub
 
     # tools quadrant
-    - key: blocks.tools_quadrant.title
+    - key: blocks.tools_quadrant
       t: 滿意度 vs 使用程度
     - key: blocks.tools_quadrant.description
       t: |
@@ -250,19 +250,19 @@ translations:
         （附帶一提：使用者數量很少的原因是未知技術，或已經有很多答題者已經在使用該技術。）
 
     # category other tools
-    - key: blocks.category_other_tools.title
+    - key: blocks.category_other_tools
       t: 其他工具
     - key: blocks.category_other_tools.description
       t: 此分類裡的其他工具。（自由填答）
 
     # tool experience
-    - key: blocks.tool_experience.title
+    - key: blocks.tool_experience
       t: '{name} 體驗'
     - key: blocks.tool_experience.description
       t: 填答者的 {name} 體驗。
 
     # tool positive/negative split ("marimekko" chart)
-    - key: blocks.tools_experience_marimekko.title
+    - key: blocks.tools_experience_marimekko
       t: 區分正面/負面
     - key: blocks.tools_experience_marimekko.description
       t: |
@@ -271,7 +271,7 @@ translations:
           長條的寬度代表答題者知道某技術的數量。
 
     # tools section streams
-    - key: blocks.tools_section_streams.title
+    - key: blocks.tools_section_streams
       t: 逐年體驗
     - key: blocks.tools_section_streams.description
       t: |
@@ -281,14 +281,14 @@ translations:
         只有 1 年資料的技術不算在內。
 
     # tools section overview
-    - key: blocks.tools_section_overview.title
+    - key: blocks.tools_section_overview
       t: 分類概要
     - key: blocks.tools_section_overview.description
       t: |
         對於技術的意見概要。深色區域代表正面意見；而淺色區域是負面情緒。
 
     # tools experience ranking
-    - key: blocks.tools_experience_ranking.title
+    - key: blocks.tools_experience_ranking
       t: 排名
     - key: blocks.tools_experience_ranking.description
       t: 滿意度、有興趣、實際使用、有聽過比例的排名。
@@ -302,14 +302,14 @@ translations:
         - 有聽過：(**全部** - **沒聽過**) / **全部**
 
     # happiness
-    - key: blocks.happiness.title
+    - key: blocks.happiness
       t: 整體愉悅感
     - key: blocks.happiness.description
       t: |
         開發者目前對於此分類的整體現況是否開心？程度從 1（非常不開心）到 5（非常開心）。
 
     # newsletter
-    - key: blocks.newsletter.title
+    - key: blocks.newsletter
       t: 敬請期待
     - key: blocks.newsletter.description
       t: |
@@ -321,7 +321,7 @@ translations:
       t: 通知我
 
     # features_overview
-    - key: blocks.features_overview.title
+    - key: blocks.features_overview
       t: 使用程度概要
     - key: blocks.features_overview.description
       t: |
@@ -339,7 +339,7 @@ translations:
           可以把這組查詢複製貼上到我們的<a target="_blank" rel="nofollow" href="http://graphiql.stateofjs.com/">公開 GraphQL API</a>。
 
     # Tools usage variations
-    - key: blocks.tools_usage_variations.title
+    - key: blocks.tools_usage_variations
       t: 使用程度離勢
     - key: blocks.tools_usage_variations.description
       t: |
@@ -356,7 +356,7 @@ translations:
         請注意：整體使用程度低的工具通常有較高的離勢。
 
     # Recommended Resources
-    - key: blocks.recommended_resources.title
+    - key: blocks.recommended_resources
       t: 推薦資源
 
     ###########################################################################
