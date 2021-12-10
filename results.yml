@@ -309,7 +309,7 @@ translations:
         開發者目前對於此分類的整體現況是否開心？程度從 1（非常不開心）到 5（非常開心）。
 
     # newsletter
-    - key: blocks.newsletter
+    - key: blocks.newsletter.title
       t: 敬請期待
     - key: blocks.newsletter.description
       t: |
