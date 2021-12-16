@@ -28,34 +28,34 @@ translations:
 
     - key: sections.tshirt.description
       t: |
-          ## Support the Survey With the State of CSS T-Shirt
+          ## 贊助調查，獲得 CSS 現況調查 T-Shirt
+          
+          糟糕的影片品質、成堆的錄影帶，還得要倒帶，VHS 時代沒什麼好留戀的。但是，我們*確實*想念裝飾空白錄影帶，令人驚豔的 90 年代視覺。
 
-          Between the bad video quality, the bulky cassettes, and having to rewind, there's not much to miss about the VHS era. But one thing we *do* miss are the amazing 90s visuals that used to adorn blank VHS tapes.
-
-          But now, thanks to the talented Christopher Kirk-Nielsen you can enjoy all this retro radness while also celebrating your love for CSS at the same time!
+          現在，才華洋溢的 Christopher Kirk-Nielsen 讓大家可以享受復古風潮的同時，也慶祝對 CSS 的愛！
 
     - key: tshirt.about
-      t: About the T-shirt
+      t: 關於這件 T-shirt
 
     - key: tshirt.description
       t: |
-          We use a high-quality, super-soft tri-blend shirt with a slim fit printed by our partners at Cotton Bureau.
+          我們使用高品質、超柔軟的 Tri-blend 合身剪裁，由 Cotton Bureau 的合作夥伴進行印刷。
 
     - key: tshirt.getit
-      t: Get It
+      t: 入手
 
     - key: tshirt.price
-      t: USD $29 + shipping
+      t: $29 美金 + 運費
 
     - key: tshirt.designer.heading
-      t: About the Designer
+      t: 設計師
 
     - key: tshirt.designer.name
       t: Christopher Kirk-Nielsen
 
     - key: tshirt.designer.bio
       t: |
-          Originally from France but now based in the United States, Chris is not just an amazing front-end developer, but also a talented illustrator who specializes in retro visuals. In fact, we encourage you to also check out his [other t-shirt designs](https://chriskirknielsen.com/designs)!
+          來自法國，現住在美國。Chris 不僅是厲害的前端開發者，也是擅長復古視覺的優秀插畫家。我們也希望大家去看看他的 [T-Shirt 設計作品](https://chriskirknielsen.com/designs)！
 
     ###########################################################################
     # Sections Introductions
