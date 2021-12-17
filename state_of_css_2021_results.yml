@@ -10,11 +10,11 @@ translations:
             <span class="first-letter">木</span>工得要每幾年就要學新的、更好的鋸木板方法嗎？畫家會因為還在用油畫，而覺得心虛嗎？還是說，就只有我們前端開發者才可以體會這樣經常變化的情況？
 
             快要推出的不只 Container Queries，肯定的是變動得非常快。既然得要跟上腳步，我們花了點時間，讓調查結果本身裝上威力加強版！
-            
+
             實做上的意思是，現在可以交叉參考兩個資料點。例如：以經驗來區分年收入、以國家來區分性別。在整篇調查結果裡，會看到一些細節，但我們鼓勵在 [API](https://api.stateofjs.com/) 或[下載資料](https://www.kaggle.com/sachag/state-of-css)後深入探索資料。如果最後以此做出你的資料視覺化作品，跟我們說一聲吧！
 
             現在，就來看看今年 CSS 過得怎麼樣！
-            
+
             *附註：由於時間不夠，2021 [JavaScript 現況調查](http://stateofjs.com/)已經推遲至 2022 一月舉行。假期之後見！
 
             <span class="conclusion__byline">– Sacha Greif</span>
@@ -29,7 +29,7 @@ translations:
     - key: sections.tshirt.description
       t: |
           ## 贊助調查，獲得 CSS 現況調查 T-Shirt
-          
+
           糟糕的影片品質、成堆的錄影帶，還得要倒帶，VHS 時代沒什麼好留戀的。但是，我們*確實*想念裝飾空白錄影帶，令人驚豔的 90 年代視覺。
 
           現在，才華洋溢的 Christopher Kirk-Nielsen 讓大家可以享受復古風潮的同時，也慶祝對 CSS 的愛！
@@ -104,22 +104,22 @@ translations:
 
     - key: blocks.gender.note
       t: |
-          If you're interested in learning more, we [wrote a blog post](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj) that addresses the survey's gender dynamics.
+          如果還有興趣深入瞭解，我們[寫了篇文章](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj)，談這次調查的性別差距。
 
     - key: blocks.currently_missing_from_css.note
       t: |
-          You can explore the full dataset of answers to this question in [this side project](https://whatsmissingfromcss.com/).
+          在此[閒暇專案](https://whatsmissingfromcss.com/)可以翻閱這問題的完整答案 Dataset。
 
     - key: blocks.source.note
       t: >
 
-        This chart aggregates a mix of referrers, URL parameters, and freeform answers.
+        這張圖表整合各種參照頁面、網址參數和自由填寫回答。
 
-        - State of JS: the [State of JS](https://stateofjs.com) mailing list.
+        - State of JS: [JS 現況調查](https://stateofjs.com)的訂閱名單。
 
-        - State of CSS: the State of CSS mailing list; also matches `email`, `by email`, etc.
+        - State of CSS: CSS 現況調查訂閱名單，還有包含 `email`、`by email`…等。
 
-        - Work: matches `work`, `colleagues`, `coworkers`, etc.
+        - Work: 包含 `work`、`colleagues`、`coworkers`…等。
 
     ###########################################################################
     # Awards
