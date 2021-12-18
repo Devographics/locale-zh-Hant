@@ -63,9 +63,7 @@ translations:
 
     - key: sections.user_info.description
       t: |
-          This year's survey reached **8,714** developers throughout the world, and in order
-          to help highlight different voices and surface deeper insights, we made a special
-          effort to provide new ways to break our data down.
+          今年的調查，達到 8,714 位來自世界各地的開發者。為了要突顯不同聲音，找出更深層的洞見，我們特地花點時間，提供新方法來拆分資料。
 
     - key: sections.features.description
       t: |
@@ -126,19 +124,19 @@ translations:
     ###########################################################################
 
     - key: award.feature_adoption_delta_award.comment
-      t: With a **{value}** progression in 2021, CSS comparison functions are becoming a key part of every CSS developer's toolkit.
+      t: CSS 比較函式 (comparison functions) 在 2021 年增加 **{value}**，成為每個 CSS 開發者工具箱裡重要的一部分。
 
     # - key: award.tool_usage_delta_award.comment
-    #   t: No other tool comes even close to Tailwind CSS's dramatic **{value}** progression over the last year.
+    #   t: 沒有任何工具可以接近 Tailwind CSS 過去一年的 **{value}** 巨幅成長。
 
     - key: award.tool_satisfaction_award.comment
-      t: PostCSS takes the top spot once again with a **{value}** satisfaction ratio.
+      t: PostCSS 以 **{value}** 滿意度再次獲得第一名的位置。
 
     - key: award.tool_interest_award.comment
-      t: With a **{value}** ratio, CSS Modules again generated the most interest among CSS developers this year.
+      t: 今年 CSS Modules 以 **{value}** 的比例，再次獲得最多 CSS 開發者的興趣。
 
     # - key: award.most_write_ins_award.comment
-    #   t: Many questions also accepted write-in answers, and with **{value}** mentions PhpStorm was the most popular item overall.
+    #   t: 有很多問題是可以自行輸入答案的。提到 **{value}** 次的 PhpStorm 是整體最受歡迎的項目。
 
 
     ###########################################################################
