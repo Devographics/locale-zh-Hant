@@ -67,34 +67,28 @@ translations:
 
     - key: sections.features.description
       t: |
-          CSS's dynamism shows no sign of stopping, as developers make an effort to adopt the current
-          crop of new features while looking forward to even more innovation in the next few years.
+          CSS 的活力完全沒有停下來的跡象，開發者努力採用一堆現有新功能之餘，也期望接下來幾年有更多變革。
 
     - key: sections.technologies.description
       t: |
-          With nearly 50% of respondents happily using one or more CSS-in-JS library, it's safe to say that
-          the category has managed to carve out its niche. Maybe the two sides of the front-end world are
-          not so far apart after all?
+          將近 50% 答題者表示：正在快樂地使用一種或多種 CSS-in-JS 函式庫。此分類可以說總算開創出合適的位置。或許，前端世界的
+          兩側，到最後差距沒這麼大？
 
     - key: sections.tools_others.description
       t: |
-          Picking a technology can often come down to a series of tough choices between
-          competing priorities, and this year we tried to capture this process using a new bracket-style question format.
+          挑選技術常常會淪為互斥優先順序之間的困難抉擇。今年我們試著以全新的淘汰賽問題格式，表現出這過程。
 
     - key: sections.environments.description
       t: |
-          Accessibility has long been an after-thought when it comes to web development, but many developers
-          are now realizing that it should in fact be the foundation on which everything else rests.
+          無障礙設計在網站開發長久以來是後來再解決的事情。只不過，現在有許多開發者瞭解到，它應該是所有其他項目所倚賴的基礎。
 
     - key: sections.resources.description
       t: |
-          Highlighting blogs, podcasts, and sites is fine, but this year we decided to go one step further
-          and actually feature the people who make up the CSS community themselves!
+          標出部落格、Podcast 和網站當然不錯，但今年我們決定更進一步，突顯出形成 CSS 社群的人們！
 
     - key: sections.opinions.description
       t: |
-          Whether it's pain points that hold you back today, or missing features that you hope to use
-          tomorrow, this was your chance to vent and share your gripes with CSS!
+          不管是現在造成阻礙的痛點，還是缺乏的新功能，希望之後可以用。現在是大聲說出來的機會，分享出大家對 CSS 的碎碎念！
 
     ###########################################################################
     # Notes
@@ -145,7 +139,7 @@ translations:
 
     - key: sections.conclusion.description
       t: |
-            <span class="first-line">The way you write CSS is about to change forever</span>
+            <span class="first-line">寫 CSS 的方法，會出現前所未有的變化</span>
 
             For many years now, many innovations in writing styles for the web have happened elsewhere: in preprocessors, JavaScript frameworks, or compilers. To be sure, CSS itself has also received some welcome improvements like [aspect-ratio](https://developer.mozilla.org/en-US/docs/Web/CSS/aspect-ratio) or [custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/--*). Yet we still reach for libraries and other helpers on a daily basis.
 
@@ -368,11 +362,11 @@ translations:
 ###########################################################################
 
     - key: partners.frontendmasters.description
-      t: Advance your skills with in-depth, modern front-end engineering courses.
+      t: 加入深入、現代的前端工程課程，讓技能更進階。
     - key: partners.polypane.description
-      t: The browser for ambitious devs. Build responsive, accessible and fast websites with ease.
+      t: 目標遠大的開發者用的瀏覽器。輕鬆打造響應式、無障礙與快速的網站。
     - key: partners.google_chrome.description
-      t: Thanks to the Google Chrome team for supporting our work.
+      t: 感謝 Google Chrome 團隊支援我們的作品。
 
 ###########################################################################
 # FAQ/About
