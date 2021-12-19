@@ -141,20 +141,20 @@ translations:
       t: |
             <span class="first-line">寫 CSS 的方法，會出現前所未有的變化</span>
 
-            For many years now, many innovations in writing styles for the web have happened elsewhere: in preprocessors, JavaScript frameworks, or compilers. To be sure, CSS itself has also received some welcome improvements like [aspect-ratio](https://developer.mozilla.org/en-US/docs/Web/CSS/aspect-ratio) or [custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/--*). Yet we still reach for libraries and other helpers on a daily basis.
+            各種嶄新撰寫網頁樣式的方法存在已久，用預處理器、JavaScript 框架或編譯器。其實，CSS 本身就有一些受到歡迎的改進，像是 [aspect-ratio](https://developer.mozilla.org/en-US/docs/Web/CSS/aspect-ratio) 或 [custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/--*)。只不過，在日常工作仍要去尋找函式庫或其它輔助功能。
 
-            But there's a change coming. The core CSS language is getting shaken up and renewed, and we're right at the forefront of accelerated evolution.
+            但是，即將要有所改變了。核心 CSS 語言即將出現劇烈變動和革新。現在，正是演進加速的第一排。
 
-            [Container Queries](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Container_Queries) will bring in an entirely new era of responsive design, and [Cascade Layers](https://developer.mozilla.org/en-US/docs/Web/CSS/@layer) will make our use of frameworks, theming and managing complex codebases significantly easier.
+            [Container Queries](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Container_Queries) 帶來響應式設計的全新時代；而 [Cascade Layers](https://developer.mozilla.org/en-US/docs/Web/CSS/@layer) 讓使用框架、佈景主題與管理複雜程式碼變得更為簡單。
 
-            When we look a little further ahead, we can also see the [@when/else conditional](https://css-tricks.com/proposal-for-css-when/) coming up, which will let us combine media, container and supports queries into a single at-rule.
+            再進一步往遠方看，還會有 [@when/else 條件](https://css-tricks.com/proposal-for-css-when/)即將到來，把 media、container 和 supports 的查詢整合成為一個 at 規則。
 
-            And fingers crossed, 2022 is the year we finally see some movement on native CSS nesting. Those of us that work with tools like Sass and PostCSS already couldn't imagine another way of working.
+            在 2022 年，我們終於如願以償看到原生 CSS 巢狀結構有些動靜。早就在 Sass 和 PostCSS 等工具使用的我們，不太能想像其他種方式。
 
-            All of this together means that 2022 is likely to be a year where the way you write CSS is going to fundamentally change. It's an incredibly exciting period, and we look forward to all the amazing implementations in the year to come.
+            總結來說，代表 2022 會是撰寫 CSS 方法徹底改變的一年。這是令人無比振奮的時期，我們期待來年所有令人驚豔的實做。
 
     - key: conclusion.bio
-      t: Web developer and creator of Polypane
+      t: Polypane 的網頁開發者與創作者
 
     ###########################################################################
     # Picks
@@ -166,7 +166,7 @@ translations:
       t: We asked members of the CSS community to share their “pick of the year”
 
     - key: picks.georgedoescode.name
-      t: The CSS Paint API
+      t: CSS Paint API
     - key: picks.georgedoescode.bio
       t: Developer, writer, and generative artist.
     - key: picks.georgedoescode.description
