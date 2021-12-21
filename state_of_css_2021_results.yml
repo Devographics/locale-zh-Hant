@@ -257,7 +257,7 @@ translations:
     - key: picks.shadeed9.name
       t: Container Queries
     - key: picks.shadeed9.bio
-      t: [Debugging CSS](https://debuggingcss.com/) 的作者，在 [ishadeed.com](http://ishadeed.com) 寫作。
+      t: \[Debugging CSS](https://debuggingcss.com/) 的作者，在 [ishadeed.com](http://ishadeed.com) 寫作
     - key: picks.shadeed9.description
       t: |
             CSS container queries again! We got the chance to play with them in a browser.
