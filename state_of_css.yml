@@ -47,6 +47,11 @@ translations:
     - key: sections.animations_transforms.description
       t: 把元素加上動畫或變形。
 
+    - key: sections.accessibility.title
+      t: 無障礙設計
+    - key: sections.accessibility.description
+      t: 無障礙設計功能與技術
+
     - key: sections.media_queries.title
       t: Media Queries
     - key: sections.media_queries.description
@@ -102,12 +107,7 @@ translations:
     - key: sections.environments.title
       t: 環境
     - key: sections.environments.description
-      t: 撰寫的 CSS 是用在哪些環境？
-
-    - key: sections.awards.title
-      t: 獎項
-    - key: sections.awards.description
-      t: 今年令人矚目的事情。
+      t: 撰寫 CSS 的時候，會斟酌哪些環境和無障礙設計要素？
 
     ###########################################################################
     # Options
@@ -155,6 +155,93 @@ translations:
     - key: options.css_for_email.3.short
       t: 主要
 
+    # what do you use CSS for?
+    - key: options.what_do_you_use_css_for.marketing_sites
+      t: 行銷網站和登陸頁面
+    - key: options.what_do_you_use_css_for.design_systems
+      t: 設計系統
+    - key: options.what_do_you_use_css_for.blogs
+      t: 部落格，或其他充滿文字的網站
+    - key: options.what_do_you_use_css_for.web_apps
+      t: Web 應用程式
+    - key: options.what_do_you_use_css_for.mobile_apps
+      t: 手機應用程式
+    - key: options.what_do_you_use_css_for.css_art
+      t: CSS 藝術與插畫
+    - key: options.what_do_you_use_css_for.emails
+      t: 電子郵件
+    - key: options.what_do_you_use_css_for.printed_documents
+      t: 印出來的文件
+
+    # CSS pain points
+    - key: options.css_pain_points.browser_interoperability
+      t: 瀏覽器相容性
+    - key: options.css_pain_points.browser_interoperability.description
+      t: Chrome、Safari 和 Firefox⋯等之間的差異
+    - key: options.css_pain_points.interactions
+      t: 互動
+    - key: options.css_pain_points.interactions.description
+      t: 使用者輸入或其他事件（捲動和移動游標等）的回饋。
+    - key: options.css_pain_points.architecture
+      t: 架構與維護
+    - key: options.css_pain_points.architecture.description
+      t: 檔案結構、刪除無用程式碼與重構⋯等
+    - key: options.css_pain_points.layout_positioning
+      t: 版面與位置
+    - key: options.css_pain_points.layout_positioning.description
+      t: 設定版面，確保元素都在想放的地方。
+    - key: options.css_pain_points.scoping_specificity
+      t: 範圍與權重
+    - key: options.css_pain_points.scoping_specificity.description
+      t: 處理層階，蓋過樣式⋯等
+    - key: options.css_pain_points.responsive_design
+      t: 響應式設計
+    - key: options.css_pain_points.responsive_design.description
+      t: 為各種裝置修改版面和設計。
+    - key: options.css_pain_points.form_elements_styling
+      t: 表單元素樣式
+    - key: options.css_pain_points.form_elements_styling.description
+      t: 自訂表單元素的外觀和行為。
+    - key: options.css_pain_points.performance_issues
+      t: 效能問題
+    - key: options.css_pain_points.performance_issues.description
+      t: 處理捲動延遲，讓動畫更滑順⋯等
+
+
+    # CSS missing features (same as features section)
+    - key: options.currently_missing_from_css.nesting
+      t: 巢狀結構
+    - key: options.currently_missing_from_css.nesting.description
+      t: 可以在原生的 CSS 將樣式巢狀化。
+    - key: options.currently_missing_from_css.parent_selector
+      t: 上層選擇器
+    - key: options.currently_missing_from_css.parent_selector.description
+      t: 可以從後代找出上層的元素。
+    - key: options.currently_missing_from_css.browser_support
+      t: 瀏覽器支援度
+    - key: options.currently_missing_from_css.browser_support.description
+      t: 現有功能的瀏覽器支援度可以更好。
+    - key: options.currently_missing_from_css.mixins
+      t: Mixin
+    - key: options.currently_missing_from_css.mixins.description
+      t: 動態地將定義群組起來並重複使用。
+    - key: options.currently_missing_from_css.color_functions
+      t: 顏色函式
+    - key: options.currently_missing_from_css.color_functions.description
+      t: 控制顏色值的函式。
+    - key: options.currently_missing_from_css.container_queries
+      t: 容器 Query
+    - key: options.currently_missing_from_css.container_queries.description
+      t: 可以根據上層容器的大小來撰寫樣式。
+    - key: options.currently_missing_from_css.scoping
+      t: 設立範圍
+    - key: options.currently_missing_from_css.scoping.description
+      t: 更清楚知道樣式用在哪裡的功能。
+    - key: options.currently_missing_from_css.subgrid
+      t: Subgrid
+    - key: options.currently_missing_from_css.subgrid.description
+      t: 位於更深層的次級 Grid 納入上層 Grid 的巢狀結構。
+
     ###########################################################################
     # Features
     ###########################################################################
@@ -185,6 +272,16 @@ translations:
       t: <code>aspect-ratio</code>
     - key: features.content_visibility
       t: <code>content-visibility</code>
+    - key: features.flexbox_gap
+      t: Flexbox 的 gap 屬性
+    - key: features.break_rules
+      t: 斷行規則
+    - key: features.break_rules.description
+      t: <code>break-inside</code>、<code>break-before</code> 和 <code>break-after</code>
+    - key: features.at_container
+      t: 容器 Query
+    - key: features.at_container.description
+      t: <code>@container</code> query
 
     # shapes & graphics
     - key: features.shapes
@@ -204,6 +301,20 @@ translations:
     - key: features.backdrop_filter
       t: <code>backdrop-filter</code>
 
+    - key: features.intrinsic_sizing
+      t: Intrinsic Sizing
+    - key: features.intrinsic_sizing.description
+      t: <code>min-content</code>、<code>max-content</code> 和 <code>fit-content</code>
+    - key: features.repeating_linear_gradient
+      t: <code>repeating-linear-gradient()</code>
+    - key: features.conic_gradient
+      t: <code>conic-gradient()</code>
+    - key: features.color_function
+      t: <code>color()</code>
+
+    - key: features.accent_color
+      t: <code>accent-color</code>
+
     # interactions
     - key: features.scroll_snap
       t: CSS Scroll Snap
@@ -215,6 +326,8 @@ translations:
       t: <code>touch-action</code>
     - key: features.pointer_events
       t: <code>pointer-events</code>
+    - key: features.scroll_timeline
+      t: <code>scroll-timeline</code>
 
     # typography
     - key: features.web_fonts
@@ -252,7 +365,7 @@ translations:
     - key: features.perspective
       t: <code>perspective</code>
 
-    # media queries
+    # media queries/accessibility
     - key: features.feature_support_queries
       t: 功能支援判別 (Feature Support Queries) (<code>@supports</code>)
     - key: features.prefers_reduced_motion
@@ -261,6 +374,24 @@ translations:
       t: <code>prefers-color-scheme</code>
     - key: features.color_gamut
       t: <code>color-gamut</code>
+
+    - key: features.prefers_reduced_data
+      t: <code>prefers-reduced-data</code>
+    - key: features.tabindex
+      t: <code>tabindex</code> HTML attribute
+    - key: features.tabindex.description
+      t: <code>&lt;div tabindex="0"&gt;</code>
+
+    - key: features.color_contrast
+      t: <code>color-contrast()</code>
+
+    - key: features.color_scheme
+      t: <code>color-scheme</code>
+
+    - key: features.aria_attributes
+      t: HTML 屬性：ARIA
+    - key: features.aria_attributes.description
+      t: <code>role</code> 和 <code>aria-label</code> ⋯等
 
     # other features
     - key: features.variables
@@ -278,12 +409,51 @@ translations:
     - key: features.comparison_functions.description
       t: <code>min()</code>、<code>max()</code> 和 <code>clamp()</code>
 
-    # knowledge score
-    - key: features.knowledge_score
-      t: 認知分數
-    - key: features.knowledge_score.description
-      t: 調查裡提到的 CSS 功能裡，有多少答題者知道？
-      
+    - key: features.at_property
+      t: Houdini 自訂屬性
+    - key: features.at_property.description
+      t: <code>@property</code>
+    - key: features.at_layer
+      t: <code>@layer</code>
+    - key: features.content_visibility
+      t: <code>content-visibility</code>
+    - key: features.marker
+      t: 偽元素 <code>::marker</code>
+
+    # missing features (see also options)
+    - key: features.nesting
+      t: 巢狀結構
+    - key: features.nesting.description
+      t: 可以在原生的 CSS 將樣式巢狀化。
+    - key: features.parent_selector
+      t: 上層選擇器
+    - key: features.parent_selector.description
+      t: 可以從後代找出上層的元素。
+    - key: features.browser_support
+      t: 瀏覽器支援度
+    - key: features.browser_support.description
+      t: 現有功能的瀏覽器支援度可以更好。
+    - key: features.mixins
+      t: Mixin
+    - key: features.mixins.description
+      t: 動態地將定義群組起來並重複使用。
+    - key: features.color_functions
+      t: 顏色函式
+    - key: features.color_functions.description
+      t: 控制顏色值的函式。
+    - key: features.container_queries
+      t: 容器 Query
+    - key: features.container_queries.description
+      t: 可以根據上層容器的大小來撰寫樣式。
+    - key: features.scoping
+      t: 設立範圍
+    - key: features.scoping.description
+      t: 更清楚知道樣式用在哪裡的功能。
+    - key: features.subgrid
+      t: Subgrid
+    - key: features.subgrid.description
+      t: 位於更深層的次級 Grid 納入上層 Grid 的巢狀結構。
+
     ###########################################################################
     # Units & Selectors
     ###########################################################################
@@ -482,6 +652,15 @@ translations:
     - key: environments.form_factors.description
       t: 在哪些裝置上進行測試？
 
+    - key: environments.accessibility_features
+      t: 無障礙設計功能
+    - key: environments.accessibility_features.description
+      t: 常常實做哪些無障礙設計功能？
+    - key: environments.accessibility_features.others
+      t: 其他無障礙設計功能
+    - key: environments.accessibility_features.others
+      t: 還有常常實做哪些無障礙設計功能？
+
     - key: environments.css_for_print
       t: 列印用的 CSS
     - key: environments.css_for_print.description
@@ -492,10 +671,22 @@ translations:
     - key: environments.css_for_email.description
       t: 有寫電子郵件客戶端的 CSS 嗎？
 
+    - key: environments.what_do_you_use_css_for
+      t: 使用 CSS 的主要目的？
+    - key: environments.what_do_you_use_css_for.description
+      t: 常常在哪類型的專案使用 CSS？
+    - key: environments.what_do_you_use_css_for.others
+      t: 其他專案種類
+
     - key: charts.axis_legends.css_for_print
       t: 頻率
     - key: charts.axis_legends.css_for_email
       t: 頻率
+
+    - key: tools_others.tool_evaluation
+      t: 評估函式庫
+    - key: tools_others.tool_evaluation.description
+      t: 在評估新的函式庫時，從每個比較選出重視的因素。
 
     ###########################################################################
     # Opinions
@@ -531,22 +722,56 @@ translations:
     - key: opinions.enjoy_writing_css.title
       t: 愉悅感
 
+    # Browser interoperability question
+    - key: opinions_others.browser_interoperability_features.others
+      t: 瀏覽器的不相容性
+    - key: opinions_others.browser_interoperability_features.others.description
+      t: >
+        有任何 CSS 功能是因為瀏覽器之間有差異，覺得難以使用的嗎？
+    # Pain Points
+    - key: opinions.css_pain_points
+      t: CSS 的痛點
+    - key: opinions.css_pain_points.description
+      t: 從每個比較挑出在 CSS 最掙扎的方面。
+
+    - key: opinions_others.css_pain_points.others
+      t: 其他的 CSS 痛點
+
+    # Missing Features
+    - key: opinions.currently_missing_from_css
+      t: 覺得 CSS 目前缺了什麼？
+    - key: opinions.currently_missing_from_css.description
+      t: 從每個比較挑出最有可能現在就使用的 CSS 功能。
     - key: opinions_others.currently_missing_from_css.others
-      t: 覺得 CSS 目前還缺了什麼？
-    - key: opinions_others.currently_missing_from_css.others.description
-      t: 希望未來有的 CSS 樣式。
+      t: 其他還缺的功能
     - key: opinions_others.currently_missing_from_css.others.note
       t: >
           這些是將自由填寫內容整理過的結果。
           若要看原始、沒有處理過的資料，請看 [whatsmissingfromcss.com](http://whatsmissingfromcss.com/)。
-    
+
     - key: opinions.sum_up_one_word_css
       t: 用一個詞形容 CSS
     - key: opinions.sum_up_one_word_css.description
       t: 要用一個詞總結對 CSS 的感覺的話，會是什麼？
+
+    - key: happiness.pre_post_processors
+      t: 對於預/後處理器的現況覺得滿意嗎？
+    - key: happiness.css_in_js
+      t: 對於 CSS-in-JS 函式庫的現況覺得滿意嗎？
+    - key: happiness.css_frameworks
+      t: 對於 CSS 框架的現況覺得滿意嗎？
 
     - key: happiness.state_of_the_web
       t: 平均來說，對於各種網路技術的狀態覺得開心嗎？
 
     - key: happiness.state_of_css
       t: 平均來說，對於 CSS 的狀態覺得開心嗎？
+
+    ###########################################################################
+    # Resources
+    ###########################################################################
+
+    - key: resources.first_steps
+      t: CSS 新手上路
+    - key: resources.first_steps.description
+      t: 還是新手上路的時候，當初是怎麼學 CSS 的？

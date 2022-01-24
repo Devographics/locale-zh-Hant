@@ -8,9 +8,9 @@ translations:
       t: 開始
 
     - key: page.previous
-      t: '前一項：'
+      t: "前一項："
     - key: page.next
-      t: '後一項：'
+      t: "後一項："
 
     - key: general.state_of_css_link
       t: CSS 現況調查
@@ -19,13 +19,49 @@ translations:
       t: 存放在 <a href="{link}">Netlify</a>。
 
     - key: general.completion_percentage
-      t: '完成百分比：'
+      t: "完成百分比："
 
     - key: partners.thanks
       t: 感謝贊助我們的伙伴！
 
     - key: partners.learn_more
       t: 深入瞭解。
+
+  - key: tabs.all_respondents
+    t: All Respondents
+  - key: tabs.main_answers
+    t: Main Answers
+  - key: tabs.other_answers
+    t: Other Answers
+  - key: tabs.bracket_wins
+    t: Wins
+  - key: tabs.bracket_matchups
+    t: Matchups
+  - key: tabs.chart
+    t: Chart
+  - key: tabs.data
+    t: Data
+  - key: tabs.share
+    t: Share
+  - key: tabs.debug
+    t: Debug
+  - key: tabs.by_country
+    t: By Country
+  - key: tabs.by_experience
+    t: By Experience
+  - key: tabs.by_degree
+    t: By Degree
+  - key: tabs.by_salary
+    t: By Salary
+  - key: tabs.by_gender
+    t: By Gender
+
+  ###########################################################################
+  # Block
+  ###########################################################################
+
+  - key: block.data_from
+    t: foo
 
     ###########################################################################
     # Options
@@ -39,6 +75,15 @@ translations:
       t: 使用程度
     - key: options.experience_ranking.awareness
       t: 知道
+
+    - key: options.features_mode.grouped
+      t: Grouped
+    - key: options.features_mode.awareness_rank
+      t: By Awareness
+    - key: options.features_mode.usage_rank
+      t: By Usage
+    - key: options.features_mode.usage_ratio_rank
+      t: By Usage Ratio
 
     - key: options.features_simplified.know_it
       t: 有聽過
@@ -75,6 +120,30 @@ translations:
     - key: ranges.selector.company_size
       t: 公司規模
 
+  # other learning methods
+  - key: options.first_steps.blogs
+    t: Blogs
+  - key: options.first_steps.forums
+    t: Forums
+  - key: options.first_steps.view_source
+    t: View Source
+
+  # other disablities
+  - key: options.disability_status_others.adhd
+    t: ADHD
+  - key: options.disability_status_others.autism
+    t: Autism
+  - key: options.disability_status_others.glasses
+    t: Glasses
+  - key: options.disability_status_others.old
+    t: Old Age
+  - key: options.disability_status_others.back_pain
+    t: Back Pain
+  - key: options.disability_status_others.epilepsy
+    t: Epilepsy
+  - key: options.disability_status_others.aspergers
+    t: Aspergers
+
     ###########################################################################
     # Sections
     ###########################################################################
@@ -93,6 +162,9 @@ translations:
 
     - key: sections.conclusion.title
       t: 結論
+
+    - key: sections.about.title
+      t: About
 
     - key: sections.support.title
       t: 贊助
@@ -113,11 +185,52 @@ translations:
       t: 語言
     - key: user_info.locale.description
       t: 答題者選用什麼語言來填寫？
+    - key: user_info.locale.note
+      t: >
+        This data is collected automatically based on respondent's settings while taking the survey;
+        Languages with fewer than 20 respondents not shown.
 
     - key: user_info.source
       t: 來源
     - key: user_info.source.description
       t: 答題者如何找到調查的？
+      - key: user_info.source.note
+    t: This data is a mix of self-reported answers, referrer data, and URL tracking data.
+
+  - key: user_info.gender_by_country
+    t: Gender By Country
+  - key: user_info.gender_by_country.description
+    t: Gender distribution by country with at least 100 respondents, sorted by "mean gender" (each gender key being assigned an integer value in ascending order) descending.
+
+  - key: user_info.years_of_experience_by_salary
+    t: Years of Experience by Salary Range
+  - key: user_info.years_of_experience_by_salary.description
+    t: Years of experience by salary range.
+
+  - key: user_info.yearly_salary_by_country
+    t: Salary By Country
+  - key: user_info.yearly_salary_by_country.description
+    t: Yearly salary distribution by country with at least 100 respondents, sorted by mean salary descending.
+
+  - key: user_info.yearly_salary_by_degree
+    t: Salary By Higher Education Degree
+  - key: user_info.yearly_salary_by_degree.description
+    t: Yearly salary distribution by higher education degree, sorted by mean salary descending.
+
+  - key: user_info.yearly_salary_by_experience
+    t: Salary By Experience
+  - key: user_info.yearly_salary_by_experience.description
+    t: Yearly salary distribution by experience, sorted by mean salary descending.
+
+  - key: user_info.race_ethnicity_by_years_of_experience
+    t: Race & Ethnicity by Years of Experience
+  - key: user_info.race_ethnicity_by_years_of_experience.description
+    t: Race & ethnicity distribution by years of experience, sorted by mean experience ascending.
+
+  - key: user_info.higher_education_degree_by_gender
+    t: Higher Education Degree by Gender
+  - key: user_info.higher_education_degree_by_gender.description
+    t: Higher education degree distribution by gender.
 
     ###########################################################################
     # Locales
@@ -163,6 +276,10 @@ translations:
       t: Farsi
     - key: options.locale.nl-NL
       t: Dutch
+  - key: options.locale.ko-KR
+    t: Korean
+  - key: options.locale.ro-RO
+    t: Romanian
 
     ###########################################################################
     # Features
@@ -173,7 +290,7 @@ translations:
     - key: features.mdn_link
       t: MDN
     - key: features.caniuse_link
-      t: CanIUse
+      t: Can I Use
     - key: features.specification_link
       t: W3C 規格
 
@@ -198,6 +315,9 @@ translations:
       t: 首頁
     - key: tools.npm_link
       t: NPM
+
+    - key: tools.technology
+      t: Technology
 
     ###########################################################################
     # Blocks
@@ -228,6 +348,32 @@ translations:
     - key: blocks.entity.github_link
       t: GitHub
 
+  # cardinality
+  - key: blocks.all_sections_tools_cardinality_by_user
+    t: Technology Usage Cardinality
+  - key: blocks.all_sections_tools_cardinality_by_user.description
+    t: >
+        For each section, which percentage of respondents **use**
+        (defined as having answered “would use again”) one, two, three, etc. technologies.
+        The bottom-most bar represents the sum of all other bars.
+
+  - key: blocks.cardinality.max
+    t: Most common answer
+
+  # tools arrows
+  - key: blocks.tools_arrows
+    t: Changes Over Time
+  - key: blocks.tools_arrows.description
+    t: |
+      Each line goes from 2016 to 2020. A higher point means a technology has been used by more people,
+      and a point further to the right means more users want to learn it; or have used it and would use it again.
+  - key: blocks.tools_arrows.note
+    t: |
+      - Some lines skip years.
+      - Technologies with only one year of data are not shown.
+      - Velocity formula = (most recent opinion - oldest opinion) + (most recent usage) - (oldest usage)
+      - A positive velocity means the usage and/or positive opinions have increased over time.
+
     # tools quadrant
     - key: blocks.tools_quadrant
       t: 滿意度 vs 使用程度
@@ -243,12 +389,6 @@ translations:
 
           - 分析: 高使用度、低滿意度。如果正在使用這些技術，要進行重新評估。
 
-    - key: blocks.tools_quadrant.interest.description
-      t: |
-        這張圖表是每個技術根據**總使用者數量**顯示**有興趣比例**（定義是答題者知道某個技術，但*尚未*使用）。
-
-        （附帶一提：使用者數量很少的原因是未知技術，或已經有很多答題者已經在使用該技術。）
-
     # category other tools
     - key: blocks.category_other_tools
       t: 其他工具
@@ -257,7 +397,7 @@ translations:
 
     # tool experience
     - key: blocks.tool_experience
-      t: '{name} 體驗'
+      t: "{name} 體驗"
     - key: blocks.tool_experience.description
       t: 填答者的 {name} 體驗。
 
@@ -337,6 +477,35 @@ translations:
     - key: export.graphql
       t: >
           可以把這組查詢複製貼上到我們的<a target="_blank" rel="nofollow" href="http://graphiql.stateofjs.com/">公開 GraphQL API</a>。
+  - key: export.export_json
+    t: Get JSON Data
+  - key: export.export_graphql
+    t: Get GraphQL Query
+
+  - key: custom_data.heading
+    t: Custom Chart
+  - key: custom_data.custom_data
+    t: Custom Data
+  - key: custom_data.graphql_query
+    t: GraphQL Query
+  - key: custom_data.chart_title
+    t: Custom Chart
+  - key: custom_data.submit
+    t: Submit
+  - key: custom_data.edit_title
+    t: Edit Chart Title
+  - key: custom_data.customize
+    t: Customize Data
+  - key: custom_data.details
+    t: >
+
+        1. Copy the contents of the "GraphQL Query" textfield and paste them into the middle panel of the [GraphQL API explorer](https://graphiql.stateofjs.com/).
+
+        2. Modify the query by adding one or more **filters** using the left-hand explorer sidebar. Make sure to keep the overall structure of the data the same.
+
+        3. In the explorer window, click the Play ("Execute Query") button.
+
+        4. Copy the results of the modified query (`{ data: … }` ) into the "Custom Data" textfield above and submit.
 
     # Tools usage variations
     - key: blocks.tools_usage_variations
@@ -359,14 +528,62 @@ translations:
     - key: blocks.recommended_resources
       t: 推薦資源
 
+  # Brackets
+  - key: tool_evaluation.tool_evaluation_wins
+    t: Library Evaluation Rankings
+  - key: tool_evaluation.tool_evaluation_wins.description
+    t: Which factors do you prioritize when evaluating a new library? Results are ranked by number of tournament rounds won.
+
+  - key: tool_evaluation.tool_evaluation_matchups
+    t: Library Evaluation Rankings (Matchups)
+  - key: tool_evaluation.tool_evaluation_matchups.description
+    t: Which factors do you prioritize when evaluating a new library? Percentage of rounds won by left-hand item against top-side item.
+
+  - key: css_pain_points.css_pain_points_wins
+    t: CSS Pain Points
+  - key: css_pain_points.css_pain_points_wins.description
+    t: Which aspect of CSS do you struggle with the most? Results are ranked by number of tournament rounds won.
+
+  - key: css_pain_points.css_pain_points_matchups
+    t: CSS Pain Points (Matchups)
+  - key: css_pain_points.css_pain_points_matchups.description
+    t: Which aspect of CSS do you struggle with the most? Percentage of rounds won by left-hand item against top-side item.
+
+  - key: currently_missing_from_css.currently_missing_from_css_wins
+    t: Features Missing From CSS
+  - key: currently_missing_from_css.currently_missing_from_css_wins.description
+    t: Which feature would you most like to be able to use in CSS today? Results are ranked by number of tournament rounds won.
+
+  - key: currently_missing_from_css.currently_missing_from_css_matchups
+    t: Features Missing From CSS (Matchups)
+  - key: currently_missing_from_css.currently_missing_from_css_matchups.description
+    t: Which feature would you most like to be able to use in CSS today? Percentage of rounds won by left-hand item against top-side item.
+
     ###########################################################################
     # Charts
     ###########################################################################
 
+  - key: chart_units.respondents
+    t: "{count} question respondents ({percentage}% completion percentage)"
     - key: chart_units.percentage
       t: 百分比
     - key: chart_units.count
       t: 數量
+  - key: chart_units.percentage_question
+    t: "% of question respondents"
+  - key: chart_units.percentage_survey
+    t: "% of survey respondents"
+
+  - key: charts.average
+    t: Average
+  - key: charts.mean
+    t: Mean
+  - key: charts.overall
+    t: Overall
+  - key: charts.all_respondents
+    t: All Respondents
+  - key: charts.facet_responses
+    t: '{count} responses'
 
     - key: charts.axis_legends.years_of_experience
       t: 年資
@@ -388,12 +605,22 @@ translations:
       t: 有興趣百分比
     - key: charts.axis_legends.satisfaction_percentage
       t: 滿意度百分比
+    - key: charts.axis_legends.usage_percentage
+      t: Usage %
+    - key: charts.axis_legends.awareness_percentage
+      t: Awareness %
     - key: charts.axis_legends.happiness
       t: 愉悅感
     - key: charts.axis_legends.knowledge_score
       t: 知道的功能
     - key: charts.axis_legends.frequency
       t: 頻率
+  - key: charts.axis_legends.age
+    t: Age
+  - key: charts.axis_legends.users_percentage_survey
+    t: "% of survey respondents"
+  - key: charts.axis_legends.users_percentage_question
+    t: "% of question respondents"
 
     - key: charts.ranges_multiple_diverging_lines.baseline
       t: 基線
@@ -402,12 +629,66 @@ translations:
     - key: charts.ranges_multiple_diverging_lines.negative_offset
       t: 負面 offset
 
+  - key: charts.tools_arrows.negative_opinion
+    t: Negative opinions
+  - key: charts.tools_arrows.positive_opinion
+    t: Positive opinions
+  - key: charts.tools_arrows.have_not_used
+    t: Have not used
+  - key: charts.tools_arrows.have_used
+    t: Have used
+  - key: charts.tools_arrows.x_axis
+    t: X-axis range
+  - key: charts.tools_arrows.y_axis
+    t: Y-axis range
+  - key: charts.tools_arrows.legend
+    t: Legend
+  - key: charts.tools_arrows.velocity
+    t: Velocity
+  - key: charts.tools_arrows.velocity_positive
+    t: Overall more positive opinions and/or usage over time
+  - key: charts.tools_arrows.velocity_negative
+    t: Overall more negative opinions and/or less usage over time
+  - key: charts.tools_arrows.opinions_positive
+    t: Mostly positive opinions
+  - key: charts.tools_arrows.opinions_negative
+    t: Mostly negative opinions
+  - key: charts.tools_arrows.low_usage
+    t: Low usage
+  - key: charts.tools_arrows.high_usage
+    t: High usage
+  - key: charts.tools_arrows.popularity_positive
+    t: Rising popularity
+  - key: charts.tools_arrows.negative
+    t: Falling popularity
+
+  - key: options.features_categories.layout
+    aliasFor: sections.layout.title
+  - key: options.features_categories.shapes_graphics
+    aliasFor: sections.shapes_graphics.title
+  - key: options.features_categories.interactions
+    aliasFor: sections.interactions.title
+  - key: options.features_categories.typography
+    aliasFor: sections.typography.title
+  - key: options.features_categories.animations_transforms
+    aliasFor: sections.animations_transforms.title
+  - key: options.features_categories.accessibility
+    aliasFor: sections.accessibility.title
+  - key: options.features_categories.media_queries
+    aliasFor: sections.media_queries.title
+  - key: options.features_categories.other_features
+    aliasFor: sections.other_features.title
+
     ###########################################################################
     # Sharing
     ###########################################################################
 
     - key: share.share
       t: 分享
+    - key: share.options
+      t: Share Options
+    - key: share.preview
+      t: Social media preview
     - key: share.site.title
       t: 探索 {siteTitle} 現況調查結果
     - key: share.site.twitter_text
@@ -432,6 +713,81 @@ translations:
       t: 以 Email 分享
     - key: share.image
       t: 取得圖片
+  - key: share.link
+    t: Link to section
+  - key: share.url
+    t: Get link
+  - key: share.close
+    t: Close
+
+  ###########################################################################
+  # Views
+  ###########################################################################
+  - key: views.viz
+    t: Graph
+  - key: views.table
+    t: Table
+
+  ###########################################################################
+  # Tables
+  ###########################################################################
+  - key: table.label
+    t: Label
+  - key: table.item
+    t: Item
+  - key: table.percentage_survey
+    t: "% of survey respondents"
+  - key: table.percentage_question
+    t: "% of question respondents"
+  - key: table.percentage_facet
+    t: "% of facet respondents"
+  - key: table.count
+    t: Count
+  - key: table.year
+    t: Year
+  - key: table.mean
+    t: Mean
+  - key: table.usage
+    aliasFor: options.features_simplified.used_it
+  - key: table.awareness
+    aliasFor: options.features_simplified.know_it
+  - key: table.usage_ratio
+    aliasFor: options.features_simplified.usage_ratio
+
+  - key: table.usage_count
+    aliasFor: charts.axis_legends.users_count
+  - key: table.satisfaction_percentage
+    aliasFor: charts.axis_legends.satisfaction_percentage
+  - key: table.interest_percentage
+    aliasFor: charts.axis_legends.interest_percentage
+  - key: table.usage_percentage
+    aliasFor: charts.axis_legends.usage_percentage
+  - key: table.awareness_percentage
+    aliasFor: charts.axis_legends.awareness_percentage
+
+
+  - key: table.percentages_table
+    t: Percentages
+  - key: table.rankings_table
+    t: Rankings
+
+  - key: table.satisfaction_rank
+    t: Satisfaction Rank
+  - key: table.interest_rank
+    t: Interest Rank
+  - key: table.usage_rank
+    t: Usage Rank
+  - key: table.awareness_rank
+    t: Awareness Rank
+
+  - key: table.would_not_use_percentage
+    t: Would not use %
+  - key: table.not_interested_percentage
+    t: Not interested %
+  - key: table.would_use_percentage
+    t: Would use again %
+  - key: table.interested_percentage
+    t: Interested %
 
     ###########################################################################
     # Awards
@@ -520,3 +876,18 @@ translations:
     - key: hints.tshirt_hint
       t: >
           另一項科學研究發現：購買我們的 T-shirt 可以讓 JavaScript 知識增加 9000 分！
+
+  - key: hints.variants_hint
+    t: >
+      Some charts feature additional tabs that offer complementary breakdowns of the same data,
+      or related data. Make sure to check them out!
+
+  - key: hints.share_hint
+    t: >
+      The <span class="hint-icon hint-share-button">Share</span> tab makes it easy to share any chart,
+      or even download it as an image.
+
+  - key: hints.bracket_hint
+    t: >
+      <span class="hint-bracket"><span class="hint-text">The following chart provides the results of a tournament-style 8-player bracket in which
+      respondents were tasked with picking the winner of each match-up until a single winner remained.</span><span class="hint-diagram"/></span>
