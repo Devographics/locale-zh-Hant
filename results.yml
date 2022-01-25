@@ -195,42 +195,42 @@ translations:
   - key: user_info.source.description
     t: 答題者如何找到調查的？
     - key: user_info.source.note
-    t: This data is a mix of self-reported answers, referrer data, and URL tracking data.
+    t: 這裡的資料整合自由填寫回答、參照網址資料與網址追蹤資料。
 
   - key: user_info.gender_by_country
     t: 依國家列性別
   - key: user_info.gender_by_country.description
-    t: Gender distribution by country with at least 100 respondents, sorted by "mean gender" (each gender key being assigned an integer value in ascending order) descending.
+    t: 依照至少有 100 位答題者的國家，列出性別分佈。以「性別平均數（以升冪為各個性別加上整數值）」降冪排列。
 
   - key: user_info.years_of_experience_by_salary
     t: 依薪資範圍列年資
   - key: user_info.years_of_experience_by_salary.description
-    t: Years of experience by salary range.
+    t: 依照薪資範圍列出年資。
 
   - key: user_info.yearly_salary_by_country
     t: 依國家列薪資
   - key: user_info.yearly_salary_by_country.description
-    t: Yearly salary distribution by country with at least 100 respondents, sorted by mean salary descending.
+    t: 依照至少有 100 位答題者的國家，列出年薪分佈。以薪資的算術平均數降冪排列。
 
   - key: user_info.yearly_salary_by_degree
-    t: 依最高學歷列薪資
+    t: 依高等教育列薪資
   - key: user_info.yearly_salary_by_degree.description
-    t: Yearly salary distribution by higher education degree, sorted by mean salary descending.
+    t: 依照高等教育列出薪資分佈，以薪資的算術平均數降冪排列。
 
   - key: user_info.yearly_salary_by_experience
     t: 依經驗列薪資
   - key: user_info.yearly_salary_by_experience.description
-    t: Yearly salary distribution by experience, sorted by mean salary descending.
+    t: 依照經驗列出年薪分佈，以薪資的算術平均數降冪排列。
 
   - key: user_info.race_ethnicity_by_years_of_experience
     t: 依年資列人種與族群
   - key: user_info.race_ethnicity_by_years_of_experience.description
-    t: Race & ethnicity distribution by years of experience, sorted by mean experience ascending.
+    t: 依照年資列出人種與族群分佈，以經驗的算術平均數升冪排列。
 
   - key: user_info.higher_education_degree_by_gender
-    t: 依性別列最高學歷
+    t: 依性別列高等教育
   - key: user_info.higher_education_degree_by_gender.description
-    t: Higher education degree distribution by gender.
+    t: 依照性別列出高等教育的分佈。
 
   ###########################################################################
   # Locales
@@ -349,7 +349,7 @@ translations:
 
   # cardinality
   - key: blocks.all_sections_tools_cardinality_by_user
-    t: Technology Usage Cardinality
+    t: 技術使用程度基數
   - key: blocks.all_sections_tools_cardinality_by_user.description
     t: >
         For each section, which percentage of respondents **use**
@@ -357,21 +357,20 @@ translations:
         The bottom-most bar represents the sum of all other bars.
 
   - key: blocks.cardinality.max
-    t: Most common answer
+    t: 最多的回答
 
   # tools arrows
   - key: blocks.tools_arrows
-    t: Changes Over Time
+    t: 隨著時間的變化
   - key: blocks.tools_arrows.description
     t: |
-      Each line goes from 2016 to 2020. A higher point means a technology has been used by more people,
-      and a point further to the right means more users want to learn it; or have used it and would use it again.
+      每行代表從 2016 至 2020。越高點代表技術有越多人使用；越靠右的點代表越多使用者想要學，或者已有使用，會繼續用。
   - key: blocks.tools_arrows.note
     t: |
-      - Some lines skip years.
-      - Technologies with only one year of data are not shown.
-      - Velocity formula = (most recent opinion - oldest opinion) + (most recent usage) - (oldest usage)
-      - A positive velocity means the usage and/or positive opinions have increased over time.
+      - 有幾行跳過年份。
+      - 只有 1 年資料的技術不算在內。
+      - 速率的公式 = (最近的意見 - 最舊的意見) + (最近的使用程度) - (最舊的使用程度)
+      - 正面速率的意思是使用程度以及/或者正面意見隨著時間增加。
 
   # tools quadrant
   - key: blocks.tools_quadrant
@@ -498,13 +497,13 @@ translations:
   - key: custom_data.details
     t: >
 
-        1. Copy the contents of the "GraphQL Query" textfield and paste them into the middle panel of the [GraphQL API explorer](https://graphiql.stateofjs.com/).
+        1. 複製「GraphQL 查詢」文字欄位的內容，貼到中間版面的 [GraphQL API explorer](https://graphiql.stateofjs.com/) 那邊。
 
-        2. Modify the query by adding one or more **filters** using the left-hand explorer sidebar. Make sure to keep the overall structure of the data the same.
+        2. 修改查詢的方法是：利用左側 explorer 側邊欄增加一個或多個 **filter**。務必要讓資料的整體結構一樣。
 
-        3. In the explorer window, click the Play ("Execute Query") button.
+        3. 在 explorer 視窗點擊 Play ("Execute Query") 按鈕。
 
-        4. Copy the results of the modified query (`{ data: … }` ) into the "Custom Data" textfield above and submit.
+        4. 複製修改過的 query (`{ data: … }` ) 結果到上方的「自訂資料」文字欄位，按下送出。
 
   # Tools usage variations
   - key: blocks.tools_usage_variations
@@ -531,32 +530,32 @@ translations:
   - key: tool_evaluation.tool_evaluation_wins
     t: 函式庫評估排名
   - key: tool_evaluation.tool_evaluation_wins.description
-    t: Which factors do you prioritize when evaluating a new library? Results are ranked by number of tournament rounds won.
+    t: 評估一款新的函式庫時，因素的優先順序是？以贏得淘汰賽的次數排序結果。
 
   - key: tool_evaluation.tool_evaluation_matchups
-    t: Library Evaluation Rankings (Matchups)
+    t: 函式庫評估排名（比較回合）
   - key: tool_evaluation.tool_evaluation_matchups.description
-    t: Which factors do you prioritize when evaluating a new library? Percentage of rounds won by left-hand item against top-side item.
+    t: 評估一款新的函式庫時，因素的優先順序是？左手邊的項目對上上方的項目時，獲勝次數的百分比。
 
   - key: css_pain_points.css_pain_points_wins
     t: CSS 痛點
   - key: css_pain_points.css_pain_points_wins.description
-    t: Which aspect of CSS do you struggle with the most? Results are ranked by number of tournament rounds won.
+    t: CSS 有哪些方面讓人覺得最掙扎？以贏得淘汰賽的次數排序結果。
 
   - key: css_pain_points.css_pain_points_matchups
     t: CSS 痛點 (Matchups)
   - key: css_pain_points.css_pain_points_matchups.description
-    t: Which aspect of CSS do you struggle with the most? Percentage of rounds won by left-hand item against top-side item.
+    t: CSS 有哪些方面讓人覺得最掙扎？左手邊的項目對上上方的項目時，獲勝次數的百分比。
 
   - key: currently_missing_from_css.currently_missing_from_css_wins
-    t: Features Missing From CSS
+    t: CSS 缺少的功能
   - key: currently_missing_from_css.currently_missing_from_css_wins.description
-    t: Which feature would you most like to be able to use in CSS today? Results are ranked by number of tournament rounds won.
+    t: CSS 的哪個功能，是最想要現在就可以使用的？以贏得淘汰賽的次數排序結果。
 
   - key: currently_missing_from_css.currently_missing_from_css_matchups
     t: Features Missing From CSS (Matchups)
   - key: currently_missing_from_css.currently_missing_from_css_matchups.description
-    t: Which feature would you most like to be able to use in CSS today? Percentage of rounds won by left-hand item against top-side item.
+    t: CSS 的哪個功能，是最想要現在就可以使用的？左手邊的項目對上上方的項目時，獲勝次數的百分比。
 
   ###########################################################################
   # Charts
@@ -643,23 +642,23 @@ translations:
   - key: charts.tools_arrows.legend
     t: 圖例
   - key: charts.tools_arrows.velocity
-    t: Velocity
+    t: 速率
   - key: charts.tools_arrows.velocity_positive
-    t: Overall more positive opinions and/or usage over time
+    t: 整理來說，意見與/或使用程度隨著時間顯示是正面的。
   - key: charts.tools_arrows.velocity_negative
-    t: Overall more negative opinions and/or less usage over time
+    t: 整體來說，意見與/或使用程度隨著時間顯示是負面的。
   - key: charts.tools_arrows.opinions_positive
-    t: Mostly positive opinions
+    t: 幾乎是正面意見
   - key: charts.tools_arrows.opinions_negative
-    t: Mostly negative opinions
+    t: 幾乎是負面意見
   - key: charts.tools_arrows.low_usage
     t: 低使用程度
   - key: charts.tools_arrows.high_usage
     t: 高使用程度
   - key: charts.tools_arrows.popularity_positive
-    t: Rising popularity
+    t: 知名度往上升
   - key: charts.tools_arrows.negative
-    t: Falling popularity
+    t: 知名度往下降
 
   - key: options.features_categories.layout
     aliasFor: sections.layout.title
@@ -723,29 +722,29 @@ translations:
   # Views
   ###########################################################################
   - key: views.viz
-    t: Graph
+    t: 圖表
   - key: views.table
-    t: Table
+    t: 表格
 
   ###########################################################################
   # Tables
   ###########################################################################
   - key: table.label
-    t: Label
+    t: 標籤
   - key: table.item
-    t: Item
+    t: 項目
   - key: table.percentage_survey
-    t: "% of survey respondents"
+    t: "% 調查答題者"
   - key: table.percentage_question
-    t: "% of question respondents"
+    t: "% 問題答題者"
   - key: table.percentage_facet
-    t: "% of facet respondents"
+    t: "% facet 題答題者"
   - key: table.count
-    t: Count
+    t: 數量
   - key: table.year
-    t: Year
+    t: 年
   - key: table.mean
-    t: Mean
+    t: 平均數
   - key: table.usage
     aliasFor: options.features_simplified.used_it
   - key: table.awareness
@@ -766,27 +765,27 @@ translations:
 
 
   - key: table.percentages_table
-    t: Percentages
+    t: 百分比
   - key: table.rankings_table
-    t: Rankings
+    t: 排名
 
   - key: table.satisfaction_rank
-    t: Satisfaction Rank
+    t: 滿意度排名
   - key: table.interest_rank
-    t: Interest Rank
+    t: 興趣排名
   - key: table.usage_rank
-    t: Usage Rank
+    t: 使用程度排名
   - key: table.awareness_rank
-    t: Awareness Rank
+    t: 知道程度排名
 
   - key: table.would_not_use_percentage
-    t: Would not use %
+    t: 不會再用 %
   - key: table.not_interested_percentage
-    t: Not interested %
+    t: 沒興趣 %
   - key: table.would_use_percentage
-    t: Would use again %
+    t: 還會用 %
   - key: table.interested_percentage
-    t: Interested %
+    t: 有興趣 %
 
   ###########################################################################
   # Awards
@@ -876,17 +875,14 @@ translations:
     t: >
         另一項科學研究發現：購買我們的 T-shirt 可以讓 JavaScript 知識增加 9000 分！
 
-- key: hints.variants_hint
-  t: >
-    Some charts feature additional tabs that offer complementary breakdowns of the same data,
-    or related data. Make sure to check them out!
+  - key: hints.variants_hint
+    t: >
+      有些圖表具備額外的分頁，提供該份資料或相關資料的補充細目。請務必看看！
 
-- key: hints.share_hint
-  t: >
-    The <span class="hint-icon hint-share-button">Share</span> tab makes it easy to share any chart,
-    or even download it as an image.
+  - key: hints.share_hint
+    t: >
+      <span class="hint-icon hint-share-button">分享</span>分頁可以輕鬆地分享任何圖表，甚至下載為圖片。
 
-- key: hints.bracket_hint
-  t: >
-    <span class="hint-bracket"><span class="hint-text">The following chart provides the results of a tournament-style 8-player bracket in which
-    respondents were tasked with picking the winner of each match-up until a single winner remained.</span><span class="hint-diagram"/></span>
+  - key: hints.bracket_hint
+    t: >
+      <span class="hint-bracket"><span class="hint-text">以下圖表是以 8 名參賽者淘汰賽風格的結果，答題者從每次的比較挑選獲勝方，直到選出最終優勝。</span><span class="hint-diagram"/></span>
