@@ -194,7 +194,7 @@ translations:
     t: 來源
   - key: user_info.source.description
     t: 答題者如何找到調查的？
-    - key: user_info.source.note
+  - key: user_info.source.note
     t: 這裡的資料整合自由填寫回答、參照網址資料與網址追蹤資料。
 
   - key: user_info.gender_by_country
