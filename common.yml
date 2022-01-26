@@ -24,9 +24,15 @@ translations:
     - key: general.survey_read_only
       t: >
           現在是以唯讀模式觀看調查。
+    - key: general.survey_preview
+      t: >
+          目前，調查是預覽模式，問題很可能會更改。正式的調查開始時，所有輸入的資料都會刪除。
+
     - key: general.survey_read_only_back
       t: >
           <a href="{link}">回到調查主頁</a>開始填寫，或恢復先前進度。
+    - key: general.take_survey
+      t: 進行 {name}
 
     # surveys
     - key: general.open_surveys
@@ -35,6 +41,12 @@ translations:
       t: 沒有可填寫的調查。
     - key: general.closed_surveys
       t: 已結束
+    - key: general.no_closed_surveys
+      t: 目前沒有已經結束的調查。
+    - key: general.preview_surveys
+      t: 預覽調查
+    - key: general.no_preview_surveys
+      t: 沒有可以預覽的調查。
     - key: general.start_survey
       t: 開始填寫 »
     - key: general.continue_survey
@@ -45,6 +57,10 @@ translations:
       t: 預覽調查 »
     - key: general.finish_survey
       t: 完成 »
+    - key: general.next_section
+      t: 下一段
+    - key: general.prev_section
+      t: 上一段
     - key: general.survey_closed
       t: 此調查已經結束。
     - key: general.survey_results
@@ -57,6 +73,34 @@ translations:
       t: 譯者
     - key: general.translation_help
       t: 翻譯幫手
+    - key: general.newly_added
+      t: 今年新增
+    - key: general.new
+      t: 新到
+
+    # credits
+    - key: credits.thanks
+      t: 特別感謝
+    - key: credits.accessibility
+      t: 無障礙設計顧問
+    - key: credits.survey_design
+      t: 問卷設計
+    - key: credits.logo_design
+      t: 商標設計
+    - key: credits.mobile_testing
+      t: 行動裝置測試
+    - key: credits.data_visualizations
+      t: 資料視覺化
+    - key: credits.repo_architecture
+      t: Repo 架構
+    - key: credits.code_refactoring
+      t: 程式碼重構
+    - key: credits.data_processing
+      t: 資料處理
+
+    # support
+    - key: general.support_from
+      t: 支援
 
     # footer
     - key: general.privacy_policy
@@ -74,6 +118,14 @@ translations:
           附註：所有問題都不是必填，不一定得要達到 100% 完成度。
     - key: general.data_is_saved
       t: 不管回到上一段還是跳到下一段，資料都有儲存起來。
+    - key: general.close_nav
+      t: 關閉選單
+    - key: general.open_nav
+      t: 打開選單
+    - key: general.more_actions
+      t: 更多動作
+    - key: general.skip_to_content
+      t: 跳至內容
 
     # thanks
     - key: general.back
@@ -109,6 +161,28 @@ translations:
     # forms
     - key: forms.select_option
       t: 選擇
+    - key: forms.clear_field
+      t: 清除問題
+
+    # partners
+    - key: partners.our_partners
+      t: 我們的夥伴
+    - key: partners.become_partner
+      t: 成為夥伴
+
+    # 404
+    - key: notfound.title
+      t: 404 找不到
+    - key: notfound.description
+      t: 抱歉，我們找不到這裡。
+
+    # other
+    - key: general.join_discord
+      t: 加入我們的 <a href="{link}">Discord</a>。
+    - key: general.translator_mode
+      t: 按 option/alt 開啟譯者模式。
+    - key: general.charts_nivo
+      t: 以 <a href="{link}">Nivo</a> 打造圖表。
 
     ###########################################################################
     # Nav
@@ -128,6 +202,11 @@ translations:
     - key: sections.user_info.description
       t: 想知道你的模樣
 
+    - key: sections.features.title
+      t: 功能
+    - key: sections.features.description
+      t: 語法、關鍵字以及其他語言功能。
+
     - key: sections.resources.title
       t: 資源
     - key: sections.resources.description
@@ -142,6 +221,9 @@ translations:
       t: 其他工具
     - key: sections.other_tools.description
       t: 請在這些工具和技術裡，把經常使用的打勾。
+
+    - key: sections.report.title
+      t: 趨勢報告
 
     ###########################################################################
     # Options
@@ -231,6 +313,18 @@ translations:
     - key: options.happiness.4
       t: 非常開心
 
+    # happiness (short version)
+    - key: options.happiness.0.short
+      t: 非常不開心
+    - key: options.happiness.1.short
+      t: 不開心
+    - key: options.happiness.2.short
+      t: 一般
+    - key: options.happiness.3.short
+      t: 開心
+    - key: options.happiness.4.short
+      t: 非常開心
+
     # opinions
     - key: options.opinions.0
       t: 非常不同意
@@ -242,6 +336,42 @@ translations:
       t: 同意
     - key: options.opinions.4
       t: 非常同意
+
+    # age
+    - key: options.age.range_less_than_10
+      t: 10 歲以下
+    - key: options.age.range_10_18
+      t: 10-18 歲
+    - key: options.age.range_18_24
+      t: 18-24 歲
+    - key: options.age.range_25_34
+      t: 24-34 歲
+    - key: options.age.range_35_44
+      t: 35-44 歲
+    - key: options.age.range_45_54
+      t: 45-54 歲
+    - key: options.age.range_55_64
+      t: 55-64 歲
+    - key: options.age.range_more_than_65
+      t: 65 歲以上
+
+    # age (short versions)
+    - key: options.age.range_less_than_10.short
+      t: '<10'
+    - key: options.age.range_10_18.short
+      t: 10-18
+    - key: options.age.range_18_24.short
+      t: 18-24
+    - key: options.age.range_25_34.short
+      t: 24-34
+    - key: options.age.range_35_44.short
+      t: 35-44
+    - key: options.age.range_45_54.short
+      t: 45-54
+    - key: options.age.range_55_64.short
+      t: 55-64
+    - key: options.age.range_more_than_65.short
+      t: '>65'
 
     # years of experience
     - key: options.years_of_experience.range_less_than_1
@@ -259,17 +389,17 @@ translations:
 
     # years of experience (short versions)
     - key: options.years_of_experience.range_less_than_1.short
-      t: '<1'
+      t: '<1 年'
     - key: options.years_of_experience.range_1_2.short
-      t: 1-2
+      t: 1-2 年
     - key: options.years_of_experience.range_2_5.short
-      t: 2-5
+      t: 2-5 年
     - key: options.years_of_experience.range_5_10.short
-      t: 5-10
+      t: 5-10 年
     - key: options.years_of_experience.range_10_20.short
-      t: 10-20
+      t: 10-20 年
     - key: options.years_of_experience.range_more_than_20.short
-      t: '>20'
+      t: '>20 年'
 
     # company size
     - key: options.company_size.range_1
@@ -360,7 +490,6 @@ translations:
       t: 後端開發者/工程師
 
     # JavaScript proficiency
-
     - key: options.javascript_proficiency.0
       t: 不會撰寫任何 JavaScript
     - key: options.javascript_proficiency.1
@@ -373,7 +502,6 @@ translations:
       t: 處理進階的前端模式（狀態管理、資料讀取⋯等。）
 
     # CSS proficiency
-
     - key: options.css_proficiency.0
       t: 可以說完全沒有 CSS 的觀念
     - key: options.css_proficiency.1
@@ -386,7 +514,6 @@ translations:
       t: 有能力根據一致的方法，為整個前端從無到有增加樣式
 
     # Back-end proficiency
-
     - key: options.backend_proficiency.0
       t: 無法處理任何後端工作
     - key: options.backend_proficiency.1
@@ -418,8 +545,27 @@ translations:
       t: 男性
     - key: options.gender.non_binary
       t: 非二元性別/第三性
+    - key: options.gender.questioning
+      t: 性別存疑
     - key: options.gender.prefer_not_to_say
       t: 不想說
+    - key: options.gender.not_listed
+      t: 不在列表上
+
+    # Gender (short)
+
+    - key: options.gender.female.short
+      t: 女性
+    - key: options.gender.male.short
+      t: 男性
+    - key: options.gender.non_binary.short
+      t: 非二元性別/第三性
+    - key: options.gender.questioning.short
+      t: 性別存疑
+    - key: options.gender.prefer_not_to_say.short
+      t: 不想說
+    - key: options.gender.not_listed.short
+      t: 不在列表上
 
     # Race & Ethnicity
 
@@ -427,6 +573,8 @@ translations:
       t: 白人，或歐洲裔
     - key: options.race_ethnicity.south_asian
       t: 南亞
+    - key: options.race_ethnicity.south_east_asian
+      t: 東南亞
     - key: options.race_ethnicity.hispanic_latin
       t: 西班牙裔或拉丁裔男/女
     - key: options.race_ethnicity.east_asian
@@ -441,10 +589,73 @@ translations:
       t: 雙民族混血
     - key: options.race_ethnicity.native_american_islander_australian
       t: 美洲原住民、太平洋島民，或澳洲原住民
+    - key: options.race_ethnicity.not_listed
+      t: 不在列表上
+
+    # Race & Ethnicity (short)
+
+    - key: options.race_ethnicity.white_european.short
+      t: 白人
+    - key: options.race_ethnicity.south_asian.short
+      t: 南亞
+    - key: options.race_ethnicity.south_east_asian.short
+      t: 東南亞
+    - key: options.race_ethnicity.hispanic_latin.short
+      t: 西班牙/拉丁裔
+    - key: options.race_ethnicity.east_asian.short
+      t: 東亞
+    - key: options.race_ethnicity.middle_eastern.short
+      t: 中東
+    - key: options.race_ethnicity.black_african.short
+      t: 黑人/非洲裔
+    - key: options.race_ethnicity.multiracial.short
+      t: 多民族
+    - key: options.race_ethnicity.biracial.short
+      t: 雙民族
+    - key: options.race_ethnicity.native_american_islander_australian.short
+      t: 美洲原住民、太平洋島民，或澳洲原住民
+    - key: options.race_ethnicity.not_listed.short
+      t: 不在列表上
+
+    # Disability Status
+    - key: options.disability_status.visual_impairments
+      t: >
+        Visual impairments (such as: blindness, color blindness, etc.)
+    - key: options.disability_status.hearing_impairments
+      t: >
+        Hearing impairments (such as: deafness, tinnitus, etc.)
+    - key: options.disability_status.mobility_impairments
+      t: >
+        Mobility impairments (such as: arthritis, carpal tunnel, etc.)
+    - key: options.disability_status.cognitive_impairments
+      t: >
+        Cognitive impairments (such as: anxiety, dyslexia, etc.)
+    - key: options.disability_status.not_listed
+      t: >
+        不在列表上
+
+    # Disability Status (short)
+    - key: options.disability_status.visual_impairments
+      t: >
+        Visual impairments
+    - key: options.disability_status.hearing_impairments
+      t: >
+        Hearing impairments
+    - key: options.disability_status.mobility_impairments
+      t: >
+        Mobility impairments
+    - key: options.disability_status.cognitive_impairments
+      t: >
+        Cognitive impairments
+    - key: options.disability_status.not_listed
+      t: >
+        不在列表上
 
     # Form Factors
     - key: options.form_factors.desktop
       t: 桌機
+    - key: options.form_factors.keyboard_only
+      t: 只有鍵盤的桌機
     - key: options.form_factors.smartphone
       t: 智慧型手機
     - key: options.form_factors.feature_phone
@@ -461,6 +672,166 @@ translations:
       t: 報讀器
     - key: options.form_factors.print
       t: 列印
+    - key: options.form_factors.testing_tools
+      t: 測試工具（Axe、Lighthouse⋯等）
+    - key: options.form_factors.vision_simulator
+      t: 視覺改變模擬器（色盲⋯等）
+
+    # Industry Sector
+    - key: options.industry_sector.ecommerce
+      t: 電子商務與零售
+    - key: options.industry_sector.news_media
+      t: 新聞、媒體與部落格
+    - key: options.industry_sector.healthcare
+      t: 醫療照護
+    - key: options.industry_sector.finance
+      t: 金融
+    - key: options.industry_sector.programming_tools
+      t: 程式與技術工具
+    - key: options.industry_sector.socialmedia
+      t: 社群媒體
+    - key: options.industry_sector.marketing_tools
+      t: 行銷/業務/分析工具
+    - key: options.industry_sector.education
+      t: 教育
+    - key: options.industry_sector.real_estate
+      t: 房地產
+    - key: options.industry_sector.government
+      t: 政府
+    - key: options.industry_sector.entertainment
+      t: 娛樂
+    - key: options.industry_sector.consulting
+      t: 顧問與服務
+    - key: options.industry_sector.travel
+      t: 旅遊
+    - key: options.industry_sector.insurance
+      t: 保險
+    - key: options.industry_sector.logistics
+      t: 物流
+    - key: options.industry_sector.energy
+      t: 能源
+    - key: options.industry_sector.telecommunications
+      t: 通訊
+    - key: options.industry_sector.student
+      t: 學生
+    - key: options.industry_sector.hospitality
+      t: 接待服務
+    - key: options.industry_sector.cyber_security
+      t: 網路安全
+    - key: options.industry_sector.construction
+      t: 營造
+    - key: options.industry_sector.automotive
+      t: 汽車
+    - key: options.industry_sector.agriculture
+      t: 農業
+    - key: options.industry_sector.transport
+      t: 運輸
+    - key: options.industry_sector.manufacturing
+      t: 製造
+
+    # tool evaluation
+    - key: options.tool_evaluation.learning_curve_documentation
+      t: 文件
+    - key: options.tool_evaluation.learning_curve_documentation.description
+      t: 覺得很容易學習且/或文件很完整？
+    - key: options.tool_evaluation.momentum_popularity
+      t: 炒作與潮流
+    - key: options.tool_evaluation.momentum_popularity.description
+      t: 目前產生許多熱門詞彙？
+    - key: options.tool_evaluation.user_base_size
+      t: 使用者基礎數量
+    - key: options.tool_evaluation.user_base_size.description
+      t: 是發展成熟且有長期追蹤記錄的嗎？
+    - key: options.tool_evaluation.developer_experience_tooling
+      t: 開發者體驗
+    - key: options.tool_evaluation.developer_experience_tooling.description
+      t: 有優秀的開發者工具，和龐大的外掛生態⋯等？
+    - key: options.tool_evaluation.performance_user_experience
+      t: 使用者體驗
+    - key: options.tool_evaluation.performance_user_experience.description
+      t: 能夠幫助建造滑順且高效能的使用者體驗？
+    - key: options.tool_evaluation.creator_team
+      t: 作者與團隊
+    - key: options.tool_evaluation.creator_team.description
+      t: 是由知名、資金充裕或有經驗的團隊支持嗎？
+    - key: options.tool_evaluation.accessibility_features
+      t: 無障礙設計功能
+    - key: options.tool_evaluation.accessibility_features.description
+      t: 擅長為全體使用者創造無障礙體驗嗎？
+    - key: options.tool_evaluation.community_inclusivity
+      t: 社群與平權
+    - key: options.tool_evaluation.community_inclusivity.description
+      t: 社群是友善且充滿活力的嗎？
+
+
+
+    # accessibility features
+    - key: options.accessibility_features.keyboard_navigation
+      t: 鍵盤操作
+    - key: options.accessibility_features.compliant_contrast
+      t: 相容 WCAG 的對比度
+    - key: options.accessibility_features.focus_indicators
+      t: Focus 指示
+    - key: options.accessibility_features.skip_to_content_link
+      t: 跳至內容的連結
+    - key: options.accessibility_features.color_themes
+      t: 顏色主題（暗色模式、高對比度模式⋯等）
+    - key: options.accessibility_features.prefers_reduced_motion
+      t: Prefers-reduced-motion
+    - key: options.accessibility_features.alt_text
+      t: Alt 文字
+    - key: options.accessibility_features.semantic_markup
+      t: 情境式標籤
+    - key: options.accessibility_features.aria_attributes
+      t: ARIA HTML 屬性
+
+    # learning methods
+    - key: options.first_steps.books
+      t: 書籍
+    - key: options.first_steps.videos
+      t: 影片與教學錄影
+    - key: options.first_steps.school
+      t: 學校與高等教育
+    - key: options.first_steps.courses_free
+      t: 線上課程（免費）
+    - key: options.first_steps.courses_paid
+      t: 線上課程（付費）
+    - key: options.first_steps.podcasts
+      t: Podcast
+    - key: options.first_steps.bootcamp
+      t: 程式學校
+    - key: options.first_steps.on_the_job
+      t: 在職訓練
+    - key: options.first_steps.self_directed
+      t: 自學（Google、Stack Overflow⋯等）
+    - key: options.first_steps.mentoring
+      t: 師徒制
+
+    # degree
+    - key: options.higher_education_degree.no_degree
+      t: 否
+    - key: options.higher_education_degree.yes_related
+      t: 是，跟我目前職業相關的領域
+    - key: options.higher_education_degree.yes_unrelated
+      t: 是，但跟目前職業無關的領域
+
+    # degree (short versions)
+    - key: options.higher_education_degree.no_degree.short
+      t: 否
+    - key: options.higher_education_degree.yes_related.short
+      t: 是，相關領域
+    - key: options.higher_education_degree.yes_unrelated.short
+      t: 是，無關領域
+
+    # bracket
+    - key: options.bracket.round1
+      t: 第 1 輪獲勝
+    - key: options.bracket.round2
+      t: 第 2 輪獲勝
+    - key: options.bracket.round3
+      t: 第 3 輪獲勝
+    - key: options.bracket.combined
+      t: 總和
 
     ###########################################################################
     # Tools
@@ -479,6 +850,12 @@ translations:
     ###########################################################################
     # Demographics (About You/User Info)
     ###########################################################################
+
+    # age
+    - key: user_info.age
+      t: 年齡
+    - key: user_info.age.description
+      t: 年紀是？以歲數來算。
 
     # years of experience
     - key: user_info.years_of_experience
@@ -505,14 +882,12 @@ translations:
       t: 在聚會中如何介紹自己？
 
     # javascript proficiency
-
     - key: user_info.javascript_proficiency
       t: JavaScript 熟悉程度
     - key: user_info.javascript_proficiency.description
       t: 對於 JavaScript 的熟悉程度？
 
     # css proficiency
-
     - key: user_info.css_proficiency
       t: CSS 熟悉程度
     - key: user_info.css_proficiency.description
@@ -527,10 +902,34 @@ translations:
     # gender
     - key: user_info.gender
       t: 性別
+    - key: user_info.gender.description
+      t: >
+        下列選項中，如果有的話，哪個可以用來形容自己？請挑選一個。
+    - key: user_info.gender.note
+      t: >
+        儘管我們知道搜集並公開多元族群資料是敏感議題，仍覺得取得這些資料，對於觀測和改進這份調查，在包容性與代表性的努力有幫助。
 
-    # skin tone/appearance
+    # race & ethnicity
     - key: user_info.race_ethnicity
       t: 種族與族群
+    - key: user_info.race_ethnicity.description
+      t: >
+        下列選項中，如果有的話，哪個可以用來形容自己？請勾選符合的。
+    - key: user_info.race_ethnicity.note
+      t: >
+        儘管我們知道搜集並公開多元族群資料是敏感議題，仍覺得取得這些資料，對於觀測和改進這份調查，在包容性與代表性的努力有幫助。
+
+    # disability status
+    - key: user_info.disability_status
+      t: 不便狀態
+    - key: user_info.disability_status.description
+      t: >
+        如果有的話，經歷過下列哪些不便？請勾選符合的。
+        請注意這也包含暫時的不便或受傷。
+
+    # disability status (other)
+    - key: user_info.disability_status.others
+      t: 其他不便
 
     # other info
     - key: user_info.how_did_user_find_out_about_the_survey
@@ -539,10 +938,49 @@ translations:
       t: 電子郵件
     - key: user_info.country
       t: 國家或區域
+    - key: user_info.country.description
+      t: 目前住在哪裡？
+
+    - key: user_info.github_username
+      t: GitHub 帳號
+    - key: user_info.github_username.description
+      t: >
+        未來，我們可能會使用 GitHub 帳號來檢視 Repo，並交叉參考可以公開利用的資訊。
+
+    - key: user_info.twitter_username
+      t: Twitter 帳號
+    - key: user_info.twitter_username.description
+      t: >
+        未來，我們可能會使用 Twitter 帳號來檢視在 Twitter 的活動，並交叉參考可以公開利用的資訊。
+        （例如，列出關注的人）
+
+    - key: user_info.industry_sector
+      t: 產業領域
+    - key: user_info.industry_sector.description
+      t: 在哪些產業領域工作？
+    - key: user_info.industry_sector.others
+      t: 其他產業領域
+    - key: user_info.industry_sector.others.description
+      t: 在上面沒提到的產業領域工作。
+
+    # degree
+    - key: user_info.higher_education_degree
+      t: 高等教育
+    - key: user_info.higher_education_degree.description
+      t: 有高等教育學歷嗎？
 
     ###########################################################################
     # Other Tools
     ###########################################################################
+
+    - key: tools_others.libraries
+      t: 函式庫
+    - key: tools_others.libraries.description
+      t: 經常使用哪些函式庫？
+    - key: tools_others.libraries.others
+      t: 其他函式庫
+    - key: tools_others.libraries.others.description
+      t: 其他回答（自由填寫）。
 
     - key: tools_others.text_editors
       t: 文字編輯器
@@ -589,9 +1027,28 @@ translations:
     - key: tools_others.non_js_languages.others.description
       t: 其他回答（自由填寫）。
 
+    - key: tools_others.javascript_flavors
+      t: JavaScript Flavor
+    - key: tools_others.javascript_flavors.description
+      t: 編譯為 JavaScript 的語言
+    - key: tools_others.javascript_flavors.others
+      t: 其他 JavaScript Flavor
+    - key: tools_others.javascript_flavors.others.description
+      t: 其他回答（自由填寫）。
+
     ###########################################################################
     # Resources
     ###########################################################################
+
+    # learning method
+    - key: resources.first_steps
+      t: 初學方法
+    - key: resources.first_steps.description
+      t: 當初是如何學寫程式的？
+    - key: resources.first_steps.others
+      t: 其他初學方法
+    - key: resources.first_steps.others.description
+      t: 其他回答（自由填寫）。
 
     # blogs & magazines
     - key: resources.blogs_news_magazines
@@ -622,3 +1079,19 @@ translations:
       t: 其他 Podcast
     - key: resources.podcasts.others.description
       t: 其他回答（自由填寫）。
+
+    # people
+    - key: resources.people
+      t: 人物
+    - key: resources.people.description
+      t: 閱讀、追蹤或者想要強調出來的人物。
+    # - key: resources.people.others
+    #   t: 其他人物
+    # - key: resources.people.others.description
+    #   t: 其他回答（自由填寫）。
+    - key: resources.people.others
+      t: 人物
+    - key: resources.people.others.description
+      t: >
+        閱讀、追蹤或者想要強調出來的人物
+        （自由填寫，以逗號分隔名字）。
