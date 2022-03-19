@@ -767,6 +767,27 @@ translations:
     - key: happiness.state_of_css
       t: 平均來說，對於 CSS 的狀態覺得開心嗎？
 
+    # pain points/currently missing (results)
+    - key: css_pain_points.css_pain_points_wins
+      t: CSS 痛點
+    - key: css_pain_points.css_pain_points_wins.description
+      t: CSS 有哪些方面讓人覺得最掙扎？以贏得淘汰賽的次數排序結果。
+
+    - key: css_pain_points.css_pain_points_matchups
+      t: CSS 痛點 (Matchups)
+    - key: css_pain_points.css_pain_points_matchups.description
+      t: CSS 有哪些方面讓人覺得最掙扎？左手邊的項目與上方的項目比較時，獲勝次數的百分比。
+
+    - key: currently_missing_from_css.currently_missing_from_css_wins
+      t: CSS 缺少的功能
+    - key: currently_missing_from_css.currently_missing_from_css_wins.description
+      t: CSS 的哪個功能，是最想要現在就可以使用的？以贏得淘汰賽的次數排序結果。
+
+    - key: currently_missing_from_css.currently_missing_from_css_matchups
+      t: Features Missing From CSS (Matchups)
+    - key: currently_missing_from_css.currently_missing_from_css_matchups.description
+      t: CSS 的哪個功能，是最想要現在就可以使用的？左手邊的項目對上上方的項目時，獲勝次數的百分比。
+
     ###########################################################################
     # Resources
     ###########################################################################
