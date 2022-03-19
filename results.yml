@@ -117,22 +117,22 @@ translations:
     t: 1
   - key: options.quadrant.1.long
     t: |
-      1: Low usage, high satisfaction. Technologies worth keeping an eye on.
+      1: 低使用量、高滿意度。是值得關注的技術。
   - key: options.quadrant.2
     t: 2
   - key: options.quadrant.2.long
     t: |
-      2: High usage, high satisfaction. Safe technologies to adopt.
+      2: 高使用量、高滿意度。可以放心採用的技術。
   - key: options.quadrant.3
     t: 3
   - key: options.quadrant.3.long
     t: |
-      3: Low usage, low satisfaction. Technologies that are harder to recommend.
+      3: 低使用量、低滿意度。難以推薦的技術。
   - key: options.quadrant.4
     t: 4
   - key: options.quadrant.4.long
     t: |
-      4: High usage, low satisfaction. Reassess these technologies if you're currently using them.
+      4: 高使用量、低滿意度。如果正在使用這些技術，要進行重新評估。
 
   - key: ranges.selector.years_of_experience
     t: 經驗
@@ -165,15 +165,15 @@ translations:
   - key: options.disability_status_others.aspergers
     t: 亞斯伯格
   - key: options.disability_status_others.color_blindness
-    t: Color Blindness
+    t: 色盲
   - key: options.disability_status_others.anxiety
-    t: Anxiety
+    t: 焦慮
   - key: options.disability_status_others.dyslexia
-    t: Dyslexia
+    t: 失讀
   - key: options.disability_status_others.diabetes
-    t: Diabetes
+    t: 糖尿病
   - key: options.disability_status_others.carpal_tunnel
-    t: Carpal Tunnel
+    t: 腕隧道症
 
   ###########################################################################
   # Sections
@@ -192,7 +192,7 @@ translations:
     t: 技術
 
   - key: sections.libraries.title
-    t: Libraries
+    t: 函式庫
 
   - key: sections.conclusion.title
     t: 結論
@@ -201,7 +201,7 @@ translations:
     t: 關於
 
   - key: sections.how_to_help.title
-    t: How to Help
+    t: 如何參與
 
   - key: sections.support.title
     t: 贊助
@@ -333,7 +333,7 @@ translations:
 
   # knowledge score
   - key: features.knowledge_score
-    t: 知道的功能
+    t: 知道功能的分數
   - key: features.knowledge_score.description
     t: 答題者知道多少問卷中提及的功能？
 
@@ -449,12 +449,10 @@ translations:
 
   # tool tier list
   - key: blocks.tools_tier_list
-    t: Library Tier List
+    t: 函式庫層級列表
   - key: blocks.tools_tier_list.description
     t: |
-      This chart ranks libraries based on their satisfaction ratio (percentage of users
-      who would use a library again). Note that libraries used by less than 10% of survey
-      respondents are not included.
+      這份圖表將函式庫根據滿意度比例來排名（願意再使用函式庫的使用者百分比）。請注意少於答題者 10% 的函式庫不算在內。
   - key: blocks.tools_tier_list.bounds
     t: >
       {lowerBound}% - {upperBound}%
@@ -543,7 +541,7 @@ translations:
   - key: custom_data.submit
     t: 送出
   - key: custom_data.empty_contents
-    t: Please enter some data in the "Custom Data" field.
+    t: 請在「自訂資料」欄位輸入一些資料。
   - key: custom_data.edit_title
     t: 編輯圖表標題
   - key: custom_data.customize
@@ -596,7 +594,7 @@ translations:
   ###########################################################################
 
   - key: chart_units.respondents
-    t: "{count} question respondents ({percentage}% completion percentage)"
+    t: "{count} 位答題者 ({percentage}% 完成百分比)"
   - key: chart_units.percentage
     t: 百分比
   - key: chart_units.count
@@ -648,7 +646,7 @@ translations:
   - key: charts.axis_legends.frequency
     t: 頻率
   - key: charts.axis_legends.age
-    t: Age
+    t: 年齡
   - key: charts.axis_legends.users_percentage_survey
     t: "% 調查答題者"
   - key: charts.axis_legends.users_percentage_question
@@ -666,9 +664,9 @@ translations:
   - key: charts.tools_arrows.positive_opinion
     t: 正面意見
   - key: charts.tools_arrows.have_not_used
-    t: Have not used
+    t: 尚未使用
   - key: charts.tools_arrows.have_used
-    t: Have used
+    t: 已經使用
   - key: charts.tools_arrows.x_axis
     t: X-軸範圍
   - key: charts.tools_arrows.y_axis
@@ -695,7 +693,7 @@ translations:
     t: 知名度往下降
 
   - key: charts.no_answer
-    t: No Answer
+    t: 沒有回答
 
   ###########################################################################
   # Sharing
@@ -912,69 +910,67 @@ translations:
   ###########################################################################
 
   - key: sections.sponsor_finish.title
-    t: Thanks
+    t: 感謝
 
   - key: sponsor.sponsor_finish
     t: >
-      Thanks for supporting the survey. Your avatar should appear next to the chart you picked
-      within the next hour or so. If it doesn't, please [get in touch](mailto:chartsponsor@stateofjs.com).
+      誠摯感謝贊助本次調查。您的大頭照會在一小時左右後，出現在挑選的圖表旁邊。如果沒有的話，敬請[聯繫](mailto:chartsponsor@stateofjs.com)。
 
 
   - key: sponsor.sponsored_by
     t: >
-        **{name}** donated **${amount}** to sponsor this chart
+        **{name}** 以捐贈 **${amount}** 贊助這張圖表
 
   - key: sponsor.sponsor_button
-    t: Sponsor This Chart
+    t: 贊助這張圖表
 
   - key: sponsor.sponsor_chart.title
-    t: Sponsor Chart "{title}"
+    t: 贊助圖表："{title}"
 
   - key: sponsor.sponsor_chart.description
     t: >
-        Support this survey financially by donating $10 or more, and get your
-        Twitter avatar featured next to a chart!
+        捐贈至少 10 元美金，以財務支援這份調查，就可以讓 Twiiter 大頭照特別顯示在圖表旁邊！
 
   - key: sponsor.chart_id
-    t: 'Chart ID: '
+    t: '圖表 ID: '
 
   - key: sponsor.sponsor_this_chart
-    t: Sponsor This Chart (${baseAmount}+)
+    t: 贊助這張圖表 (${baseAmount}+)
 
   - key: sponsor.how_it_works.title
-    t: How It Works
+    t: 進行流程
 
   - key: sponsor.how_it_works.description
     t: >
-      1. When you **click the "Sponsor This Chart" button**, you will be redirected to our partner [SendOwl](https://www.sendowl.com/)'s checkout page.
+      1. **點擊「贊助這張圖表」**，會被引導至合作夥伴 [SendOwl](https://www.sendowl.com/) 的結帳頁面。
 
 
-      2. You can then **adjust the amount** you'd like to sponsor the survey for, starting at USD10.
+      2. 接著可以**調整**想要贊助這份調查的數目，至少 10 美金。
 
 
-      3. Once you checkout, you will be able to **provide your Twitter username**.
+      3. 只要結帳完畢，就可以**提供 Twitter 使用者名稱**。
 
 
-      4. You will see a **File Download** page, but you can safely ignore it.
+      4. 還會看到**下載檔案**頁面，不過，這可以安心忽略。
 
 
-      5. The site will rebuild in the background and your username and donation will **appear next to the chart within the next hour**.
+      5. 網站會在背景重新組合一遍，你/妳的使用者名稱與贊助就會在**接下來的一小時內，出現在圖表旁邊**。
 
 
   - key: sponsor.faq.title
-    t: F.A.Q.
+    t: 常見問答
 
   - key: sponsor.faq.usage.title
-    t: What will my donation be used for?
+    t: 捐贈之後，會用在哪些地方？
 
   - key: sponsor.faq.usage.description
-    t: Your donation will help support survey maintainers, as well as help hire more contributors (illustrators, accessibilty and diversity experts, etc.).
+    t: 捐贈會用在幫助調查的維護者，還有雇用更多貢獻者（插畫師、無障礙與多元議題專家⋯等）。
 
   - key: sponsor.faq.public.title
-    t: Will my donation be public?
+    t: 捐贈是公開的嗎？
 
   - key: sponsor.faq.public.description
-    t: Yes. Your **Twitter username** as well as the **amount you donated** will be displayed publicly next to the chart.
+    t: 沒錯。你/妳的 **Twitter 使用者名稱**和**捐贈數目**會公開地在圖表旁邊顯示。
 
   # - key: sponsor.faq.donation_public.title
   #   t: Can I donate on somebody else's behalf?
@@ -983,19 +979,19 @@ translations:
   #   t: You can enter a Twitter username other than your own, but that person will have the right to remove the donation if they request it.
 
   - key: sponsor.faq.refund.title
-    t: What's your refund policy?
+    t: 退款政策？
 
   - key: sponsor.faq.refund.description
-    t: All donations are refundable within a 1-week period, minus transaction fees.
+    t: 所有捐贈都可以在一星期內退款，會扣掉手續費。
 
   - key: sponsor.faq.influence.title
-    t: Do donations influence the survey contents?
+    t: 捐贈可以影響調查內容嗎？
 
   - key: sponsor.faq.influence.description
-    t: Donations take place once the survey is already published, and donors to not have any influence on the contents of the survey.
+    t: 捐贈是在調查已經發布之後才進行。捐贈者對調查內容沒有任何影響。
 
   - key: sponsor.faq.feedback.title
-    t: Where can I leave feedback/ask questions?
+    t: 哪裡可以留言回饋或問問題？
 
   - key: sponsor.faq.feedback.description
-    t: You can do so [on GitHub](https://github.com/StateOfJS/Monorepo/issues/69) or [in our Discord](https://discord.gg/tuWRUWVyJs).
+    t: 可以[在 GitHub](https://github.com/StateOfJS/Monorepo/issues/69) 或 [Discord](https://discord.gg/tuWRUWVyJs)。
