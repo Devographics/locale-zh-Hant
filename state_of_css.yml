@@ -792,7 +792,7 @@ translations:
     # Resources
     ###########################################################################
 
-    - key: resources.first_steps
+    - key: resources.first_steps_css
       t: CSS 新手上路
-    - key: resources.first_steps.description
+    - key: resources.first_steps_css.description
       t: 還在新手上路的時候，當初是怎麼學 CSS 的？
