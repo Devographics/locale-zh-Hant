@@ -363,11 +363,11 @@ translations:
 # Sponsors
 ###########################################################################
 
-    - key: partners.frontendmasters.description
+    - key: sponsors.frontendmasters.description
       t: 加入深入、現代的前端工程課程，讓技能更進階。
-    - key: partners.polypane.description
+    - key: sponsors.polypane.description
       t: 目標遠大的開發者用的瀏覽器。輕鬆打造響應式、無障礙與快速的網站。
-    - key: partners.google_chrome.description
+    - key: sponsors.google_chrome.description
       t: 感謝 Google Chrome 團隊支援我們的作品。
 
 ###########################################################################

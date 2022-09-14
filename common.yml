@@ -165,9 +165,9 @@ translations:
       t: 清除問題
 
     # partners
-    - key: partners.our_partners
+    - key: sponsors.our_partners
       t: 我們的夥伴
-    - key: partners.become_partner
+    - key: sponsors.become_partner
       t: 成為夥伴
 
     # 404
