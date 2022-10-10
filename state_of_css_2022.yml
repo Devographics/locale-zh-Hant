@@ -1,0 +1,787 @@
+locale: zh-Hant
+namespace: css
+translations:
+    ###########################################################################
+    # General
+    ###########################################################################
+
+    - key: general.state_of_css.intro
+      t: |
+          CSS 以前所未有的速度進化中。
+
+          Flexbox、Grid、多欄排版⋯甚至還沒說到 CSS-in-JS 這樣的全新世界觀。
+
+          因此，每年舉辦的 [JavaScript 現況調查](https://stateofjs.com) 成功後，我們決定發掘樣式與選擇器的世界，幫助大家找到最新的潮流，知道接下來要學習和使用的工具！
+
+    - key: general.state_of_css.description
+      t: 每年舉辦的 CSS 最新趨勢調查。
+
+    ###########################################################################
+    # Sections
+    ###########################################################################
+
+    - key: sections.layout.title
+      t: 版面安排
+    - key: sections.layout.description
+      t: 如何把螢幕上的元素定位？
+
+    - key: sections.shapes_graphics.title
+      t: 形狀 & 圖形
+    - key: sections.shapes_graphics.description
+      t: 控制形狀與元素的顯示方式。
+
+    - key: sections.interactions.title
+      t: 互動
+    - key: sections.interactions.description
+      t: 控制使用者如何跟頁面互動。
+
+    - key: sections.typography.title
+      t: 文字排版
+    - key: sections.typography.description
+      t: 文字的設定與擺放。
+
+    - key: sections.animations_transforms.title
+      t: 動畫 & 變形
+    - key: sections.animations_transforms.description
+      t: 把元素加上動畫或變形。
+
+    - key: sections.accessibility.title
+      t: 無障礙設計
+    - key: sections.accessibility.description
+      t: 無障礙設計功能與技術
+
+    - key: sections.media_queries.title
+      t: Media Queries
+    - key: sections.media_queries.description
+      t: 讓網站相容於使用者裝置或偏好的方式。
+
+    - key: sections.selectors.title
+      t: Selectors
+    - key: sections.selectors.description
+      t: CSS 選擇器。
+
+    - key: sections.colors.title
+      t: Colors
+    - key: sections.colors.description
+      t: 顏色相關的功能。
+
+    - key: sections.javascript_apis.title
+      t: JavaScript API
+    - key: sections.javascript_apis.description
+      t: 用來控制或補足 CSS 的 JavaScript API。
+
+    - key: sections.other_features.title
+      t: 其它功能
+    - key: sections.other_features.description
+      t: 其它 CSS 功能。
+
+    - key: sections.units_selectors.title
+      t: 單位 & 選擇器
+    - key: sections.units_selectors.description
+      t: 試試看對 CSS 單位與選擇器的理解。
+
+    - key: sections.pre_post_processors.title
+      t: 預 & 後處理器
+    - key: sections.pre_post_processors.description
+      t: 強化 CSS 的工具。
+
+    - key: sections.pre_post_processors_others.title
+      t: 其它預/後處理器
+
+    - key: tools_others.pre_post_processors
+      aliasFor: sections.pre_post_processors.title
+    - key: tools_others.pre_post_processors.description
+      aliasFor: sections.pre_post_processors.description
+
+    - key: tools_others.pre_post_processors.others
+      aliasFor: sections.pre_post_processors_others.title
+
+    - key: sections.css_frameworks.title
+      t: CSS 框架
+    - key: sections.css_frameworks.description
+      t: 提供已預先做好的元件和樣式程式庫。
+
+    - key: sections.css_frameworks_others.title
+      t: 其它 CSS 框架
+
+    - key: sections.css_methodologies.title
+      t: CSS 方法論
+    - key: sections.css_methodologies.description
+      t: 用程式化方法撰寫更乾淨的 CSS。
+
+    - key: sections.css_methodologies_others.title
+      t: 其它 CSS 方法論
+
+    - key: sections.css_in_js.title
+      t: CSS-in-JS
+    - key: sections.css_in_js.description
+      t: 幫助 CSS 整合進 JavaScript 的程式庫。
+
+    - key: sections.css_in_js_others.title
+      t: 其它 CSS-in-JS 程式庫。
+
+    - key: sections.tools_others.title
+      t: 其它工具
+    - key: sections.tools_others.description
+      t: 其它 CSS 工具。
+
+    - key: sections.environments.title
+      t: 環境
+    - key: sections.environments.description
+      t: 撰寫 CSS 的時候，會斟酌哪些環境和無障礙設計要素？
+
+    - key: sections.usage_css.title
+      t: CSS Usage
+    - key: sections.usage_css.description
+      t: 如何使用 CSS。
+
+    ###########################################################################
+    # Options
+    ###########################################################################
+
+    # CSS for print
+    - key: options.css_for_print.0
+      t: 我（幾乎）沒寫過列印的樣式
+    - key: options.css_for_print.0.short
+      t: 從未
+
+    - key: options.css_for_print.1
+      t: 我偶爾寫列印的樣式
+    - key: options.css_for_print.1.short
+      t: 偶爾
+
+    - key: options.css_for_print.2
+      t: 我在許多專案裡會把列印用的樣式當作一部分來撰寫
+    - key: options.css_for_print.2.short
+      t: 經常
+
+    - key: options.css_for_print.3
+      t: 我主要就是在寫列印用的 CSS
+    - key: options.css_for_print.3.short
+      t: 主要
+
+    # CSS for email
+    - key: options.css_for_email.0
+      t: 我（幾乎）沒寫過電子郵件客戶端的 CSS
+    - key: options.css_for_email.0.short
+      t: 從未
+
+    - key: options.css_for_email.1
+      t: 我偶爾寫電子郵件客戶端的 CSS
+    - key: options.css_for_email.1.short
+      t: 偶爾
+
+    - key: options.css_for_email.2
+      t: 我在許多專案裡會把電子郵件客戶端的 CSS 當作一部分來撰寫
+    - key: options.css_for_email.2.short
+      t: 經常
+
+    - key: options.css_for_email.3
+      t: 我主要就是在做電子郵件客戶端的 CSS
+    - key: options.css_for_email.3.short
+      t: 主要
+
+    # what do you use CSS for?
+    - key: options.what_do_you_use_css_for.marketing_sites
+      t: 行銷網站和登陸頁面
+    - key: options.what_do_you_use_css_for.design_systems
+      t: 設計系統
+    - key: options.what_do_you_use_css_for.blogs
+      t: 部落格，或其它充滿文字的網站
+    - key: options.what_do_you_use_css_for.web_apps
+      t: Web 應用程式
+    - key: options.what_do_you_use_css_for.mobile_apps
+      t: 手機應用程式
+    - key: options.what_do_you_use_css_for.css_art
+      t: CSS 藝術與插畫
+    - key: options.what_do_you_use_css_for.emails
+      t: 電子郵件
+    - key: options.what_do_you_use_css_for.printed_documents
+      t: 印出來的文件
+
+    # CSS pain points
+    - key: options.css_pain_points.browser_interoperability
+      t: 瀏覽器相容性
+    - key: options.css_pain_points.browser_interoperability.description
+      t: Chrome、Safari 和 Firefox⋯等之間的差異
+    - key: options.css_pain_points.interactions
+      t: 互動
+    - key: options.css_pain_points.interactions.description
+      t: 使用者輸入或其它事件（捲動和移動游標等）的回饋。
+    - key: options.css_pain_points.architecture
+      t: 架構與維護
+    - key: options.css_pain_points.architecture.description
+      t: 檔案結構、刪除無用程式碼與重構⋯等
+    - key: options.css_pain_points.layout_positioning
+      t: 版面與位置
+    - key: options.css_pain_points.layout_positioning.description
+      t: 設定版面，確保元素都在想放的地方。
+    - key: options.css_pain_points.scoping_specificity
+      t: 範圍與權重
+    - key: options.css_pain_points.scoping_specificity.description
+      t: 處理層階，蓋過樣式⋯等
+    - key: options.css_pain_points.responsive_design
+      t: 響應式設計
+    - key: options.css_pain_points.responsive_design.description
+      t: 為各種裝置修改版面和設計。
+    - key: options.css_pain_points.form_elements_styling
+      t: 表單元素樣式
+    - key: options.css_pain_points.form_elements_styling.description
+      t: 自訂表單元素的外觀和行為。
+    - key: options.css_pain_points.performance_issues
+      t: 效能問題
+    - key: options.css_pain_points.performance_issues.description
+      t: 處理捲動延遲，讓動畫更滑順⋯等
+
+
+    # CSS missing features (same as features section)
+    - key: options.currently_missing_from_css.nesting
+      t: 巢狀結構
+    - key: options.currently_missing_from_css.nesting.description
+      t: 可以在原生的 CSS 將樣式巢狀化。
+    - key: options.currently_missing_from_css.parent_selector
+      t: 上層選擇器
+    - key: options.currently_missing_from_css.parent_selector.description
+      t: 可以從後代找出上層的元素。
+    - key: options.currently_missing_from_css.browser_support
+      t: 瀏覽器支援度
+    - key: options.currently_missing_from_css.browser_support.description
+      t: 現有功能的瀏覽器支援度可以更好。
+    - key: options.currently_missing_from_css.mixins
+      t: Mixin
+    - key: options.currently_missing_from_css.mixins.description
+      t: 動態地將定義群組起來並重複使用。
+    - key: options.currently_missing_from_css.color_functions
+      t: 顏色函式
+    - key: options.currently_missing_from_css.color_functions.description
+      t: 控制顏色值的函式。
+    - key: options.currently_missing_from_css.container_queries
+      t: 容器 Query
+    - key: options.currently_missing_from_css.container_queries.description
+      t: 可以根據上層容器的大小來撰寫樣式。
+    - key: options.currently_missing_from_css.scoping
+      t: 設立範圍
+    - key: options.currently_missing_from_css.scoping.description
+      t: 更清楚知道樣式用在哪裡的功能。
+    - key: options.currently_missing_from_css.subgrid
+      t: Subgrid
+    - key: options.currently_missing_from_css.subgrid.description
+      t: 位於更深層的次級 Grid 納入上層 Grid 的巢狀結構。
+
+    ###########################################################################
+    # Features
+    ###########################################################################
+
+    # layout
+
+    - key: features.regions
+      t: CSS Regions
+    - key: features.multi_column
+      t: CSS 多欄排版 (Multi-Column)
+    - key: features.writing_modes
+      t: CSS 書寫模式 (Writing Modes)
+    - key: features.exclusions
+      t: CSS 排除條件
+
+    - key: features.flexbox_gap
+      t: Flexbox 的 gap 屬性
+
+    # shapes & graphics
+    - key: features.shapes
+      t: CSS 形狀 (Shape)
+    - key: features.masks
+      t: CSS 遮罩 (Mask)
+    - key: features.blend_modes
+      t: 混合模式 (Blend Modes)
+    - key: features.filter_effects
+      t: CSS 濾鏡效果
+
+    - key: features.intrinsic_sizing
+      t: 內容物尺寸 (Intrinsic Sizing)
+
+
+    # typography
+    - key: features.web_fonts
+      t: 網路字型 (@font-face)
+    - key: features.variables_fonts
+      t: 可變換字型 (Variable Fonts)
+    - key: features.line_breaking
+      t: 換行參數 (Line breaking)
+    - key: features.direction.description
+      t: 也包含 <code>dir</code> HTML 屬性.
+
+    # animations & transforms
+    - key: features.transitions
+      t: CSS 轉場 (Transition)
+    - key: features.transforms
+      t: CSS 變形 (Transform)
+    - key: features.animations
+      t: CSS 動畫 (Animation)
+
+    # media queries/accessibility
+    - key: features.tabindex
+      t: <code>tabindex</code> HTML attribute
+
+    - key: features.aria_attributes
+      t: HTML 屬性：ARIA
+    - key: features.aria_attributes.description
+      t: <code>role</code> 和 <code>aria-label</code> ⋯等
+
+    # other features
+    - key: features.variables
+      t: CSS 變數（自訂參數）
+    - key: features.containment
+      t: CSS Containment
+    - key: features.comparison_functions
+      t: CSS 比較函式 (Comparison Functions)
+
+    - key: features.css_nesting.description
+      t: 原生的 CSS 巢狀結構，不包含預或後處理器。
+
+    # missing features (see also options)
+    - key: features.nesting
+      t: 巢狀結構
+    - key: features.nesting.description
+      t: 可以在原生的 CSS 將樣式巢狀化。
+    - key: features.parent_selector
+      t: 上層選擇器
+    - key: features.parent_selector.description
+      t: 可以從後代找出上層的元素。
+    - key: features.browser_support
+      t: 瀏覽器支援度
+    - key: features.browser_support.description
+      t: 現有功能的瀏覽器支援度可以更好。
+    - key: features.mixins
+      t: Mixin
+    - key: features.mixins.description
+      t: 動態地將定義群組起來並重複使用。
+    - key: features.color_functions
+      t: 顏色函式
+    - key: features.color_functions.description
+      t: 控制顏色值的函式。
+    - key: features.container_queries
+      t: 容器 Query
+    - key: features.container_queries.description
+      t: 可以根據上層容器的大小來撰寫樣式。
+    - key: features.scoping
+      t: 設立範圍
+    - key: features.scoping.description
+      t: 更清楚知道樣式用在哪裡的功能。
+    - key: features.subgrid
+      t: Subgrid
+    - key: features.subgrid.description
+      t: 位於更深層的次級 Grid 納入上層 Grid 的巢狀結構。
+
+    ###########################################################################
+    # Units & Selectors
+    ###########################################################################
+
+    - key: features_others.units
+      t: 單位
+    - key: features_others.units.description
+      t: 用過哪些 CSS 單位？
+
+    - key: options.units.px
+      t: px
+    - key: options.units.pt
+      t: pt
+    - key: options.units.percent
+      t: '%'
+    - key: options.units.em
+      t: em
+    - key: options.units.rem
+      t: rem
+    - key: options.units.vh_vw
+      t: vh, vw
+    - key: options.units.vmin_vmax
+      t: vmin, vmax
+    - key: options.units.ch
+      t: ch
+    - key: options.units.ex
+      t: ex
+    - key: options.units.mm
+      t: mm
+    - key: options.units.cm
+      t: cm
+    - key: options.units.in
+      t: in
+
+    - key: features_others.pseudo_elements
+      t: 偽元素 (Pseudo Elements)
+    - key: features_others.pseudo_elements.description
+      t: 用過哪些 CSS 偽元素？
+
+    - key: options.pseudo_elements.before
+      t: '::before'
+    - key: options.pseudo_elements.after
+      t: '::after'
+    - key: options.pseudo_elements.first_line
+      t: '::first-line'
+    - key: options.pseudo_elements.first_letter
+      t: '::first-letter'
+    - key: options.pseudo_elements.selection
+      t: '::selection'
+    - key: options.pseudo_elements.placeholder
+      t: '::placeholder'
+    - key: options.pseudo_elements.marker
+      t: '::marker'
+    - key: options.pseudo_elements.backdrop
+      t: '::backdrop'
+
+    - key: features_others.combinators
+      t: 組合語法
+    - key: features_others.combinators.description
+      t: 用過哪些 CSS 組合語法選擇器？
+
+    - key: options.combinators.descendant
+      t: div span（後代）
+    - key: options.combinators.child
+      t: div > span（子代）
+    - key: options.combinators.next_sibling
+      t: div + div（同層下一個）
+    - key: options.combinators.subsequent_sibling
+      t: div ~ div（同層之後）
+
+    - key: features_others.tree_document_structure
+      t: 樹狀 / 文件結構
+    - key: features_others.tree_document_structure.description
+      t: 用過哪些結構相關的 CSS 選擇器？
+
+    - key: options.tree_document_structure.root
+      t: :root
+    - key: options.tree_document_structure.empty
+      t: :empty
+    - key: options.tree_document_structure.not
+      t: :not()
+    - key: options.tree_document_structure.nth_child
+      t: :nth-child()
+    - key: options.tree_document_structure.nth_last_child
+      t: :nth-last-child()
+    - key: options.tree_document_structure.first_child
+      t: :first-child
+    - key: options.tree_document_structure.last_child
+      t: :last-child
+    - key: options.tree_document_structure.only_child
+      t: :only-child
+    - key: options.tree_document_structure.nth_of_type
+      t: :nth-of-type()
+    - key: options.tree_document_structure.nth_last_of_type
+      t: :nth-last-of-type()
+    - key: options.tree_document_structure.first_of_type
+      t: :first-of-type
+    - key: options.tree_document_structure.last_of_type
+      t: :last-of-type
+    - key: options.tree_document_structure.only_of_type
+      t: :only-of-type
+    - key: options.tree_document_structure.lang
+      t: :lang()
+    - key: options.tree_document_structure.is
+      t: :is()
+    - key: options.tree_document_structure.where
+      t: :where()
+    - key: options.tree_document_structure.has
+      t: :has()
+
+    - key: features_others.attributes
+      t: 屬性
+    - key: features_others.attributes.description
+      t: 用過哪些 CSS 屬性選擇器？
+
+    - key: options.attributes.presence
+      t: div[foo]（具有此屬性）
+    - key: options.attributes.equality
+      t: div[foo="bar"]（屬性值完全符合）
+    - key: options.attributes.starts_with
+      t: div[foo^="bar"]（以⋯開始）
+    - key: options.attributes.ends_with
+      t: div[foo$="bar"]（以⋯結尾）
+    - key: options.attributes.contains_word
+      t: div[foo~="bar"]（包含文字）
+    - key: options.attributes.contains_substring
+      t: div[foo*="bar"]（包含子字串）
+
+    - key: features_others.links_urls
+      t: 連結/網址
+    - key: features_others.links_urls.description
+      t: 用過哪些連結與網址相關的 CSS 選擇器？
+
+    - key: options.links_urls.any_link
+      t: :any-link
+    - key: options.links_urls.link_visited
+      t: :link 和 :visited
+    - key: options.links_urls.local_link
+      t: :local-link
+    - key: options.links_urls.target
+      t: :target
+
+    - key: features_others.interaction
+      t: 互動
+    - key: features_others.interaction.description
+      t: 用過哪些互動的 CSS 選擇器？
+
+    - key: options.interaction.hover
+      t: :hover
+    - key: options.interaction.active
+      t: :active
+    - key: options.interaction.focus
+      t: :focus
+    - key: options.interaction.focus_within
+      t: :focus-within
+    - key: options.interaction.focus_visible
+      t: :focus-visible
+
+    - key: features_others.form_controls
+      t: 表單控制
+    - key: features_others.form_controls.description
+      t: 用過哪些表單相關的 CSS 選擇器？
+
+    - key: options.form_controls.enabled_disabled
+      t: :enabled 和 :disabled
+    - key: options.form_controls.read_only_write
+      t: :read-only 和 :read-write
+    - key: options.form_controls.placeholder_shown
+      t: :placeholder-shown
+    - key: options.form_controls.default
+      t: :default
+    - key: options.form_controls.checked
+      t: :checked
+    - key: options.form_controls.indeterminate
+      t: :indeterminate
+    - key: options.form_controls.valid_invalid
+      t: :valid 和 :invalid
+    - key: options.form_controls.user_invalid
+      t: :user-invalid
+    - key: options.form_controls.in_out_range
+      t: :in-range 和 :out-of-range
+    - key: options.form_controls.required_optional
+      t: :required 和 :optional
+
+    # slider
+    - key: options.css_js_balance.0
+      t: 100% CSS
+    - key: options.css_js_balance.4
+      t: 50%/50%
+    - key: options.css_js_balance.8
+      t: 100% JS
+
+    ###########################################################################
+    # Environments
+    ###########################################################################
+
+    - key: environments.browsers
+      t: 瀏覽器
+    - key: environments.browsers.description
+      t: 在哪些瀏覽器進行測試？
+
+    - key: environments.form_factors
+      t: 裝置
+    - key: environments.form_factors.description
+      t: 在哪些裝置上進行測試？
+    - key: environments.form_factors.others
+      t: 其它測試環境
+    - key: environments.form_factors.others.description
+      t: 其它經常用來測試的裝置或環境。
+
+    - key: environments.accessibility_features
+      t: 無障礙設計功能
+    - key: environments.accessibility_features.description
+      t: 常常實做哪些無障礙設計功能？
+    - key: environments.accessibility_features.others
+      t: 其它無障礙設計功能
+    - key: environments.accessibility_features.others.description
+      t: 還有常常實做哪些無障礙設計功能？
+
+    - key: environments.css_for_print
+      t: 列印用的 CSS
+    - key: environments.css_for_print.description
+      t: 有寫列印用的樣式嗎？
+
+    - key: environments.css_for_email
+      t: 電子郵件客戶端的 CSS
+    - key: environments.css_for_email.description
+      t: 有寫電子郵件客戶端的 CSS 嗎？
+
+    - key: environments.what_do_you_use_css_for
+      t: 使用 CSS 的主要目的？
+    - key: environments.what_do_you_use_css_for.description
+      t: 常常在哪類型的專案使用 CSS？
+    - key: environments.what_do_you_use_css_for.others
+      t: 其它專案種類
+
+    - key: charts.axis_legends.css_for_print
+      t: 頻率
+    - key: charts.axis_legends.css_for_email
+      t: 頻率
+
+    - key: tools_others.tool_evaluation
+      t: 評估函式庫
+    - key: tools_others.tool_evaluation.description
+      t: 在評估新的函式庫時，從每個比較選出重視的因素。
+
+    ###########################################################################
+    # Opinions
+    ###########################################################################
+
+    - key: opinions.css_easy_to_learn
+      t: CSS 很容易學
+    - key: opinions.css_easy_to_learn.title
+      t: 學習曲線
+
+    - key: opinions.css_evolving_slowly
+      t: CSS 的演進實在太慢了
+    - key: opinions.css_evolving_slowly.title
+      t: 變動速度
+
+    - key: opinions.utility_classes_to_be_avoided
+      t: 應該要避免使用 `.center` 和 `.large-text` 這樣工具式、非情境的 class
+    - key: opinions.utility_classes_to_be_avoided.title
+      t: 非情境 Class
+
+    - key: opinions.selector_nesting_to_be_avoided
+      t: 應該要避免使用像是 `.foo .bar ul li {...}` 這樣的巢狀選擇器
+    - key: opinions.selector_nesting_to_be_avoided.title
+      t: 巢狀選擇器
+
+    - key: opinions.css_is_programming_language
+      t: CSS 是一種程式語言
+    - key: opinions.css_is_programming_language.title
+      t: 程式語言
+
+    - key: opinions.enjoy_writing_css
+      t: 我喜歡撰寫 CSS
+    - key: opinions.enjoy_writing_css.title
+      t: 愉悅感
+
+    # Browser interoperability question
+    - key: opinions_others.browser_interoperability_features.others
+      t: 瀏覽器的不相容性
+    - key: opinions_others.browser_interoperability_features.others.description
+      t: >
+        有任何 CSS 功能是因為瀏覽器之間缺乏支援或差異，覺得難以使用（也包含避免）的嗎？
+
+    - key: usage.interoperability_features_freeform.others
+      aliasFor: opinions_others.browser_interoperability_features.others
+    - key: usage.interoperability_features_freeform.others.description
+      aliasFor: opinions_others.browser_interoperability_features.others.description
+
+    # Pain Points
+    - key: opinions.css_pain_points
+      t: CSS 的痛點
+    - key: opinions.css_pain_points.description
+      t: 從每個比較挑出在 CSS 最掙扎的方面。
+
+    - key: usage.other_pain_points_freeform.others
+      t: 有其它跟撰寫 CSS 有關的痛點嗎？
+
+    - key: opinions_others.css_pain_points.others
+      t: 其它的 CSS 痛點
+
+    # Interop 2023
+    - key: usage.interop_features
+      t: Interop 2023 未來藍圖
+    - key: usage.interop_features.description
+      t: 最想要瀏覽器改進以下哪些功能？（挑選 3 個）
+    - key: usage.interop_features.note
+      t: >
+         [Interop 2023](https://github.com/web-platform-tests/interop/issues?q=is%3Aissue+is%3Aopen+label%3Afocus-area-proposal) 是瀏覽器開發廠商共同合作，用以修正問題與不相容之處。這份調查的結果，會成為幫助工作小組將專注項目排序的資料來源之一。
+
+    # Missing Features
+    - key: opinions.currently_missing_from_css
+      t: 覺得 CSS 目前缺了什麼？
+    - key: opinions.currently_missing_from_css.description
+      t: 從每個比較挑出最有可能現在就使用的 CSS 功能。
+
+      - key: usage.missing_features_freeform.others
+      t: 整體來說，覺得現在 CSS，還缺少了哪些功能？
+
+    - key: opinions_others.currently_missing_from_css.others
+      t: 其它還缺的功能
+    # - key: opinions_others.currently_missing_from_css.others.note
+    #   t: >
+    #       這些是將自由填寫內容整理過的結果。
+    #       若要看原始、沒有處理過的資料，請看 [whatsmissingfromcss.com](http://whatsmissingfromcss.com/)。
+
+    - key: opinions.sum_up_one_word_css
+      t: 用一個詞形容 CSS
+    - key: opinions.sum_up_one_word_css.description
+      t: 要用一個詞總結對 CSS 的感覺的話，會是什麼？
+
+    - key: happiness.pre_post_processors
+      t: 對於預/後處理器的現況覺得滿意嗎？
+    - key: happiness.css_in_js
+      t: 對於 CSS-in-JS 函式庫的現況覺得滿意嗎？
+    - key: happiness.css_frameworks
+      t: 對於 CSS 框架的現況覺得滿意嗎？
+
+    - key: happiness.state_of_the_web
+      t: 平均來說，對於各種網路技術的狀態覺得開心嗎？
+
+    - key: happiness.state_of_css
+      t: 平均來說，對於 CSS 的狀態覺得開心嗎？
+
+    # pain points/currently missing (results)
+    - key: css_pain_points.css_pain_points_wins
+      t: CSS 痛點
+    - key: css_pain_points.css_pain_points_wins.description
+      t: CSS 有哪些方面讓人覺得最掙扎？以贏得淘汰賽的次數排序結果。
+
+    - key: css_pain_points.css_pain_points_matchups
+      t: CSS 痛點 (Matchups)
+    - key: css_pain_points.css_pain_points_matchups.description
+      t: CSS 有哪些方面讓人覺得最掙扎？左手邊的項目與上方的項目比較時，獲勝次數的百分比。
+
+    - key: currently_missing_from_css.currently_missing_from_css_wins
+      t: CSS 缺少的功能
+    - key: currently_missing_from_css.currently_missing_from_css_wins.description
+      t: CSS 的哪個功能，是最想要現在就可以使用的？以贏得淘汰賽的次數排序結果。
+
+    - key: currently_missing_from_css.currently_missing_from_css_matchups
+      t: CSS 缺少的功能 (Matchups)
+    - key: currently_missing_from_css.currently_missing_from_css_matchups.description
+      t: CSS 的哪個功能，是最想要現在就可以使用的？左手邊的項目對上上方的項目時，獲勝次數的百分比。
+
+    - key: usage.css_js_balance
+      t: CSS 與 JavaScript 的平衡
+    - key: usage.css_js_balance.description
+      t: 如何分配撰寫 CSS（包含 HTML 語法）與 JavaScript 程式碼的時間？
+
+    ###########################################################################
+    # Resources
+    ###########################################################################
+
+    - key: resources.first_steps_css
+      t: CSS 新手上路
+    - key: resources.first_steps_css.description
+      t: 還在新手上路的時候，當初是怎麼學 CSS 的？
+
+    # sites & courses
+    - key: resources.sites_courses_css
+      aliasFor: resources.sites_courses
+    - key: resources.sites_courses_css.description
+      t: 有用哪些 CSS 相關的網站/課程/其它來學習 CSS？
+
+    # podcasts
+    - key: resources.podcasts_css
+      aliasFor: resources.podcasts
+    - key: resources.podcasts_css.description
+      t: 有聽哪些 CSS 相關的 Podcast？
+
+    # people
+    - key: resources.people_css.others
+      aliasFor: resources.people.others
+    - key: resources.people_css.others.description
+      t: 有閱讀、追蹤哪些在 CSS 生態圈的人嗎？或者想要特別提出來。
+
+    ###########################################################################
+    # Survey Help
+    ###########################################################################
+
+    - key: features.features_intro_css
+      t: |
+          歡迎進入調查！首先會專注在你/妳知道哪些 CSS **功能**。
+
+          順道一提，如果想要對回答進一步說明，可以按下那顆「留言」圖示！
+
+    - key: tools.tools_intro_css
+      t: |
+          接下來的幾個區塊，專注在活躍於 CSS 生態圈的**函示庫**與**框架**。請讓我們知道會令你/妳振奮的事情！
