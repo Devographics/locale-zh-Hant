@@ -11,21 +11,8 @@ translations:
     - key: homepage.get_in_touch
       t: 聯繫
 
-    - key: homepage.made_by
-      t: 'CSS 現況調查的製作人員：'
-    - key: homepage.leave_issue
-      t: 寫下 issue
-
     - key: homepage.previous_years
       t: '前幾年的：'
-
-    - key: homepage.intro
-      t: >
-          ## CSS 以前所未有的速度進化中。
-
-          Flexbox、Grid、多欄排版⋯甚至還沒說到 CSS-in-JS 這樣的全新世界觀。
-
-          因此，每年舉辦的 [JavaScript 現況調查](https://stateofjs.com) 成功後，我們決定發掘樣式與選擇器的世界，幫助大家找到最新的潮流⋯連結不斷成長的「大前端時代」！
 
     - key: homepage.take_survey
       t: 參加調查
@@ -36,15 +23,55 @@ translations:
     - key: share.help_spread
       t: 幫忙宣傳！
 
+    - key: homepage.other_surveys
+      t: '其它調查：'
+
+    - key: homepage.survey_open_now
+      t: 現正開放
+
+    - key: homepage.survey_preview
+      t: 預覽調查
+
+    - key: homepage.most_recent_survey
+      t: 最近的
+
+    - key: homepage.current_survey
+      t: 目前的調查
+
+    - key: homepage.past_surveys
+      t: 之前的調查
+
+    - key: homepage.view_questions
+      t: 查看問題
+
+    - key: homepage.preview_questions
+      t: 預覽問題
+
+    # newsletter
+
     - key: newsletter.stay_tuned
       t: 敬請期待
     - key: newsletter.leave_your_email
-      t: 請留下電子郵件位址，下次的調查開始時通知你。
+      t: 請留下電子郵件位址，下次的調查開始時會通知。
+    - key: newsletter.email
+      t: 電子郵件
+    - key: newsletter.submit
+      t: 通知我
 
-    - key: author.sacha.bio
-      t: >
-          JavaScript 資料視覺化資源庫 [Nivo](http://nivo.rocks/) 的作者。還有，可以打造漂亮儀表板的的工具 [Mozaik](http://mozaik.rocks/)。
+    # languages
+    - key: languages.available_languages
+      t: '可用語言：'
+    - key: languages.help_us_translate
+      t: 協助我們把調查翻譯成你/妳的語言 →
 
-    - key: author.raphael.bio
-      t: >
-          每日電子報 [Sidebar](http://sidebar.io)、也是 React+GraphQL 開源框架 [VulcanJS](http://vulcanjs.org) 的作者。
+    # footer
+    - key: homepage.made_by_devographics
+      aliasFor: general.made_by_devographics
+    - key: homepage.netlify_link
+      aliasFor: general.netlify_link
+    - key: homepage.leave_issue
+      aliasFor: general.leave_issue
+    - key: homepage.join_discord
+      aliasFor: general.join_discord
+    - key: homepage.astro_link
+      t: 以 [Astro](https://astro.build/) 打造

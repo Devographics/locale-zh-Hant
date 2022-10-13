@@ -946,7 +946,7 @@ translations:
 
     # email_temporary (receive updates?)
     - key: user_info.email_temporary
-      t: 想要在調查結果事出時，獲得通知嗎？
+      t: 想要在調查結果釋出時，獲得通知嗎？
     - key: user_info.email_temporary.note
       t: >
         我們不會儲存任何個人資料。所以把你/妳的電子郵件地址轉給郵寄清單提供者後，就會從我們自己的記錄上刪除。
