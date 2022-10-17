@@ -291,6 +291,8 @@ translations:
     t: Czech
   - key: options.locale.pt-PT
     t: Portuguese
+  - key: options.locale.pt-BR
+    t: Portuguese (Brazil)
   - key: options.locale.it-IT
     t: Italian
   - key: options.locale.sv-SE
@@ -639,6 +641,15 @@ translations:
     t: 使用程度 %
   - key: charts.axis_legends.awareness_percentage
     t: 知道程度 %
+  - key: chart_units.interest_percentage
+    aliasFor: charts.axis_legends.interest_percentage
+  - key: chart_units.satisfaction_percentage
+    aliasFor: charts.axis_legends.satisfaction_percentage
+  - key: chart_units.usage_percentage
+    aliasFor: charts.axis_legends.usage_percentage
+  - key: chart_units.awareness_percentage
+    aliasFor: charts.axis_legends.awareness_percentage
+
   - key: charts.axis_legends.happiness
     t: 愉悅感
   - key: charts.axis_legends.knowledge_score
@@ -708,17 +719,17 @@ translations:
   - key: share.site.title
     t: 探索 {siteTitle} 現況調查結果
   - key: share.site.twitter_text
-    t: '探索 {siteTitle} 現況調查 結果 {link} {hashtag}'
+    t: "探索 {siteTitle} 現況調查 結果 {link} {hashtag}"
   - key: share.site.subject
-    t: '{siteTitle} 現況調查結果'
+    t: "{siteTitle} 現況調查結果"
   - key: share.site.body
-    t: '{siteTitle} 現況調查的有趣結果看這裡：{link}'
+    t: "{siteTitle} 現況調查的有趣結果看這裡：{link}"
   - key: share.block.twitter_text
-    t: '{hashtag} {year}: {title} {link}'
+    t: "{hashtag} {year}: {title} {link}"
   - key: share.block.subject
-    t: '{siteTitle} 現況調查結果'
+    t: "{siteTitle} 現況調查結果"
   - key: share.block.body
-    t: '{siteTitle} 現況調查的有趣結果看這裡 ({title}): {link}'
+    t: "{siteTitle} 現況調查的有趣結果看這裡 ({title}): {link}"
   - key: share.twitter
     t: 分享至 Twitter
   - key: share.facebook

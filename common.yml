@@ -76,11 +76,17 @@ translations:
     - key: general.newly_added
       t: 今年新增
     - key: general.new
-      t: 新到
+      t: 新開放
+    - key: general.devographics_banner
+      t: <a href="https://www.devographics.com/" target="_blank">Devographics</a> 是籌辦 JavaScript、CSS 和 GraphQL 現況調查共用的新名稱。
 
     # credits
     - key: credits.thanks
       t: 特別感謝
+    - key: credits.contributors
+      t: 貢獻者
+    - key: credits.contributors.description
+      t: 特別感謝以下協助設計調查的人士。
     - key: credits.accessibility
       t: 無障礙設計顧問
     - key: credits.survey_design
@@ -97,6 +103,8 @@ translations:
       t: 程式碼重構
     - key: credits.data_processing
       t: 資料處理
+    - key: credits.back_end_development
+      t: 後端開發
 
     # support
     - key: general.support_from
@@ -183,6 +191,14 @@ translations:
       t: 按 option/alt 開啟譯者模式。
     - key: general.charts_nivo
       t: 以 <a href="{link}">Nivo</a> 打造圖表。
+    - key: general.made_by_devographics
+      t: <a href="{link}">Devographics</a> 製作
+    - key: general.view_code_example
+      t: 看程式碼範例
+    - key: general.feature_code_example
+      t: "**{featureName}** 程式碼範例"
+    - key: general.code_example
+      t: 程式碼範例
 
     ###########################################################################
     # Nav
@@ -231,11 +247,11 @@ translations:
 
     # features
     - key: options.features.never_heard
-      t: 🤷 從未聽過/不確定是什麼
+      t: <span aria-hidden="true">🤷</span> 從未聽過/不確定是什麼
     - key: options.features.heard
-      t: ✅ 知道是什麼，但從未用過
+      t: <span aria-hidden="true">✅</span> 知道是什麼，但從未用過
     - key: options.features.used
-      t: 👍 已經有用過
+      t: <span aria-hidden="true">👍</span> 已經有用過
 
     # features (no emoji)
     - key: options.features.never_heard.label
@@ -267,15 +283,15 @@ translations:
 
     # tools experience
     - key: options.tools.never_heard
-      t: 🤷 從未聽過/不確定是什麼
+      t: <span aria-hidden="true">🤷</span>  從未聽過/不確定是什麼
     - key: options.tools.interested
-      t: ✅ 有聽過 > 想學
+      t: <span aria-hidden="true">✅</span>  有聽過 > 想學
     - key: options.tools.not_interested
-      t: 🚫 有聽過 > 沒興趣
+      t: <span aria-hidden="true">🚫</span> 有聽過 > 沒興趣
     - key: options.tools.would_use
-      t: 👍 用過 > 以後還會用
+      t: <span aria-hidden="true">👍</span> 用過 > 以後還會用
     - key: options.tools.would_not_use
-      t: 👎 用過 > 以後不會用
+      t: <span aria-hidden="true">👎</span> 用過 > 以後不會用
 
     # tools experience (no emoji)
     - key: options.tools.never_heard.legend
@@ -357,13 +373,13 @@ translations:
 
     # age (short versions)
     - key: options.age.range_less_than_10.short
-      t: '<10'
+      t: '<=10'
     - key: options.age.range_10_18.short
-      t: 10-18
+      t: 11-18
     - key: options.age.range_18_24.short
-      t: 18-24
+      t: 19-24
     - key: options.age.range_25_34.short
-      t: 24-34
+      t: 25-34
     - key: options.age.range_35_44.short
       t: 35-44
     - key: options.age.range_45_54.short
@@ -425,15 +441,15 @@ translations:
     - key: options.company_size.range_1_5.short
       t: 1-5
     - key: options.company_size.range_5_10.short
-      t: 5-10
+      t: 6-10
     - key: options.company_size.range_10_20.short
-      t: 10-20
+      t: 11-20
     - key: options.company_size.range_20_50.short
-      t: 20-50
+      t: 21-50
     - key: options.company_size.range_50_100.short
-      t: 50-100
+      t: 51-100
     - key: options.company_size.range_100_1000.short
-      t: 100-1000
+      t: 101-1000
     - key: options.company_size.range_more_than_1000.short
       t: '>1000'
 
@@ -455,9 +471,9 @@ translations:
 
     # salary (short versions)
     - key: options.yearly_salary.range_work_for_free.short
-      t: '$0'
+      t: $0
     - key: options.yearly_salary.range_0_10.short
-      t: $0k-$10k
+      t: $0-$10k
     - key: options.yearly_salary.range_10_30.short
       t: $10k-$30k
     - key: options.yearly_salary.range_30_50.short
@@ -468,62 +484,6 @@ translations:
       t: $100k-$200k
     - key: options.yearly_salary.range_more_than_200.short
       t: '>$200k'
-
-    # job titles
-    - key: options.job_title.cto
-      t: 技術長
-    - key: options.job_title.front_end_developer
-      t: 前端開發者/工程師
-    - key: options.job_title.back_end_developer
-      t: 後端開發者/工程師
-    - key: options.job_title.full_stack_developer
-      t: 全端開發者/工程師
-    - key: options.job_title.web_developer
-      t: 網頁開發者
-    - key: options.job_title.web_designer
-      t: 網頁設計師
-    - key: options.job_title.ux_designer
-      t: 使用者體驗設計師
-    - key: options.job_title.ui_designer
-      t: 使用者介面設計師
-    - key: options.job_title.back_end_dev
-      t: 後端開發者/工程師
-
-    # JavaScript proficiency
-    - key: options.javascript_proficiency.0
-      t: 不會撰寫任何 JavaScript
-    - key: options.javascript_proficiency.1
-      t: 會寫簡短的 Javascript 或 jQuery 陳述式
-    - key: options.javascript_proficiency.2
-      t: 可以在已經架設好的現代前端框架做事（React、Vue 等。）
-    - key: options.javascript_proficiency.3
-      t: 有能力從無到有建構整組前端程式庫
-    - key: options.javascript_proficiency.4
-      t: 處理進階的前端模式（狀態管理、資料讀取⋯等。）
-
-    # CSS proficiency
-    - key: options.css_proficiency.0
-      t: 可以說完全沒有 CSS 的觀念
-    - key: options.css_proficiency.1
-      t: 使用 CSS 框架，修改現有的樣式
-    - key: options.css_proficiency.2
-      t: 知道權重規則，有能力製作版面佈局
-    - key: options.css_proficiency.3
-      t: 精通動畫、互動與轉場⋯等
-    - key: options.css_proficiency.4
-      t: 有能力根據一致的方法，為整個前端從無到有增加樣式
-
-    # Back-end proficiency
-    - key: options.backend_proficiency.0
-      t: 無法處理任何後端工作
-    - key: options.backend_proficiency.1
-      t: 有能力安裝打包好的 CMS（WordPress⋯等）或靜態網頁產生工具（Jekyll⋯等。）
-    - key: options.backend_proficiency.2
-      t: 有能力以現有的框架開發應用程式（Rails、Laravel⋯等。）
-    - key: options.backend_proficiency.3
-      t: 有能力從無到有安裝整組後端 (Go、Node⋯等。)
-    - key: options.backend_proficiency.4
-      t: 有能力處理複雜的多伺服器或微服務架構
 
     # Proficiency (generic versions)
     - key: options.proficiency.0
@@ -620,13 +580,13 @@ translations:
     # Disability Status
     - key: options.disability_status.visual_impairments
       t: >
-        Visual impairments (such as: blindness, color blindness, etc.)
+        視覺受損（例如：眼盲、色盲…等。
     - key: options.disability_status.hearing_impairments
       t: >
-        Hearing impairments (such as: deafness, tinnitus, etc.)
+        聽覺受損（例如：耳聾、耳鳴…等。）
     - key: options.disability_status.mobility_impairments
       t: >
-        Mobility impairments (such as: arthritis, carpal tunnel, etc.)
+        行動能力受損（例如：關節炎、腕隧道症…等。）
     - key: options.disability_status.cognitive_impairments
       t: >
         Cognitive impairments (such as: anxiety, dyslexia, etc.)
@@ -919,6 +879,10 @@ translations:
       t: >
         儘管我們知道搜集並公開多元族群資料是敏感議題，仍覺得取得這些資料，對於觀測和改進這份調查，在包容性與代表性的努力有幫助。
 
+    - key: user_info.race_ethnicity.not_allowed
+      t: >
+        為遵循當地政策，在你/妳的國家不開放蒐集種族與族群資料。
+
     # disability status
     - key: user_info.disability_status
       t: 不便狀態
@@ -936,6 +900,12 @@ translations:
       t: 是怎麼找到這份調查的？
     - key: user_info.email
       t: 電子郵件
+    - key: user_info.email.description
+      t: >
+          完成以匿名填寫這份調查。如果願意的話，可以輸入電子郵件，之後就可以查閱自己的資料，也可以在調查結果發布時獲得通知。
+    - key: user_info.email.note
+      t: >
+          我們不會儲存任何個人資料。因此，填寫完電子郵件地址後，會用來產生一組獨一無二的匿名辨認符號，接著，就把地址本身從記錄上刪除。
     - key: user_info.country
       t: 國家或區域
     - key: user_info.country.description
@@ -968,6 +938,22 @@ translations:
       t: 高等教育
     - key: user_info.higher_education_degree.description
       t: 有高等教育學歷嗎？
+    # completion
+    - key: user_info.completion_stats
+      t: 調查完成度
+    - key: user_info.completion_stats.description
+      t: 答題者填寫了調查的多少比例？
+
+    # email_temporary (receive updates?)
+    - key: user_info.email_temporary
+      t: 想要在調查結果釋出時，獲得通知嗎？
+    - key: user_info.email_temporary.note
+      t: >
+        我們不會儲存任何個人資料。所以把你/妳的電子郵件地址轉給郵寄清單提供者後，就會從我們自己的記錄上刪除。
+
+    # how can we improve the survey?
+    - key: user_info.how_can_we_improve
+      t: 要如何讓這份調查更好呢？
 
     ###########################################################################
     # Other Tools
@@ -1095,3 +1081,10 @@ translations:
       t: >
         閱讀、追蹤或者想要強調出來的人物
         （自由填寫，以逗號分隔名字）。
+    # other surveys
+    - key: resources.other_surveys
+      t: 其它調查
+    - key: resources.other_surveys.description
+      t: 還有參加哪些開發者調查？
+    - key: resources.other_surveys.others
+      t: 其它沒有在以上提到的

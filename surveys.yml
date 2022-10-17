@@ -6,3 +6,203 @@ translations:
 
     - key: general.no_preview_surveys
       t: 沒有可以預覽的調查
+    - key: general.global_nav
+      t: Global
+    - key: general.survey_status_preview
+      t: 預覽
+    - key: general.survey_status_open
+      t: 開放
+    - key: general.survey_status_closed
+      t: 關閉
+
+    ###########################################################################
+    # Errors
+    ###########################################################################
+
+    - key: error.duplicate_response
+      t: 抱歉，這個調查已經有進行中的工作階段。
+
+    ###########################################################################
+    # Accounts
+    ###########################################################################
+
+    - key: accounts.create_account
+      t: 新增帳號
+    - key: accounts.create_account.description
+      t: 有了帳號，就可以在**日後取回資料**，並且在調查結果公開時，獲得通知。
+    - key: accounts.create_account.note
+      t: 如果**已經有帳號**，我們會以電子郵件寄送用來登入的神奇連結。
+    - key: accounts.create_account.action
+      t: 使用帳號進入
+    - key: accounts.your_email
+      t: 電子郵件
+
+    - key: accounts.continue_as_guest
+      t: 以訪客進入
+    - key: accounts.continue_as_guest.description
+      t: 以匿名的方式填寫調查，只要瀏覽工作階段結束了，**在日後就無法取回資料**。
+    - key: accounts.continue_as_guest.action
+      t: 以訪客進入
+
+    - key: accounts.magic_link.no_email
+      t: 請輸入電子郵件
+    - key: accounts.magic_link.success
+      t: 請看收件閘！已經把神奇連結寄送給你/妳，只要點擊，就可以確認帳號，並且登入。
+
+    ###########################################################################
+    # FAQ
+    ###########################################################################
+
+    - key: general.faq
+      t: 常見問答
+    - key: faq.create_account
+      t: 為什麼得開帳號？
+    - key: faq.create_account.description
+      t: 得開帳號的原因有：避免重複答題、儲存資料，還有調查結果公開時，獲得通知。
+    - key: faq.anonymous_survey
+      t: 可以匿名參加調查嗎？
+    - key: faq.anonymous_survey.description
+      t: 可以。使用假的 (something@example.com) 或無法識別的電子郵件參加調查。只要存起來，之後可以進入即可。
+    - key: faq.questions_required
+      t: 得要回答每個問題嗎？
+    - key: faq.questions_required.description
+      t: 不用。每個問題都非必填，可以任意跳過。
+    - key: faq.data_published
+      t: 我的資料會公開嗎？
+    - key: faq.data_published.description
+      t: 會。所有資料都會公開釋出，但會先把所有具識別性的資訊（電子郵件、使用者名稱、身份證字號…等）清除。
+    - key: faq.survey_design
+      t: 調查是如何設計的？
+    - key: faq.survey_design.description
+      t: 調查根據社群回饋以及專家審核來設計。[在此深入閱讀](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb)。
+    - key: faq.results_released
+      t: 結果會在什麼時候釋出？
+    - key: faq.results_released.description
+      t: 結果通常會在調查結束後幾個星期釋出。
+    - key: faq.survey_deadline
+      t: 調查會在什麼時候關閉？
+    - key: faq.survey_deadline.description
+      t: 這次調查預計進行至 {date}
+    - key: faq.team
+      t: 是誰主持這份調查？
+    - key: faq.team.description
+      t: 調查由 [Devographics](http://devographics.com) 主持，與一群貢獻者、翻譯和志工合作。
+
+    ###########################################################################
+    # Form Controls
+    ###########################################################################
+
+    - key: bracket.vs
+      t: VS
+    - key: bracket.start_over
+      t: 重新來過
+    - key: bracket.winner
+      t: >
+      獲勝：
+    - key: bracket.round
+      t: 回合
+    - key: bracket.empty_bracket
+      t: 等待結果（要先完成上一回合）
+    - key: bracket.result
+      t: 結果
+    - key: bracket.cancel
+      t: 取消
+
+    - key: experience.leave_comment
+      t: 留言（選填）
+    - key: experience.leave_comment_short
+      t: 留言
+    - key: experience.tell_us_more
+      t: "選擇的是 “{response}”。請再多說說這個選擇的原因："
+    - key: experience.tell_us_more_no_value
+      t: "沒有選擇任何 1 個回答，請告訴我們原因："
+
+    ###########################################################################
+    # Response
+    ###########################################################################
+
+    - key: response.completion
+      t: '完成 {completion}%'
+
+    - key: response.details
+      t: {startedAt} 開始，完成 {completion}%。
+
+    - key: response.view_results
+      t: 查看結果
+
+    ###########################################################################
+    # Survey-Specific Intros
+    ###########################################################################
+
+    - key: general.js2020.survey_intro
+      t: |
+          2020 has been a tough year for everyone, one that makes worrying about the
+          latest JavaScript frameworks seem pretty futile in comparison.
+
+          Still, the world has to move on, and so does JavaScript. And once again, with your help
+          we'll try to build a comprehensive picture of the ecosystem to find out a little bit more
+          about where it's going.
+
+    - key: general.css2021.survey_intro
+      t: |
+          Hey CSS, what have you been up to lately? Oh really, `@container`? Oh and
+          intrinsic sizing? And `@property` too?! Wow, you've been busy!
+
+          Even though the pandemic kept on making everybody's lives harder throughout 2021, somehow
+          dedicated contributors around the world managed to keep CSS moving forward.
+          And so once more it's time to survey the CSS ecosystem and figure out
+          where this is all going. And maybe learn about a few new things while you're at it!
+
+    - key: general.js2021.survey_intro
+      t: |
+          First the 2020 Olympics got pushed back to 2021,
+          and now the 2021 State of JavaScript survey is happening now, in 2022!
+
+          It's true: between work, family, and and all the turmoil in the world,
+          some things got disrupted a little.
+
+          But while the year may be off-by-one, we hope the data provided by the
+          survey itself will be just as informative and insightful as ever.
+          And don't worry, there will be another survey towards the end of this year to set things straight again!
+
+    - key: general.graphql2022.survey_intro
+      t: |
+          When GraphQL was first introduced it offered a radically new way to build APIs, with more control, more granularity, and more flexibility.
+
+          But that flexibility came at a price in the form of extra complexity, and a crop of frameworks, libraries, and services quickly appeared to help define better patterns and workflows.
+
+          Now, for the first time ever we're surveying the GraphQL community to figure out which of these many tools are the most popular, and which features are actually being used. With your help, let's see what GraphQL has been up to in 2022!
+
+    - key: general.css2022.survey_intro
+      t: |
+          CSS 持續以空前的速度進化。不只是有新功能和屬性，甚至還有巢狀結構與階層圖層等新功能，讓語言基礎獲得重組與改進。
+
+          今年，我們很幸運地，獲得站在這些改變最前線的人士協助：W3C 工作小組成員 [Lea Verou](https://lea.verou.me/) 來選擇今年的調查問題，特別專注在矚目的 CSS 新功能，或是即將到來的。
+
+          還有，調查結果會協助瀏覽器開發廠商，把未來藍圖進行排序，使得瀏覽器之間的相容更好。
+
+          帶著以上提到的，開始看看 CSS 在 2022 如何進化吧！
+
+    ###########################################################################
+    # Survey-Specific FAQs
+    ###########################################################################
+
+    - key: faq.learn_more_css2022
+      t: 哪裡可以深入瞭解？
+    - key: faq.learn_more_css2022.description
+      t: 可以[在這裡深入瞭解去年的調查](https://2021.stateofcss.com/en-US/about/)。
+
+    - key: faq.survey_design_css2022
+      t: 這份調查是怎麼設計的？
+    - key: faq.survey_design_css2022.description
+      t: 今年，感謝來自 Google 的 [UI Fund](https://web.dev/ui-fund/) 補助，使得 [Lea Verou](https://lea.verou.me/) 得以帶領，並且在 Github 上面，管理這份[開放調查設計流程](https://github.com/orgs/Devographics/projects/1/views/1)。
+
+    - key: faq.results_released_css2022
+      t: 哪時候會釋出結果？
+    - key: faq.results_released_css2022.description
+      t: 這份調查會持續到 2022 年 10 月 20 日，而調查結果會在 11 月上旬公開。
+
+    - key: faq.data_used_css2022
+      t: 資料會怎麼利用？
+    - key: faq.data_used_css2022.description
+      t: 所有蒐集到的資料都會公開釋出。接著，會成為開發者的查詢資源，用在技術選擇。還有瀏覽器開發廠商，會用來排序專注區域，用在未來藍圖。

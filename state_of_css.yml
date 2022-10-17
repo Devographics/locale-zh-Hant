@@ -15,7 +15,7 @@ translations:
 
           因此，每年舉辦的 [JavaScript 現況調查](https://stateofjs.com) 成功後，我們決定發掘樣式與選擇器的世界，幫助大家找到最新的潮流，知道接下來要學習和使用的工具！
 
-    - key: general.results.description
+    - key: general.state_of_css.description
       t: 每年舉辦的 CSS 最新趨勢調查。
 
     ###########################################################################
@@ -57,6 +57,21 @@ translations:
     - key: sections.media_queries.description
       t: 讓網站相容於使用者裝置或偏好的方式。
 
+    - key: sections.selectors.title
+      t: 選擇器
+    - key: sections.selectors.description
+      t: CSS 選擇器。
+
+    - key: sections.colors.title
+      t: 顏色
+    - key: sections.colors.description
+      t: 顏色相關的功能
+
+    - key: sections.javascript_apis.title
+      t: JavaScript API
+    - key: sections.javascript_apis.description
+      t: 用來控制或互補 CSS 的 JavaScript API。
+
     - key: sections.other_features.title
       t: 其他功能
     - key: sections.other_features.description
@@ -74,6 +89,14 @@ translations:
 
     - key: sections.pre_post_processors_others.title
       t: 其他預/後處理器
+
+    - key: tools_others.pre_post_processors
+      aliasFor: sections.pre_post_processors.title
+    - key: tools_others.pre_post_processors.description
+      aliasFor: sections.pre_post_processors.description
+
+    - key: tools_others.pre_post_processors.others
+      aliasFor: sections.pre_post_processors_others.title
 
     - key: sections.css_frameworks.title
       t: CSS 框架
@@ -108,6 +131,15 @@ translations:
       t: 環境
     - key: sections.environments.description
       t: 撰寫 CSS 的時候，會斟酌哪些環境和無障礙設計要素？
+    - key: sections.usage_css.title
+      t: CSS 用法
+    - key: sections.usage_css.description
+      t: 如何使用 CSS。
+
+    - key: sections.resources_css.title
+      t: 資源
+    - key: sections.resources_css.description
+      t: 從哪裡查詢 CSS 資源？
 
     ###########################################################################
     # Options
@@ -248,86 +280,30 @@ translations:
 
     # layout
 
-    - key: features.grid
-      t: CSS Grid
-    - key: features.subgrid
-      t: Subgrid
     - key: features.regions
       t: CSS Regions
-    - key: features.flexbox
-      t: Flexbox
     - key: features.multi_column
       t: CSS 多欄排版 (Multi-Column)
     - key: features.writing_modes
       t: CSS 書寫模式 (Writing Modes)
     - key: features.exclusions
       t: CSS 排除條件
-    - key: features.position_sticky
-      t: '<code>position: sticky</code>'
-    - key: features.logical_properties
-      t: 邏輯參數 (Logical Properties)
-    - key: features.logical_properties.description
-      t: <code>margin-block-start</code>、<code>padding-inline-end</code>⋯等。
-    - key: features.aspect_ratio
-      t: <code>aspect-ratio</code>
-    - key: features.content_visibility
-      t: <code>content-visibility</code>
     - key: features.flexbox_gap
       t: Flexbox 的 gap 屬性
-    - key: features.break_rules
-      t: 斷行規則
-    - key: features.break_rules.description
-      t: <code>break-inside</code>、<code>break-before</code> 和 <code>break-after</code>
-    - key: features.at_container
-      t: 容器 Query
-    - key: features.at_container.description
-      t: <code>@container</code> query
 
     # shapes & graphics
     - key: features.shapes
       t: CSS 形狀 (Shape)
-    - key: features.object_fit
-      t: <code>object-fit</code>
-    - key: features.clip_path
-      t: <code>clip-path</code>
     - key: features.masks
       t: CSS 遮罩 (Mask)
     - key: features.blend_modes
       t: 混合模式 (Blend Modes)
-    - key: features.blend_modes.description
-      t: <code>mix-blend-mode</code> 參數
     - key: features.filter_effects
       t: CSS 濾鏡效果
-    - key: features.backdrop_filter
-      t: <code>backdrop-filter</code>
 
     - key: features.intrinsic_sizing
       t: 內容物尺寸 (Intrinsic Sizing)
-    - key: features.intrinsic_sizing.description
-      t: <code>min-content</code>、<code>max-content</code> 和 <code>fit-content</code>
-    - key: features.repeating_linear_gradient
-      t: <code>repeating-linear-gradient()</code>
-    - key: features.conic_gradient
-      t: <code>conic-gradient()</code>
-    - key: features.color_function
-      t: <code>color()</code>
 
-    - key: features.accent_color
-      t: <code>accent-color</code>
-
-    # interactions
-    - key: features.scroll_snap
-      t: CSS Scroll Snap
-    - key: features.overscroll_behavior
-      t: <code>overscroll-behavior</code>
-    - key: features.overflow_anchor
-      t: <code>overflow-anchor</code>
-    - key: features.touch_action
-      t: <code>touch-action</code>
-    - key: features.pointer_events
-      t: <code>pointer-events</code>
-    - key: features.scroll_timeline
-      t: <code>scroll-timeline</code>
 
     # typography
     - key: features.web_fonts
@@ -336,22 +312,6 @@ translations:
       t: 可變換字型 (Variable fonts)
     - key: features.line_breaking
       t: 換行參數 (Line breaking)
-    - key: features.line_breaking.description
-      t: <code>overflow-wrap</code>, <code>word-break</code>, <code>line-break</code>, <code>hyphens</code>
-    - key: features.font_variant
-      t: <code>font-variant-*</code>
-    - key: features.initial_letter
-      t: <code>initial-letter</code>
-    - key: features.font_variant_numeric
-      t: <code>font-variant-numeric</code>
-    - key: features.font_display
-      t: <code>font-display</code>
-    - key: features.line_clamp
-      t: <code>line-clamp</code>
-    - key: features.leading_trim
-      t: <code>leading-trim</code>
-    - key: features.direction
-      t: <code>direction</code>
     - key: features.direction.description
       t: 也包含 <code>dir</code> HTML 屬性.
 
@@ -362,31 +322,10 @@ translations:
       t: CSS 變形 (Transform)
     - key: features.animations
       t: CSS 動畫 (Animation)
-    - key: features.perspective
-      t: <code>perspective</code>
 
     # media queries/accessibility
-    - key: features.feature_support_queries
-      t: 功能支援判別 (Feature Support Queries) (<code>@supports</code>)
-    - key: features.prefers_reduced_motion
-      t: <code>prefers-reduced-motion</code>
-    - key: features.prefers_color_scheme
-      t: <code>prefers-color-scheme</code>
-    - key: features.color_gamut
-      t: <code>color-gamut</code>
-
-    - key: features.prefers_reduced_data
-      t: <code>prefers-reduced-data</code>
     - key: features.tabindex
       t: <code>tabindex</code> HTML attribute
-    - key: features.tabindex.description
-      t: <code>&lt;div tabindex="0"&gt;</code>
-
-    - key: features.color_contrast
-      t: <code>color-contrast()</code>
-
-    - key: features.color_scheme
-      t: <code>color-scheme</code>
 
     - key: features.aria_attributes
       t: HTML 屬性：ARIA
@@ -398,27 +337,11 @@ translations:
       t: CSS 變數（自訂參數）
     - key: features.containment
       t: CSS Containment
-    - key: features.will_change
-      t: <code>will-change</code>
-    - key: features.calc
-      t: <code>calc()</code>
-    - key: features.houdini
-      t: Houdini
     - key: features.comparison_functions
       t: CSS 比較函式 (Comparison Functions)
-    - key: features.comparison_functions.description
-      t: <code>min()</code>、<code>max()</code> 和 <code>clamp()</code>
 
-    - key: features.at_property
-      t: Houdini 自訂屬性
-    - key: features.at_property.description
-      t: <code>@property</code>
-    - key: features.at_layer
-      t: <code>@layer</code>
-    - key: features.content_visibility
-      t: <code>content-visibility</code>
-    - key: features.marker
-      t: 偽元素 <code>::marker</code>
+    - key: features.css_nesting.description
+      t: 原生的 CSS 巢狀結構，不包和預或後處理器。
 
     # missing features (see also options)
     - key: features.nesting
@@ -638,6 +561,14 @@ translations:
     - key: options.form_controls.required_optional
       t: :required 和 :optional
 
+   # slider
+    - key: options.css_js_balance.0
+      t: 100% CSS
+    - key: options.css_js_balance.4
+      t: 50%/50%
+    - key: options.css_js_balance.8
+      t: 100% JS
+
     ###########################################################################
     # Environments
     ###########################################################################
@@ -651,6 +582,10 @@ translations:
       t: 裝置
     - key: environments.form_factors.description
       t: 在哪些裝置上進行測試？
+    - key: environments.form_factors.others
+      t: 其它測試環境 Other Testing Environments
+    - key: environments.form_factors.others.description
+      t: 其它常用來測試的裝置或環境。
 
     - key: environments.accessibility_features
       t: 無障礙設計功能
@@ -728,20 +663,39 @@ translations:
     - key: opinions_others.browser_interoperability_features.others.description
       t: >
         有任何 CSS 功能是因為瀏覽器之間有差異，覺得難以使用的嗎？
+   - key: usage.interoperability_features_freeform.others
+      aliasFor: opinions_others.browser_interoperability_features.others
+    - key: usage.interoperability_features_freeform.others.description
+      aliasFor: opinions_others.browser_interoperability_features.others.description
+
     # Pain Points
     - key: opinions.css_pain_points
       t: CSS 的痛點
     - key: opinions.css_pain_points.description
       t: 從每個比較挑出在 CSS 最掙扎的方面。
 
+    - key: usage.other_pain_points_freeform.others
+      t: 還有其它任何跟撰寫 CSS 有關的痛點嗎？
+
     - key: opinions_others.css_pain_points.others
       t: 其他的 CSS 痛點
+    # Interop 2023
+    - key: usage.interop_features
+      t: Interop 2023 未來藍圖
+    - key: usage.interop_features.description
+      t: 最想要瀏覽器改進以下哪些功能？（挑選 3 個）
+    - key: usage.interop_features.note
+      t: >
+         [Interop 2023](https://github.com/web-platform-tests/interop/issues?q=is%3Aissue+is%3Aopen+label%3Afocus-area-proposal) 是瀏覽器開發廠商共同合作，用以修正問題與不相容之處。這份調查的結果，會成為幫助工作小組將專注項目排序的資料來源之一。
 
     # Missing Features
     - key: opinions.currently_missing_from_css
       t: 覺得 CSS 目前缺了什麼？
     - key: opinions.currently_missing_from_css.description
-      t: 從每個比較挑出最有可能現在就使用的 CSS 功能。
+      t: 從每個比較挑出：最有可能現在就使用的 CSS 功能。
+    - key: usage.missing_features_freeform.others
+      t: 整體來說，覺得現在 CSS，還缺少了哪些功能？
+
     - key: opinions_others.currently_missing_from_css.others
       t: 其他還缺的功能
     - key: opinions_others.currently_missing_from_css.others.note
@@ -787,6 +741,10 @@ translations:
       t: Features Missing From CSS (Matchups)
     - key: currently_missing_from_css.currently_missing_from_css_matchups.description
       t: CSS 的哪個功能，是最想要現在就可以使用的？左手邊的項目對上上方的項目時，獲勝次數的百分比。
+   - key: usage.css_js_balance
+      t: CSS 與 JavaScript 的平衡
+    - key: usage.css_js_balance.description
+      t: 如何分配撰寫 CSS（包含 HTML 語法）與 JavaScript 程式碼的時間？
 
     ###########################################################################
     # Resources
@@ -796,3 +754,34 @@ translations:
       t: CSS 新手上路
     - key: resources.first_steps_css.description
       t: 還在新手上路的時候，當初是怎麼學 CSS 的？
+    # sites & courses
+    - key: resources.sites_courses_css
+      aliasFor: resources.sites_courses
+    - key: resources.sites_courses_css.description
+      t: 有用哪些 CSS 相關的網站/課程…等，來學習 CSS？
+
+    # podcasts
+    - key: resources.podcasts_css
+      aliasFor: resources.podcasts
+    - key: resources.podcasts_css.description
+      t: 有聽哪些 CSS 相關的 Podcast？
+
+    # people
+    - key: resources.people_css.others
+      aliasFor: resources.people.others
+    - key: resources.people_css.others.description
+      t: 有閱讀、追蹤哪些在 CSS 生態圈的人嗎？或者想要特別提出來。
+
+    ###########################################################################
+    # Survey Help
+    ###########################################################################
+
+    - key: features.features_intro_css
+      t: |
+          歡迎進入調查！首先會專注在你/妳知道哪些 CSS **功能**。
+
+          順道一提，如果想要對回答進一步說明，可以按下那顆「留言」圖示！
+
+    - key: tools.tools_intro_css
+      t: |
+          接下來的幾個區塊，專注在活躍於 CSS 生態圈的**函示庫**與**框架**。請讓我們知道會令你/妳振奮的事情！
