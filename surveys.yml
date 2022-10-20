@@ -98,7 +98,7 @@ translations:
       t: 重新來過
     - key: bracket.winner
       t: >
-      獲勝：
+        獲勝：
     - key: bracket.round
       t: 回合
     - key: bracket.empty_bracket
@@ -125,7 +125,7 @@ translations:
       t: '完成 {completion}%'
 
     - key: response.details
-      t: {startedAt} 開始，完成 {completion}%。
+      t: "{startedAt} 開始，完成 {completion}%。"
 
     - key: response.view_results
       t: 查看結果

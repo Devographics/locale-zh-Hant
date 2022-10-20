@@ -663,7 +663,7 @@ translations:
     - key: opinions_others.browser_interoperability_features.others.description
       t: >
         有任何 CSS 功能是因為瀏覽器之間有差異，覺得難以使用的嗎？
-   - key: usage.interoperability_features_freeform.others
+    - key: usage.interoperability_features_freeform.others
       aliasFor: opinions_others.browser_interoperability_features.others
     - key: usage.interoperability_features_freeform.others.description
       aliasFor: opinions_others.browser_interoperability_features.others.description
@@ -741,7 +741,7 @@ translations:
       t: Features Missing From CSS (Matchups)
     - key: currently_missing_from_css.currently_missing_from_css_matchups.description
       t: CSS 的哪個功能，是最想要現在就可以使用的？左手邊的項目對上上方的項目時，獲勝次數的百分比。
-   - key: usage.css_js_balance
+    - key: usage.css_js_balance
       t: CSS 與 JavaScript 的平衡
     - key: usage.css_js_balance.description
       t: 如何分配撰寫 CSS（包含 HTML 語法）與 JavaScript 程式碼的時間？
