@@ -56,10 +56,10 @@ translations:
     - key: general.preview_survey
       t: 預覽調查 »
     - key: general.finish_survey
-      t: 完成 »
+      t: 完成
     - key: general.next_section
       t: 下一段
-    - key: general.prev_section
+    - key: general.previous_section
       t: 上一段
     - key: general.survey_closed
       t: 此調查已經結束。
