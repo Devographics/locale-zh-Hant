@@ -137,7 +137,7 @@ translations:
     # Conclusion
     ###########################################################################
 
-    - key: sections.conclusion.description
+    - key: conclusion.css2021
       t: |
             <span class="first-line">寫 CSS 的方法，會出現前所未有的變化</span>
 
@@ -153,7 +153,7 @@ translations:
 
             總結來說，代表 2022 會是撰寫 CSS 方法徹底改變的一年。這是令人無比振奮的時期，我們期待來年所有令人驚豔的實做。
 
-    - key: conclusion.bio
+    - key: conclusion.css2021.bio
       t: Polypane 的網頁開發者與創作者
 
     ###########################################################################
