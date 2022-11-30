@@ -526,7 +526,7 @@ translations:
     t: 抱歉，這組資料還沒有辦法輸出 CSV。
   - key: export.graphql
     t: >
-        可以把這組查詢複製貼上到我們的<a target="_blank" rel="nofollow" href="http://graphiql.stateofjs.com/">公開 GraphQL API</a>。
+        可以把這組查詢複製貼上到我們的<a target="_blank" rel="nofollow" href="https://graphiql.devographics.com/">公開 GraphQL API</a>。
   - key: export.export_json
     t: 取得 JSON 資料
   - key: export.export_graphql

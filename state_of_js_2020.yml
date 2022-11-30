@@ -12,7 +12,7 @@ translations:
     # Introduction
     ###########################################################################
 
-    - key: sections.introduction.description
+    - key: introduction.js2020
       t: |
 
             <span class="first-letter">儘</span>管 2020 年不是那麼順遂，整體來說 JavaScript 仍舊持續向上發展。Optional Chaining 和 Nullish Coalescing 這些新功能持續釋出，另一方面 TypeScript 將靜態型別的應用推展至新的境界。

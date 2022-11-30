@@ -4,7 +4,7 @@ translations:
     # Introduction
     ###########################################################################
 
-    - key: sections.introduction.description
+    - key: introduction.css2020
       t: |
 
             <span class="first-letter">可</span>以忘掉你所知道的 CSS。或者，至少準備好重新看待它。如果你和我一樣，已經寫 CSS 超過 10 年，相信我，2020 的 CSS 已經不是我們習以為常的樣子了。

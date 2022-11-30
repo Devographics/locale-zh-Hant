@@ -4,7 +4,7 @@ translations:
     # Introduction
     ###########################################################################
 
-    - key: sections.introduction.description
+    - key: introduction.css2021
       t: |
 
             <span class="first-letter">木</span>工得要每幾年就要學新的、更好的鋸木板方法嗎？畫家會因為還在用油畫，而覺得心虛嗎？還是說，就只有我們前端開發者才可以體會這樣經常變化的情況？
