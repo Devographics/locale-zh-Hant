@@ -17,23 +17,23 @@ translations:
     - key: introduction.js2022
       t: |
 
-            <span class="first-letter">A</span>fter years of relative stability, many are now beginning to question the status quo.
+            <span class="first-letter">經</span>過幾年相對穩定的發展，許多人開始對現狀感到好奇。
 
-            New front-end frameworks like Solid and Qwik are suggesting that React might not have all the answers after all, and on the server Astro, Remix and Next.js (among others) are making us reconsider how much code we really need to ship to the client.
+            Solid 與 Qwik 這些新一代前端框架的出現，或許暗示了 React 仍有不足之處。而 Remix 與 Next.js 則讓我們重新思考：真正需要放到客戶端的程式碼有多少？
 
-            We'll need all the data we can get if we want to make sense of all this, and in fact this year's survey received a massive **39,472** responses, almost double last year's amount!
+            我們需要更多資料才能釐清這些問題，好在今年的調查收到了 **39,472** 份回應，幾乎是去年的兩倍！
 
-            Because of this newly expanded audience you might notice some unexpected results, such as some features going down year-over-year in terms of awareness or usage.
+            由於填答人數眾多，你可能會發現某些出乎預料的結果，例如：某些功能為人知曉或實際使用的比例正逐年減少。
 
-            But having more data can potentially mean new insights, and that's why we've developed two new ways to interact with our dataset: the **Data Explorer** lets you cross-reference two variables and highlight any outlying results; while **Chart Filters** let you filter specific charts by salary, country, gender, and many other demographic variables.
+            更多資料代表著更多新的發現，這也是為什麼我們這次提供了兩種新的方式讓大家跟資料互動：**Data Explorer** 讓你交叉比對兩種變數，並標記異常結果；**Chart Filters** 讓你以薪水、國家、性別，以及其他人口統計變數過濾特定的圖表。
 
-            We've also replaced our catch-all "back-end" category with a more specific **Rendering Frameworks** page and added a new **Video Creators** list to the Resources section.
+            另外，我們也把先前較籠統的「後端」分類改成**渲染框架**頁面，並在資源區加上**影片創作者**列表。
 
-            Finally, Features and Libraries questions also now have a **Comments** popup that lets you see what people actually think of the items mentioned in the survey!
+            最後，功能與套件的問題多了**評論**彈窗，讓你能夠看到其他人對調查裡提到的項目是怎麼想的！
 
-            With all this out of the way, let's discover what JavaScript has been up to in 2022!
+            話不多說，讓我們一起看看 JavaScript 2022 年在忙些什麼吧！
 
-            <span class="conclusion__byline">– Sacha Greif</span>
+            <span class="conclusion__byline">—— Sacha Greif</span>
 
     ###########################################################################
     # Tshirt
@@ -191,17 +191,17 @@ translations:
 
     - key: conclusion.js2022
       t: |
-            <span class="first-line">JavaScript and TypeScript are more vibrant than ever.</span>
+            <span class="first-line">JavaScript 與 TypeScript 的發展變得比以往都還要蓬勃。</span>
 
-            We saw a continuation of performance-lead innovations, many in reactivity and hydration (or the lack thereof). For example, [Svelte](https://www.youtube.com/watch?v=AdNJ3fydeao) took on simplicity in developer ergonomics and leaned into the compiler. Solid’s explored [new approaches to reactivity](https://www.youtube.com/watch?v=2iK9zzhSKo4), while Qwik [shifted our mental model with resumability](https://www.youtube.com/watch?v=Zddw6qy5pf0).
+            效能導向的創新持續在進行，不論以 reactivity 或 hydration 的角度來看皆是。舉例來說，[Svelte](https://www.youtube.com/watch?v=AdNJ3fydeao) 為了維持簡潔的開發體驗著重發展其編譯器。Solid [對 reactivity 的探索有了新的方向](https://www.youtube.com/watch?v=2iK9zzhSKo4)。Qwik [改變了我們對 resumability 的認知]((https://www.youtube.com/watch?v=Zddw6qy5pf0))。
 
-            Innovation is also exciting to see in multi-platform solutions like Tauri, Ionic and Flutter, which opens the door to see applications that span across even more platforms.
+            跨平台的解決方案也有令人振奮的創新，像 Tauri、Ionic 與 Flutter 都讓應用程式能夠跨足更多平台。
 
-            We see globally distributed talent- like Nigeria and now India [having the highest developer growth on GitHub](https://octoverse.github.com/2022/global-tech-talent). Around the world, there are amazing projects like Segun Adebayo's [Chakra UI](https://chakra-ui.com/), or Liyas Thomas's [Hoppscotch](https://hoppscotch.io/), and folks supporting other people’s growth and learning like Ada Nduka Oyom who founded [SheCodeAfrica](https://shecodeafrica.org/), a non-profit organization that has helped empower over 17K women across Africa.
+            放眼世界，各地都有優秀的人才，目前[在 GitHub 增長最快](https://octoverse.github.com/2022/global-tech-talent)的是奈及利亞與印度的開發者。全球都有令人驚嘆的專案，例如 Segun Adebayo 的 [Chakra UI](https://chakra-ui.com/)、Liyas Thomas 的 [Hoppscotch](https://hoppscotch.io/)，以及幫助他人成長學習的好夥伴，像 Ada Nduka Oyom 就創立了非營利組織 [SheCodeAfrica](https://shecodeafrica.org/)，目前已為超過一萬七千位非洲女性賦權。
 
-            When we look at established frameworks like React, Angular, or Vue we often see a drop in satisfaction, and people may wonder what it means for the future. I believe that this decline is a function of the tool being battle-tested and used in production, of finding the rough edges and experiencing the trade-offs every tool has. It’s a sign of maturity and clear-eyed appreciation for what these tools can offer. They will also learn from innovation in the space and continue to evolve.
+            當我們檢視 React、Angular 或 Vue 這些既有的框架時，常發現一個情形：開發者滿意度下降。有人可能為此感到疑惑，但我認為這是開發工具接受前端戰場與生產環境的洗禮後導致的現象。這同時也反映了每種工具都有其極限，我們必須在各種情境下作出權衡取捨。下降的滿意度反倒象徵這些工具趨於成熟，也代表開發者能欣賞其帶來的寶貴價值。它們會在創新中學習，持續發展茁壯。
 
-            Finally, I couldn’t be happier to see Vite’s absolute resounding presence in the award section for the second year in a row. Build and serve tech is truly making massive strides and we all benefit from this hard work. Bravo!
+            最後，我很高興看到 Vite 連續兩年蟬聯得獎區。建置相關技術正闊步向前，而我們也得益於此。太棒了！
 
 
     - key: conclusion.js2022.bio
