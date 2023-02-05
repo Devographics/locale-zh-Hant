@@ -26,15 +26,15 @@ translations:
 
     - key: introduction.css2022
       t: |
-          <span class="first-letter">W</span>e thought CSS had already evolved into a pretty formidable language thanks to advancements like Flexbox, Grid, and CSS Variables. But it turns out this wasn't even its final form.
+          <span class="first-letter">本</span>來以為 CSS 已經靠著 Flexbox、Grid 和 CSS 變數等強化，進化成強大的語言。結果，這還不是它的最終型態。
 
-          Parent selector, native nesting, container queries, cascade layers… The list of absolutely game-changing features coming imminently is pretty shocking when you think about it.
+          上層選擇器、原生巢狀結構、Container Queries、Cascade Layers... 想到就令人訝異：清單上，改變遊戲規則的功能已經即將到來。
 
-          Thankfully, we have the best guide you could ask for to help us navigate these waters: [Lea Verou](http://lea.verou.me/) has taken the lead on this year's survey design, and the result is a survey that will hopefully encompass all the key innovations you should be aware of.
+          而令人由衷感謝的是，在渡過這些水域時，有最好的嚮導協助引領前進：[Lea Verou](http://lea.verou.me/) 主持今年的調查設計，期待的成果是：這份調查可以涵蓋所有令人注目的關鍵新發明。
 
           <span class="conclusion__byline">– Sacha Greif</span>
 
-          P.S. Also new this year: we gave respondents the ability to **leave comments** on any feature or library mentioned in the survey! Make sure to look up these comments in each chart's sidebar.
+          P.S. 也是今年的才開始的：我們讓答題者可以在調查裡任何提到的功能或函式庫進行留言！務必要在各個圖表的側邊欄看一下留言。
 
     ###########################################################################
     # Tshirt
@@ -128,18 +128,19 @@ translations:
 
     - key: conclusion.css2022
       t: |
-          <span class="first-line">[Last year](https://2021.stateofcss.com/en-US/conclusion/), Kilian predicted that the way we write CSS was about to change forever, and this year's results validate his prediction.</span>
 
-          [Interop 2022](https://wpt.fyi/interop-2022) has brought browsers together working towards the same goals, and several features went from "this will never happen" to "this is now happening". Parent selectors (`:has()`) and container queries (`@container`) are two big ones in that category. For years it was hammered into developers that these could not  happen due to performance implications, yet it turned out that both were possible.
+          <span class="first-line">[去年](https://2021.stateofcss.com/en-US/conclusion/)，Kilian 預測我們撰寫 CSS 的方法會開始永遠改變，而今年的結果證實他的預測。</span>
 
-          Subgrid on the other hand was always on the roadmap, it was just a very big chunk of work. It is now supported by both Firefox and Safari, and being actively implemented in Chrome, so we will probably see much higher usage next year.
+          [Interop 2022](https://wpt.fyi/interop-2022) 把瀏覽器齊聚一堂，朝著相同目標努力，有些功能從「這不可能發生」變成了「這正在進行」。上層選擇器 (`:has()`) 和 Container Queries (`@container`) 是其中兩個最大聲的。多年以來，效能因素讓開發者們根深蒂固地認為這些不可能實現。只不過，到頭來兩者還是有可能的。
 
-          I predict that the stars of 2023 will be native Nesting, and color manipulation.
-          Nesting is currently [the primary reason](https://twitter.com/leaverou/status/806936438797307904) people still use preprocessors, so being able to rely on it natively will be incredibly freeing.
+          另一方面，Subgrid 就一直停留在藍圖上，因為這是非常龐大的工作。現在，已經支援 Firefox 和 Safari，並且積極地在 Chrome 實做。因此，可以期待明年可能有更高的使用率。
 
-          Working with color in CSS is also about to get a lot more exciting. There is a swath of features being implemented across the board as we speak. By the end of 2023, we will probably be able to rely on wide gamut colors and device independent colors (`color()`, `lab()`, `lch()`, `oklab()`, `oklch()`), and we'd be able to manipulate them in a basic way through `color-mix()`.
+          我預測 2023 年的明星是原生巢狀結構，還有顏色控制。
+          巢狀結構目前是大家還在使用預處理器的[最主要原因](https://twitter.com/leaverou/status/806936438797307904)，所以，能夠原生使用的話，是重大的鬆綁。
 
-          All of this together means that 2023 is likely to be a very exciting year for CSS. I look forward to all the amazing implementations to come, whether my predictions turn out to be correct or not. What a fantastic time to be writing CSS!
+          使用 CSS 顏色也極將要令人振奮起來。就在這時候，有一長串會造成全面影響的功能正在實做。2023 年結束之前，我們可能在使用著廣色域、各別裝置的顏色 (`color()`, `lab()`, `lch()`, `oklab()`, `oklch()`)，透過 `color-mix()` 控制顏色已經是基本常識。
+
+          綜合以上，代表 2023 年對 CSS 來說，很可能非常振奮的一年。不管我的預測是否正確，還是期望這些令人驚艷的實做到來。真是個寫 CSS 的美好時代！
 
     - key: conclusion.css2022.bio
       t: W3C 技術架構小組成員，MIT CSAIL
