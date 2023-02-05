@@ -173,21 +173,20 @@ translations:
     t: 糖尿病
   - key: options.disability_status_others.carpal_tunnel
     t: 腕隧道症
-    t: Carpal Tunnel
   - key: options.disability_status_others.migraine
-    t: Migraine
+    t: 偏頭痛
   - key: options.disability_status_others.speech_impairment
-    t: Speech Impairment
+    t: 言語障礙
   - key: options.disability_status_others.ocd
     t: OCD
   - key: options.disability_status_others.chronic_pain
-    t: Chronic Pain
+    t: 慢性疼痛
   - key: options.disability_status_others.chronic_fatigue
-    t: Chronic Fatigue
+    t: 慢性疲勞
   - key: options.disability_status_others.crohn
-    t: Crohn's Disease
+    t: 克隆氏症
   - key: options.disability_status_others.depression
-    t: Depression
+    t: 憂鬱症
 
   ###########################################################################
   # Sections

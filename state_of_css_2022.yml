@@ -108,7 +108,7 @@ translations:
     #   t: No other tool comes even close to Tailwind CSS's dramatic **{value}** progression over the last year.
 
     - key: award.most_commented_feature_award.comment
-      t: **{value}** 筆對 Subgrid 的留言，遠遠超越其它功能可以引起的討論。
+      t: 有 **{value}** 筆對 Subgrid 的留言，遠遠超越其它功能可以引起的討論。
 
     - key: award.tool_satisfaction_award.comment
       t: |
