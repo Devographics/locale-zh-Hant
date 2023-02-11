@@ -57,13 +57,6 @@ translations:
     t: 依性別
 
   ###########################################################################
-  # Block
-  ###########################################################################
-
-  - key: block.data_from
-    t: foo
-
-  ###########################################################################
   # Options
   ###########################################################################
 
@@ -148,6 +141,12 @@ translations:
     t: 論壇
   - key: options.first_steps.view_source
     t: 查看來源
+  - key: options.first_steps.copy_paste
+    t: 複製/貼上
+  - key: options.first_steps.trial_and_error
+    t: Trial & Error
+  - key: options.first_steps.documentation
+    t: 文件
 
   # other disablities
   - key: options.disability_status_others.adhd
@@ -174,6 +173,20 @@ translations:
     t: 糖尿病
   - key: options.disability_status_others.carpal_tunnel
     t: 腕隧道症
+  - key: options.disability_status_others.migraine
+    t: 偏頭痛
+  - key: options.disability_status_others.speech_impairment
+    t: 言語障礙
+  - key: options.disability_status_others.ocd
+    t: OCD
+  - key: options.disability_status_others.chronic_pain
+    t: 慢性疼痛
+  - key: options.disability_status_others.chronic_fatigue
+    t: 慢性疲勞
+  - key: options.disability_status_others.crohn
+    t: 克隆氏症
+  - key: options.disability_status_others.depression
+    t: 憂鬱症
 
   ###########################################################################
   # Sections
@@ -319,6 +332,22 @@ translations:
     t: Korean
   - key: options.locale.ro-RO
     t: Romanian
+  - key: options.locale.am-ET
+    t: Amharic
+  - key: options.locale.ar-EG
+    t: Arabic
+  - key: options.locale.el-GR
+    t: Greek
+  - key: options.locale.gl-ES
+    t: Galician
+  - key: options.locale.hr-HR
+    t: Croatian
+  - key: options.locale.hu-HU
+    t: Hungarian
+  - key: options.locale.sk-SK
+    t: Slovak
+  - key: options.locale.vi-VN
+    t: Vietnamese
 
   ###########################################################################
   # Features
@@ -386,6 +415,28 @@ translations:
     t: 首頁
   - key: blocks.entity.github_link
     t: GitHub
+  - key: blocks.entity.twitter_link
+    t: Twitter
+  - key: blocks.entity.mastodon_link
+    t: Mastodon
+  - key: blocks.entity.blog_link
+    t: 部落格
+  - key: blocks.entity.rss_link
+    t: RSS
+  - key: blocks.entity.twitch_link
+    t: Twitch
+  - key: blocks.entity.npm_link
+    t: npm
+  - key: blocks.entity.youtube_link
+    t: YouTube
+
+  # people
+  - key: blocks.people.name
+    t: 名字
+  - key: blocks.people.social_links
+    t: 連結
+  - key: blocks.people.responses
+    t: 回應
 
   # cardinality
   - key: blocks.all_sections_tools_cardinality_by_user
@@ -479,6 +530,10 @@ translations:
 
   # tools experience ranking
   - key: blocks.tools_experience_ranking
+    t: 逐年排名
+  - key: blocks.tools_experience_ranking.percentages
+    t: 百分比
+  - key: blocks.tools_experience_ranking.rankings
     t: 排名
   - key: blocks.tools_experience_ranking.description
     t: 滿意度、有興趣、實際使用、有聽過比例的排名。
@@ -486,10 +541,17 @@ translations:
     t: |
       少於 10% 聽過的技術不算在內。每個比例的根據：
 
-      - 滿意度： **還會再用** / (**還會再用** + **不會再用**)
+      - 滿意度：**還會再用** / (**還會再用** + **不會再用**)
       - 有興趣：**想要學** / (**想要學** + **沒興趣**)
       - 實際使用：(**還會再用** + **不會再用**) / **全部**
       - 有聽過：(**全部** - **沒聽過**) / **全部**
+  # tools experience linechart
+  - key: blocks.tools_experience_linechart
+    t: 逐年比例
+  - key: blocks.tools_experience_linechart.description
+    t: Retention, interest, usage, and awareness ratio over time.
+  - key: blocks.tools_experience_linechart.note
+    aliasFor: blocks.tools_experience_ranking.note
 
   # happiness
   - key: blocks.happiness
@@ -515,7 +577,9 @@ translations:
     t: 使用程度概要
   - key: blocks.features_overview.description
     t: |
-      這張圖表顯示所有功能個別的採用程度，以分類來區別。<span class="text-teal-darker text-bold">外圍圓圈</span>的大小代表知道某功能的使用者總數，而<span class="text-teal text-bold">內圈</span>代表實際在使用的人數。將滑鼠移到節點上，就可以看到詳細資料，還有代表此問卷答題者總數的<span class="text-blackpink text-bold">區塊</span>。
+      這張圖表顯示所有功能個別的採用程度，以分類來區別。**外圍圓圈**的大小代表知道某功能的使用者總數（有聽過 + 已有使用的回應），而**內圈**代表實際在使用的人數（已有使用的回應）。
+
+      將滑鼠移到節點上，就可以看到詳細資料，包含兩者數值之間的比例。
 
   # export
   - key: export.export
@@ -591,6 +655,10 @@ translations:
   - key: tool_evaluation.tool_evaluation_matchups.description
     t: 評估一款新的函式庫時，因素的優先順序是？左手邊的項目對上上方的項目時，獲勝次數的百分比。
 
+  # other
+  - key: blocks.freeform
+    t: (自由填答問題)
+
   ###########################################################################
   # Charts
   ###########################################################################
@@ -605,9 +673,13 @@ translations:
     t: "% 問題回應者"
   - key: chart_units.percentage_survey
     t: "% 調查答題者"
+  - key: chart_units.percentage_bucket
+    t: "% of bucket"
+  - key: chart_units.average
+    t: 平均
 
   - key: charts.average
-    t: Average
+    t: 平均
   - key: charts.mean
     t: Mean
   - key: charts.overall
@@ -633,6 +705,8 @@ translations:
     t: 使用者百分比
   - key: charts.axis_legends.users_count
     t: 使用者數量
+  - key: charts.axis_legends.users_average
+    t: 平均
   - key: charts.axis_legends.interest_percentage
     t: 有興趣百分比
   - key: charts.axis_legends.satisfaction_percentage
@@ -662,6 +736,8 @@ translations:
     t: "% 調查答題者"
   - key: charts.axis_legends.users_percentage_question
     t: "% 問題回應者"
+  - key: charts.axis_legends.users_percentage_bucket
+    t: "% of bucket respondents"
 
   - key: charts.ranges_multiple_diverging_lines.baseline
     t: 基線
@@ -705,6 +781,26 @@ translations:
 
   - key: charts.no_answer
     t: 沒有回答
+
+  - key: charts.tick.links
+    t: 連結
+
+  ###########################################################################
+  # Comments
+  ###########################################################################
+
+  - key: comments.comments
+    t: 留言
+  - key: comments.comments_for
+    t: “{name}” 的留言
+  - key: comments.description
+    t: |
+      These comments were submitted as part of the survey
+      through an optional freeform text field next to the main question.
+  - key: comments.report_abuse
+    t: 回報留言
+  - key: comments.share
+    t: 分享留言
 
   ###########################################################################
   # Sharing
@@ -868,6 +964,17 @@ translations:
   - key: award.most_write_ins_award.description
     t: 頒發給最多自行填答的項目。
 
+  - key: award.most_commented_feature_award.title
+    t: 最多留言的功能
+  - key: award.most_commented_feature_award.description
+    t: Awarded to the feature which received the most comments.
+
+
+  - key: award.most_commented_tool_award.title
+    t: 最多留言的函式庫
+  - key: award.most_commented_tool_award.description
+    t: Awarded to the library which received the most comments.
+
   ###########################################################################
   # Hints
   ###########################################################################
@@ -915,6 +1022,10 @@ translations:
   - key: hints.bracket_hint
     t: >
       <span class="hint-bracket"><span class="hint-text">以下圖表是以 8 名參賽者淘汰賽風格的結果，答題者從每次的比較挑選獲勝方，直到選出最終優勝。</span><span class="hint-diagram"/></span>
+
+  - key: hints.comments_hint
+    t: >
+      <span class="hint-icon hint-comment-button">留言</span>分頁可以看到調查答題者，在填寫調查時，留下的回應。
 
 ###########################################################################
   # Sponsor Chart
@@ -981,7 +1092,7 @@ translations:
     t: 捐贈是公開的嗎？
 
   - key: sponsor.faq.public.description
-    t: 沒錯。你/妳的 **Twitter 使用者名稱**和**捐贈數目**會公開地在圖表旁邊顯示。
+    t: 沒錯。你/妳的 **Twitter 使用者名稱**和**捐贈數字**會公開地在圖表旁邊顯示。
 
   # - key: sponsor.faq.donation_public.title
   #   t: Can I donate on somebody else's behalf?
@@ -1006,3 +1117,296 @@ translations:
 
   - key: sponsor.faq.feedback.description
     t: 可以[在 GitHub](https://github.com/StateOfJS/Monorepo/issues/69) 或 [Discord](https://discord.gg/tuWRUWVyJs)。
+###########################################################################
+  # Data Explorer
+  ###########################################################################
+
+  - key: sections.data_explorer.title
+    t: Data Explorer
+  - key: sections.data_explorer.description
+    t: |
+      挑選 2 個問題，動態探索調查的閱聽眾，並查看其中答題者的分布情況。
+
+  - key: hints.data_explorer
+    t: |
+      這款全新的 Data Explorer 還是預覽版本。如果發現任何問題，或資料不一致的地方，請[讓我們知道]({issueLink})。
+
+  # heading
+
+  - key: explorer.main_heading
+    t: “{xAxisLabel}” vs “{yAxisLabel}”
+
+  - key: explorer.total_respondents
+    t: |
+      (全部共有 **{totalCount}** 位答題者)
+
+  - key: explorer.count_per_dot
+    t: |
+      {respondentsPerDot} 位答題者
+  - key: explorer.percentage_per_dot
+    t: |
+      {percentsPerDot}%
+  - key: explorer.extra_respondents
+    t: 額外答題者
+  - key: explorer.missing_respondents
+    t: 失去答題者
+
+  - key: explorer.count_per_dot.tooltip
+    t: |
+      1 個點代表 {respondentsPerDot} 位答題者
+  - key: explorer.percentage_per_dot.tooltip
+    t: |
+      1 個點代表 {percentsPerDot}% 的答題者
+  - key: explorer.extra_respondents.tooltip
+    t: 標注起來的點意思是高於預期的結果。
+  - key: explorer.missing_respondents.tooltip
+    t: 空白的點意思是低於預期的結果。
+
+  - key: explorer.units_count
+    t: 數量
+  - key: explorer.units_percentage
+    t: "% of Row"
+
+  - key: explorer.edit
+    t: 編輯參數…
+
+  - key: explorer.get_data
+    t: 取得資料…
+
+  # loading
+
+  - key: explorer.loading.1
+    t: Querying API…
+  - key: explorer.loading.2
+    t: Waiting for a response…
+  - key: explorer.loading.3
+    t: Still working…
+  - key: explorer.loading.4
+    t: Hang on just a little bit longer…
+  - key: explorer.loading.5
+    t: Sorry, this is taking a while. You can try waiting a little longer, or [report an issue]({issueLink}).
+  - key: explorer.timeout
+    t: Timeout
+  - key: explorer.timeout.description
+    t: The API didn't respond in time. Please try again later, or [report an issue]({issueLink}).
+
+  # share
+
+  - key: explorer.share
+    t: 分享…
+  - key: explorer.share.title
+    t: 分享 “{xAxisLabel}” vs “{yAxisLabel}”
+  - key: explorer.share.tweet
+    t: “{xAxisLabel}” vs “{yAxisLabel}” from the {surveyName} {year} survey
+
+  # axis
+
+  - key: explorer.axis_total
+    t: "{totalCount} 位答題者"
+  - key: explorer.axis_percent
+    t: "答題者的 {percentCount}%"
+
+  - key: explorer.x_axis_details
+    t: |
+      Out of all respondents who completed question “{yAxisLabel}”, **{totalCount}** survey respondents picked “{xQuestionLabel}” for “{xAxisLabel}”
+  - key: explorer.y_axis_details
+    t: |
+      **{totalCount}** survey respondents picked “{yQuestionLabel}”
+  - key: explorer.main_legend_count
+    t: |
+      **{totalCount}** respondents, **1** dot = **{respondentsPerDot}** respondents, **{dotsPerLine}** dots per line
+
+  # controls
+  - key: explorer.dots_per_line
+    t: Dots per line
+  - key: explorer.respondents_per_dot
+    t: Respondents per dot
+  - key: explorer.show_cell_counts
+    t: Show cell counts
+
+  - key: explorer.sections.demographics
+    t: 人口統計
+  - key: explorer.sections.features
+    t: 功能
+  - key: explorer.sections.tools
+    t: 函式庫
+
+  - key: explorer.all_fields
+    t: 所有欄位
+  - key: explorer.select_item
+    t: 選擇項目
+
+  # details views
+
+  - key: explorer.count_details.1
+    t: |
+      **{xAxisTotal}** “{xAxisLabel}” respondents selected “{xAnswerLabel}”.
+
+  - key: explorer.count_details.2
+    t: |
+        **{yAxisPercentage}%** of “{yAxisLabel}” respondents selected “{yAnswerLabel}”.
+
+  - key: explorer.count_details.3
+    t: |
+        Applying that percentage to the previous **{xAxisTotal}** respondents figure
+        gives us an expected baseline of **{normalizedCount}** respondents in this intersection.
+
+  - key: explorer.count_details.4_extra
+    t: |
+        The actual count is **{bucketCount}**, and those extra **{normalizedCountDelta}** respondents are *highlighted*.
+
+  - key: explorer.count_details.4_missing
+    t: |
+        The actual count is **{bucketCount}**, and those missing **{normalizedCountDelta}** respondents appear as empty dots.
+
+  - key: explorer.percentage_details.1_extra
+    t: |
+      Overall, **{xAxisPercentage}%** of “{xAxisLabel}” respondents selected “{xAnswerLabel}”, but
+      within **“{yAxisLabel}” respondents who selected “{yAnswerLabel}”** that percentage climbs to  **{bucketPercentage}%**.
+
+  - key: explorer.percentage_details.1_missing
+    t: |
+      Overall, **{xAxisPercentage}%** of “{xAxisLabel}” respondents selected “{xAnswerLabel}”, but
+      within **“{yAxisLabel}” respondents who selected “{yAnswerLabel}”** that percentage drops to  **{bucketPercentage}%**.
+
+  - key: explorer.percentage_details.2_extra
+    t: |
+        Those extra **{normalizedPercentageDelta}%** respondents are *highlighted*.
+
+  - key: explorer.percentage_details.2_missing
+    t: |
+        Those missing **{normalizedPercentageDelta}%** respondents appear as empty dots.
+
+  # - key: explorer.percentage_details.1
+  #   t: |
+  #     **{xAxisPercentage}%** of **{xAxisTotal}** “{xAxisLabel}” respondents selected “{xAnswerLabel}”.
+
+  # - key: explorer.percentage_details.2
+  #   t: |
+  #       **{yAxisPercentage}%** of “{yAxisLabel}” respondents selected “{yAnswerLabel}”.
+
+  # - key: explorer.percentage_details.3
+  #   t: |
+  #       Applying that percentage to the previous **{xAxisTotal}** respondents figure
+  #       gives us an expected baseline of **{normalizedPercentage}%** of respondents in this intersection.
+
+  # - key: explorer.percentage_details.4_extra
+  #   t: |
+  #       The actual percentage is **{bucketPercentage}%**, and those extra **{normalizedPercentageDelta}%** respondents are *highlighted*.
+
+  # - key: explorer.percentage_details.4_missing
+  #   t: |
+  #       The actual count is **{bucketPercentage}%**, and those missing **{normalizedPercentageDelta}%** respondents appear as empty dots.
+
+
+  - key: explorer.extra_missing_respondents
+    t: |
+      ### Extra & Missing Respondents
+
+      The chart above aims to identify areas showing higher-than-expected
+      or lower-than-expected values compared to a calculated baseline.
+
+      For example, assuming there are 1000 CSS Grid users, and that 50% of survey respondents work in a large company,
+      you'd expect to find 500 CSS Grid users working in large companies.
+
+      Any deviation above or below that expected total could potentially indicate an interesting
+      correlation between both variables, and is highlighted on the chart with either colored
+      dots (for extra respondents above the baseline) or empty dots (for missing respondents).
+
+
+  ###########################################################################
+  # Filters
+  ###########################################################################
+
+
+  - key: filters.compare_data
+    t: Compare Data
+  - key: filters.docs
+    t: Documentation
+  - key: filters.compare_chart
+    t: Compare “{chartName}”
+  - key: filters.filters.description
+    t: |
+      Using a combination of demographics filters, you can define up to four **custom data series** to dynamically
+      load and compare them with the default data for this question.
+  - key: filters.facets.description
+    t: |
+      Pick a variable to break down each bar into "facets".
+  - key: filters.grid_mode
+    t: Side-by-Side
+  - key: filters.combined_mode
+    t: Combined
+  - key: filters.facet_mode
+    t: Facets
+  - key: filters.facet
+    t: "Facet:"
+
+  - key: filters.series.heading
+    t: Series {index}
+  - key: filters.series.add
+    t: Add Series…
+  - key: filters.series.delete
+    t: Delete Series
+  - key: filters.series.year
+    t: |
+      {year} data
+  - key: filters.series.show_default
+    t: |
+      Show default series
+  - key: filters.series.no_data
+    t: No data
+
+  - key: filters.condition.add
+    t: Add Filter
+  - key: filters.condition.delete
+    t: Delete Filter
+  - key: filters.condition.and
+    t: and
+  - key: filters.operators.eq
+    t: is
+  - key: filters.operators.in
+    t: is one of
+  - key: filters.operators.nin
+    t: is not one of
+  - key: filters.value.add
+    t: Add Value
+  - key: filters.value.delete
+    t: Delete Value
+
+  - key: filters.legend.default
+    t: Default
+
+  - key: filters.cancel
+    t: Cancel
+  - key: filters.submit
+    t: Update Chart
+  - key: filters.copy_link
+    t: Copy link to current filters
+
+  - key: filters.presets.title
+    t: "Presets:"
+  - key: filters.presets.save
+    t: Save current filters as preset…
+  - key: filters.presets.delete
+    t: Delete Preset
+  - key: filters.presets.enter_name
+    t: |
+      Enter a name for your new preset:
+  - key: filters.presets.previous_years
+    t: Previous Years
+  - key: filters.presets.gender
+    t: Gender
+  - key: filters.presets.top_countries
+    t: Top Countries
+  - key: filters.presets.salary_low_high
+    t: |
+      Low vs High Salary
+  - key: filters.presets.experience_low_high
+    t: |
+      Low vs High Experience
+  - key: filters.presets.company_size_low_high
+    t: |
+      Small vs Large Company
+
+  - key: filters.facet.select
+    t: Select a facet…
