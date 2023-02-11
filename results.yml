@@ -547,7 +547,7 @@ translations:
       - 有聽過：(**全部** - **沒聽過**) / **全部**
   # tools experience linechart
   - key: blocks.tools_experience_linechart
-    t: Ratios Over Time
+    t: 逐年比例
   - key: blocks.tools_experience_linechart.description
     t: Retention, interest, usage, and awareness ratio over time.
   - key: blocks.tools_experience_linechart.note
@@ -790,17 +790,17 @@ translations:
   ###########################################################################
 
   - key: comments.comments
-    t: Comments
+    t: 留言
   - key: comments.comments_for
-    t: Comments for “{name}”
+    t: “{name}” 的留言
   - key: comments.description
     t: |
       These comments were submitted as part of the survey
       through an optional freeform text field next to the main question.
   - key: comments.report_abuse
-    t: Report this comment
+    t: 回報留言
   - key: comments.share
-    t: Share Comment
+    t: 分享留言
 
   ###########################################################################
   # Sharing
@@ -965,13 +965,13 @@ translations:
     t: 頒發給最多自行填答的項目。
 
   - key: award.most_commented_feature_award.title
-    t: Most Commented Feature
+    t: 最多留言的功能
   - key: award.most_commented_feature_award.description
     t: Awarded to the feature which received the most comments.
 
 
   - key: award.most_commented_tool_award.title
-    t: Most Commented Library
+    t: 最多留言的函式庫
   - key: award.most_commented_tool_award.description
     t: Awarded to the library which received the most comments.
 
@@ -1025,7 +1025,7 @@ translations:
 
   - key: hints.comments_hint
     t: >
-      The <span class="hint-icon hint-comment-button">Comment</span> tab lets you view comments left by survey respondents as they were filling out the survey.
+      <span class="hint-icon hint-comment-button">留言</span>分頁可以看到調查答題者，在填寫調查時，留下的回應。
 
 ###########################################################################
   # Sponsor Chart
@@ -1125,12 +1125,11 @@ translations:
     t: Data Explorer
   - key: sections.data_explorer.description
     t: |
-      Dynamically explore the survey's audience by picking two questions, and seeing how
-      respondents are distributed between them.
+      挑選 2 個問題，動態探索調查的閱聽眾，並查看其中答題者的分布情況。
 
   - key: hints.data_explorer
     t: |
-      This is a preview version of our new Data Explorer. If you find any issues or data inconsistencies please [let us know]({issueLink}).
+      這款全新的 Data Explorer 還是預覽版本。如果發現任何問題，或資料不一致的地方，請[讓我們知道]({issueLink})。
 
   # heading
 
@@ -1139,40 +1138,40 @@ translations:
 
   - key: explorer.total_respondents
     t: |
-      (**{totalCount}** total respondents)
+      (全部共有 **{totalCount}** 位答題者)
 
   - key: explorer.count_per_dot
     t: |
-      {respondentsPerDot} Respondents
+      {respondentsPerDot} 位答題者
   - key: explorer.percentage_per_dot
     t: |
       {percentsPerDot}%
   - key: explorer.extra_respondents
-    t: Extra Respondents
+    t: 額外答題者
   - key: explorer.missing_respondents
-    t: Missing Respondents
+    t: 失去答題者
 
   - key: explorer.count_per_dot.tooltip
     t: |
-      1 dot represents {respondentsPerDot} respondents
+      1 個點代表 {respondentsPerDot} 位答題者
   - key: explorer.percentage_per_dot.tooltip
     t: |
-      1 dot represents {percentsPerDot}% of respondents
+      1 個點代表 {percentsPerDot}% 的答題者
   - key: explorer.extra_respondents.tooltip
-    t: Highlighted dots indicate higher-than-expected results.
+    t: 標注起來的點意思是高於預期的結果。
   - key: explorer.missing_respondents.tooltip
-    t: Empty dots indicate lower-than-expected results.
+    t: 空白的點意思是低於預期的結果。
 
   - key: explorer.units_count
-    t: Count
+    t: 數量
   - key: explorer.units_percentage
     t: "% of Row"
 
   - key: explorer.edit
-    t: Edit Parameters…
+    t: 編輯參數…
 
   - key: explorer.get_data
-    t: Get Data…
+    t: 取得資料…
 
   # loading
 
@@ -1194,18 +1193,18 @@ translations:
   # share
 
   - key: explorer.share
-    t: Share…
+    t: 分享…
   - key: explorer.share.title
-    t: Share “{xAxisLabel}” vs “{yAxisLabel}”
+    t: 分享 “{xAxisLabel}” vs “{yAxisLabel}”
   - key: explorer.share.tweet
     t: “{xAxisLabel}” vs “{yAxisLabel}” from the {surveyName} {year} survey
 
   # axis
 
   - key: explorer.axis_total
-    t: "{totalCount} respondents"
+    t: "{totalCount} 位答題者"
   - key: explorer.axis_percent
-    t: "{percentCount}% of respondents"
+    t: "答題者的 {percentCount}%"
 
   - key: explorer.x_axis_details
     t: |
@@ -1226,16 +1225,16 @@ translations:
     t: Show cell counts
 
   - key: explorer.sections.demographics
-    t: Demographics
+    t: 人口統計
   - key: explorer.sections.features
-    t: Features
+    t: 功能
   - key: explorer.sections.tools
-    t: Libraries
+    t: 函式庫
 
   - key: explorer.all_fields
-    t: All fields
+    t: 所有欄位
   - key: explorer.select_item
-    t: Select item
+    t: 選擇項目
 
   # details views
 
