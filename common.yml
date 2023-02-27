@@ -589,7 +589,7 @@ translations:
         行動能力受損（例如：關節炎、腕隧道症…等。）
     - key: options.disability_status.cognitive_impairments
       t: >
-        Cognitive impairments (such as: anxiety, dyslexia, etc.)
+        知能受損（例如：焦慮、閱讀障礙…等。）
     - key: options.disability_status.not_listed
       t: >
         不在列表上
@@ -597,16 +597,16 @@ translations:
     # Disability Status (short)
     - key: options.disability_status.visual_impairments
       t: >
-        Visual impairments
+        視覺不便
     - key: options.disability_status.hearing_impairments
       t: >
-        Hearing impairments
+        聽覺不便
     - key: options.disability_status.mobility_impairments
       t: >
-        Mobility impairments
+        行動不便
     - key: options.disability_status.cognitive_impairments
       t: >
-        Cognitive impairments
+        知能不便
     - key: options.disability_status.not_listed
       t: >
         不在列表上

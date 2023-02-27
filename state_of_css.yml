@@ -6,7 +6,7 @@ translations:
     ###########################################################################
 
     - key: general.state_of_css.intro
-      t: >
+      t: |
           CSS 以前所未有的速度進化中。
 
 
@@ -676,6 +676,7 @@ translations:
       t: >
         有任何 CSS 功能是因為缺乏支援度以及瀏覽器之間的差異，覺得難以使用，或者避開的嗎？
 
+
     - key: usage.interoperability_features_freeform
       aliasFor: opinions_others.browser_interoperability_features.others
     - key: usage.interoperability_features_freeform.others
@@ -692,9 +693,9 @@ translations:
     - key: opinions.css_pain_points.description
       t: 從每個比較挑出在 CSS 最掙扎的方面。
     - key: usage.other_pain_points_freeform
-      t: Pain Points
+      t: 痛點
     - key: usage.other_pain_points_freeform.description
-      t: Any other pain points related to writing CSS?
+      t: 還有其它撰寫 CSS 相關的痛點嗎？
     - key: usage.other_pain_points_freeform.others
       aliasFor: usage.other_pain_points_freeform
 
