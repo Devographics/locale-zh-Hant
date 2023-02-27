@@ -50,7 +50,7 @@ translations:
     # newsletter
 
     - key: newsletter.stay_tuned
-      t: 敬請期待
+      t: 別錯過下一次調查
     - key: newsletter.leave_your_email
       t: 請留下電子郵件位址，下次的調查開始時會通知。
     - key: newsletter.email

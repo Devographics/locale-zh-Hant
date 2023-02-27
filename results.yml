@@ -1147,9 +1147,9 @@ translations:
     t: |
       {percentsPerDot}%
   - key: explorer.extra_respondents
-    t: 額外答題者
+    t: 多出來的答題者
   - key: explorer.missing_respondents
-    t: 失去答題者
+    t: 少掉的答題者
 
   - key: explorer.count_per_dot.tooltip
     t: |
