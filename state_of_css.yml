@@ -370,10 +370,6 @@ translations:
     t: 設立範圍
   - key: features.scoping.description
     t: 更清楚知道樣式用在哪裡的功能。
-  - key: features.subgrid
-    t: Subgrid
-  - key: features.subgrid.description
-    t: 位於更深層的次級 Grid 納入上層 Grid 的巢狀結構。
 
   ###########################################################################
   # Units & Selectors
