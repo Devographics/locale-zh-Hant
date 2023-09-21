@@ -18,7 +18,7 @@ translations:
       - 隨時記錄目前的進度
 
       - 結果公布後，可以收到通知
-  - key: general.survey_closed
+  - key: general.survey_closed_detailed
     t: >
       抱歉，調查已經結束！可以回顧填寫好的資料，但不能修改了。
   - key: general.survey_read_only
@@ -595,19 +595,19 @@ translations:
       不在列表上
 
   # Disability Status (short)
-  - key: options.disability_status.visual_impairments
+  - key: options.disability_status.visual_impairments.short
     t: >
       視覺不便
-  - key: options.disability_status.hearing_impairments
+  - key: options.disability_status.hearing_impairments.short
     t: >
       聽覺不便
-  - key: options.disability_status.mobility_impairments
+  - key: options.disability_status.mobility_impairments.short
     t: >
       行動不便
-  - key: options.disability_status.cognitive_impairments
+  - key: options.disability_status.cognitive_impairments.short
     t: >
       知能不便
-  - key: options.disability_status.not_listed
+  - key: options.disability_status.not_listed.short
     t: >
       不在列表上
 
