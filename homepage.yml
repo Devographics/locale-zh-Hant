@@ -1,77 +1,76 @@
 locale: zh-Hant
 translations:
-    ###########################################################################
-    # Homepage
-    ###########################################################################
+  ###########################################################################
+  # Homepage
+  ###########################################################################
 
-    - key: homepage.hand_coded
-      t: 在日本手工打造。
-    - key: homepage.leave_issue
-      t: 寫下 issue
-    - key: homepage.get_in_touch
-      t: 聯繫
+  - key: homepage.hand_coded
+    t: 在日本手工打造。
+  - key: homepage.leave_issue
+    t: 寫下 issue
+  - key: homepage.get_in_touch
+    t: 聯繫
 
-    - key: homepage.previous_years
-      t: '前幾年的：'
+  - key: homepage.previous_years
+    t: "前幾年的："
 
-    - key: homepage.take_survey
-      t: 參加調查
+  - key: homepage.take_survey
+    t: 參加調查
 
-    - key: homepage.view_results
-      t: 看 2019 年的結果
+  - key: homepage.view_results
+    t: 看 2019 年的結果
 
-    - key: share.help_spread
-      t: 幫忙宣傳！
+  - key: share.help_spread
+    t: 幫忙宣傳！
 
-    - key: homepage.other_surveys
-      t: '其它調查：'
+  - key: homepage.other_surveys
+    t: "其它調查："
 
-    - key: homepage.survey_open_now
-      t: 現正開放
+  - key: homepage.survey_open_now
+    t: 現正開放
 
-    - key: homepage.survey_preview
-      t: 預覽調查
+  - key: homepage.survey_preview
+    t: 預覽調查
 
-    - key: homepage.most_recent_survey
-      t: 最近的
+  - key: homepage.most_recent_survey
+    t: 最近的
 
-    - key: homepage.current_survey
-      t: 目前的調查
+  - key: homepage.current_survey
+    t: 目前的調查
 
-    - key: homepage.past_surveys
-      t: 之前的調查
+  - key: homepage.past_surveys
+    t: 之前的調查
 
-    - key: homepage.view_questions
-      t: 查看問題
+  - key: homepage.view_questions
+    t: 查看問題
 
-    - key: homepage.preview_questions
-      t: 預覽問題
+  - key: homepage.preview_questions
+    t: 預覽問題
 
-    # newsletter
+  # newsletter
 
-    - key: newsletter.stay_tuned
-      t: 別錯過下一次調查
-    - key: newsletter.leave_your_email
-      t: 請留下電子郵件位址，下次的調查開始時會通知。
-    - key: newsletter.email
-      t: 電子郵件
-    - key: newsletter.submit
-      t: 通知我
+  - key: newsletter.stay_tuned
+    t: 別錯過下一次調查
+  - key: newsletter.leave_your_email
+    t: 請留下電子郵件位址，下次的調查開始時會通知。
+  - key: newsletter.email
+    t: 電子郵件
+  - key: newsletter.submit
+    t: 通知我
 
-    # languages
-    - key: languages.available_languages
-      t: '可用語言：'
-    - key: languages.help_us_translate
-      t: 協助我們把調查翻譯成你/妳的語言 →
+  # languages
+  - key: languages.available_languages
+    t: "可用語言："
+  - key: languages.help_us_translate
+    t: 協助我們把調查翻譯成你/妳的語言 →
 
-    # footer
-    - key: homepage.made_by_devographics
-      aliasFor: general.made_by_devographics
-    - key: homepage.netlify_link
-      aliasFor: general.netlify_link
-    - key: homepage.leave_issue
-      aliasFor: general.leave_issue
-    - key: homepage.join_discord
-      aliasFor: general.join_discord
-    - key: homepage.astro_link
-      t: 以 [Astro](https://astro.build/) 打造
+  # footer
+  - key: homepage.made_by_devographics
+    aliasFor: general.made_by_devographics
+  - key: homepage.netlify_link
+    aliasFor: general.netlify_link
+
+  - key: homepage.join_discord
+    aliasFor: general.join_discord
+  - key: homepage.astro_link
+    t: 以 [Astro](https://astro.build/) 打造

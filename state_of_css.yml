@@ -599,7 +599,7 @@ translations:
     t: 常常實做哪些無障礙設計功能？
   - key: environments.accessibility_features.others
     t: 其他無障礙設計功能
-  - key: environments.accessibility_features.others
+  - key: environments.accessibility_features.others.description
     t: 還有常常實做哪些無障礙設計功能？
 
   - key: environments.css_for_print
