@@ -84,56 +84,56 @@ translations:
   # forms
 
   - key: features.form_controls
-    t: Form Controls
+    t: 表單控制
   - key: features.form_controls.question
-    t: Which form controls have you used?
+    t: 你使用過哪些表單控制？
 
   - key: features.form_input_types
-    t: Input Types
+    t: 輸入類型
   - key: features.form_input_types.question
-    t: Which input types have you used?
+    t: 你使用過哪些輸入類型？
   - key: options.form_input_types.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> 以上皆非
 
   - key: features.form_validation_features
     t: Form Validation
   - key: features.form_validation_features.question
     t: Which of the following form validation features have you used?
   - key: options.form_validation_features.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> 以上皆非
 
   - key: features.forms_pain_points
-    t: Form Pain Points
+    t: Form Pain Points表單的痛點
   - key: features.forms_pain_points.question
-    t: What are your pain points around HTML forms?
+    t: 你在使用 HTML 表單有哪些痛點？
   - key: features.forms_pain_points.description
     t: |
-      Think of the various form controls (e.g. `<input>`, `<textarea>`, `<select>`, `<button>` etc.),
-      behaviors (e.g. validation, autocomplete), handling forms via JS, editing APIs (e.g. `contentEditable`) etc.
-      Anything that bothers you is fair game — browser support, missing features, styling, etc.
+      考慮各種表單選項（例如
+      ：`<input>`, `<textarea>`, `<select>`, `<button>` 等等。）、行為（例如：驗證、自動完成）、透過 JS 處理表單、編輯 APIs（例如：`contentEditable`）等等。
+      任何困擾你的事情都是公平的——瀏覽器支援、缺少的功能、樣式等等。
   - key: features.forms_pain_points.placeholder
     t: |
-      Pain point #{index}…
+      痛點 #{index}…
 
   # interactivity
 
   - key: features.dom_attribute_features
-    t: DOM Attribute-related methods
+    t: DOM 屬性相關方法
   - key: features.dom_attribute_features.question
-    t: Which of the following DOM attribute-related methods have you used?
+    t: 你使用過以下哪些與 DOM 屬性相關的方法？
 
   - key: features.dom_html_features
-    t: HTML String-handling Features
+    t: HTML 字串處理功能
   - key: features.dom_html_features.question
-    t: Which of the following DOM HTML string-handling features have you used?
+    t: 你使用過以下哪些 DOM HTML 字串處理功能？
 
   - key: features.dom_methods
-    t: Element reparenting DOM Methods
+    t: Element reparenting DOM Methods元素重新調整的 DOM 方法
 
   - key: features.dom_moving_element_features
-    t: Element-moving DOM Methods
+    t: Element-moving DOM Methods 元素移動的 DOM 方法
   - key: features.dom_moving_element_features.question
-    t: Which of the following element-moving DOM methods have you used?
+    t: 你使用過以下哪些方法來移動 DOM 元素？
   # - key: options.dom_methods.element_innerhtml.description
   #   t: |
   #     `element.innerHTML = rawHTML`
@@ -171,37 +171,37 @@ translations:
   #   t: |
   #     `let fragment = document.createDocumentFragment()`
   - key: options.dom_methods.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> 以上皆非
 
   - key: features.interactivity_pain_points
-    t: Interactivity Pain Points
+    t: 互動性的痛點
   - key: features.interactivity_pain_points.question
-    t: What are your pain points around dynamic HTML changes?
+    t: 你在動態 HTML 改變有什麼痛點？
   - key: features.interactivity_pain_points.description
     t: |
-      Browser incompatibilities or lack of support, missing features, and other problems you face
-      around interactive elements and behaviors (except forms), DOM manipulation, events, and related APIs.
+      瀏覽器不相容或缺乏支援、缺少功能以及你面臨的其他問題
+        圍繞互動元素和行為（表單除外）、DOM 操作、事件和相關 API。
 
   - key: features.interactivity_pain_points.placeholder
     t: |
-      Pain point #{index}…
+      痛點 #{index}…
 
   - key: features.interactivity_techniques
-    t: Interactivity Methods
+    t: 互動方法
   - key: features.interactivity_techniques.question
-    t: Which of these methods have you used to add interactivity or dynamically modify HTML?
+    t: 你使用過哪些方法來加入互動或動態修改 HTML？
   - key: options.interactivity_techniques.css_for_interactivity
-    t: CSS for interactivity (toggles, tabs, etc.)
+    t: 用於互動的 CSS（toggles, tabs, etc.）
   - key: options.interactivity_techniques.js_dom_libraries
-    t: JavaScript DOM libraries (jQuery, etc.)
+    t: JavaScript DOM 函式庫（jQuery, etc.）
   - key: options.interactivity_techniques.js_framework
-    t: JavaScript frameworks (React, Vue, etc.)
+    t: JavaScript 框架（React, Vue, etc.）
   - key: options.interactivity_techniques.vanilla_js
-    t: Plain JavaScript (no frameworks or libraries)
+    t: 純 JavaScript（無 frameworks 或 libraries）
   - key: options.interactivity_techniques.web_components
     t: Web Components
   - key: options.interactivity_techniques.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> 以上皆非
 
   # content
 
@@ -237,7 +237,7 @@ translations:
   - key: features.i18n_features.question
     t: Which of the following internationalization features have you used?
   - key: options.i18n_features.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> 以上皆非
 
   # - key: options.i18n_features.intl_datetimeformat.description
   #   t:
@@ -268,7 +268,7 @@ translations:
       Missing features, browser incompatibilities, and other problems you face are all fair game.
   - key: features.content_pain_points.placeholder
     t: |
-      Pain point #{index}…
+      痛點 #{index}…
 
   # Content
 
@@ -277,7 +277,7 @@ translations:
   - key: features.external_content_elements.question
     t: Which of the following elements have you used?
   - key: options.external_content_elements.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> 以上皆非
 
   - key: features.privacy_security_features
     t: |
@@ -286,7 +286,7 @@ translations:
     t: |
       Which of the following security & privacy features have you used?
   - key: options.privacy_security_features.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> 以上皆非
 
   - key: features.rel_attribute
     t: Resource Hints
@@ -323,7 +323,7 @@ translations:
     t: |
       `<button is="fancy-button">`
   - key: options.web_components_features.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> 以上皆非
 
   - key: features.using_web_components_pain_points
     t: Using Web Components Pain Points
@@ -333,7 +333,7 @@ translations:
     t: Using Web Components that you or others have made. Missing features, browser incompatibilities, etc.
   - key: features.using_web_components_pain_points.placeholder
     t: |
-      Pain point #{index}…
+      痛點 #{index}…
 
   - key: features.making_web_components_pain_points
     t: Making Web Components Pain Points
@@ -344,7 +344,7 @@ translations:
       What prevents you from creating the amazing components you envision? Missing features, browser incompatibilities, etc.
   - key: features.making_web_components_pain_points.placeholder
     t: |
-      Pain point #{index}…
+      痛點 #{index}…
 
   # Accessibility
 
@@ -364,7 +364,7 @@ translations:
     t: What are your biggest pain points around web accessibility?
   - key: features.accessibility_pain_points.placeholder
     t: |
-      Pain point #{index}…
+      痛點 #{index}…
 
   - key: features.accessibility_disabilities
     t: User Disabilities
@@ -496,14 +496,14 @@ translations:
   - key: features.pwa_features.question
     t: Have you used any of the following PWA technologies/APIs?
   - key: options.pwa_features.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> 以上皆非
 
   - key: features.local_storage_features
     t: Local storage features
   - key: features.local_storage_features.question
     t: Have you used any of the following to store data client-side?
   - key: options.local_storage_features.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> 以上皆非
 
   - key: features.pwa_app_manifest_fields
     t: App Manifest Fields
@@ -542,7 +542,7 @@ translations:
     t: Capabilities the Web Platform doesn't yet have, browser differences in related APIs, etc.
   - key: features.mobile_web_apps_pain_points.placeholder
     t: |
-      Pain point #{index}
+      痛點 #{index}
 
   # Other Tools
 
@@ -562,7 +562,7 @@ translations:
     aliasFor: features.machine_readable_features.question
 
   - key: options.machine_readable_features.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> 以上皆非
 
   - key: other_tools.blast_from_the_past
     t: Blast from the Past!
@@ -571,7 +571,7 @@ translations:
   - key: other_tools.blast_from_the_past.description
     t: Blast from the past!
   - key: options.blast_from_the_past.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> 以上皆非
 
   # Usage
 
