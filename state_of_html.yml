@@ -96,16 +96,16 @@ translations:
     t: <span aria-hidden="true">🚫</span> 以上皆非
 
   - key: features.form_validation_features
-    t: Form Validation
+    t: 表單驗證
   - key: features.form_validation_features.question
-    t: Which of the following form validation features have you used?
+    t: 你使用過以下哪些表單驗證功能？
   - key: options.form_validation_features.na
     t: <span aria-hidden="true">🚫</span> 以上皆非
 
   - key: features.forms_pain_points
-    t: Form Pain Points表單的痛點
+    t: 表單的痛點
   - key: features.forms_pain_points.question
-    t: 你在使用 HTML 表單有哪些痛點？
+    t: 你使用 HTML 表單有哪些痛點？
   - key: features.forms_pain_points.description
     t: |
       考慮各種表單選項（例如
@@ -206,36 +206,36 @@ translations:
   # content
 
   - key: features.machine_readable_features
-    t: Machine-Readable Data
+    t: 機器可讀資料
   - key: features.machine_readable_features.question
-    t: Which of the following have you used to include machine-readable data in HTML?
+    t: 你使用下列哪一種方法在 HTML 中包含機器可讀的資料？
   - key: options.machine_readable_features.rdfa.description
     t: |
-      `property`, `typeof`, etc.
+      `property`、`typeof` 等等。
   - key: options.machine_readable_features.json_ld.description
     t: |
       `<script type="application/ld+json">`
   - key: options.machine_readable_features.microdata.description
     t: |
-      `itemprop`, `itemscope`, etc.
+      `itemprop`、`itemscope` 等等。
 
   - key: features.multiple_languages_support
-    t: Multiple-Language Support
+    t: 支援多國語系
   - key: features.multiple_languages_support.question
-    t: How often do you work on projects that require supporting more than one language?
+    t: 你經常參與需要支援多國語系的專案嗎？
   - key: options.multiple_languages_support.never
-    t: Never
+    t: 從來沒有
   - key: options.multiple_languages_support.infrequently
-    t: Infrequently (less than once a year)
+    t: 不經常（每年少於一次）
   - key: options.multiple_languages_support.frequently
-    t: Frequently (more than once a year)
+    t: 經常（每年超過一次）
   - key: options.multiple_languages_support.all_the_time
-    t: All the time
+    t: 時時刻刻
 
   - key: features.i18n_features
-    t: Internationalization Features
+    t: 國際化功能
   - key: features.i18n_features.question
-    t: Which of the following internationalization features have you used?
+    t: 你使用過以下哪些國際化功能
   - key: options.i18n_features.na
     t: <span aria-hidden="true">🚫</span> 以上皆非
 
@@ -259,13 +259,13 @@ translations:
   #   t:
 
   - key: features.content_pain_points
-    t: Content Pain Points
+    t: 內容痛點
   - key: features.content_pain_points.question
-    t: What are your pain points around managing content in HTML?
+    t: 你在管理 HTML 內容有哪些痛點？
   - key: features.content_pain_points.description
     t: |
-      Think of embedding (multimedia, iframes, SVG, etc), machine-readable data, internationalization & localization, security & privacy, performance etc.
-      Missing features, browser incompatibilities, and other problems you face are all fair game.
+      考慮嵌入（多媒體、iframe、SVG 等）、機器可讀資料、國際化和本地化、安全性和隱私、效能等。
+      缺少功能、瀏覽器不兼容以及你面臨的其他問題都是很正常的。
   - key: features.content_pain_points.placeholder
     t: |
       痛點 #{index}…
@@ -273,26 +273,26 @@ translations:
   # Content
 
   - key: features.external_content_elements
-    t: External Content Elements
+    t: 外部內容元素
   - key: features.external_content_elements.question
-    t: Which of the following elements have you used?
+    t: 你使用過下列哪些元素？
   - key: options.external_content_elements.na
     t: <span aria-hidden="true">🚫</span> 以上皆非
 
   - key: features.privacy_security_features
     t: |
-      Security & Privacy Features
+      安全性 & 隱私功能
   - key: features.privacy_security_features.question
     t: |
-      Which of the following security & privacy features have you used?
+      你使用過以下哪些安全性和隱私功能？
   - key: options.privacy_security_features.na
     t: <span aria-hidden="true">🚫</span> 以上皆非
 
   - key: features.rel_attribute
-    t: Resource Hints
+    t: 資源提示
   - key: features.rel_attribute.question
     t: |
-      Which of these values have you used for the `rel` attribute of `<link>` ?
+      你將以下哪些值用於 `<link>` 的 `rel` 屬性？
 
   # - key: features.external_content_pain_points
   #   t: External Content Pain Points
@@ -308,14 +308,14 @@ translations:
   # Web Components
 
   - key: features.web_components_libraries
-    t: Web Components Libraries
+    t: Web Components 函式庫
   - key: features.web_components_libraries.question
-    t: Have you used any Web Components libraries?
+    t: 你有使用過任何 Web Components 函式庫嗎？
 
   - key: features.web_components_features
-    t: Other Web Component Features
+    t: 其他 Web Component 功能
   - key: features.web_components_features.question
-    t: Which of the following web component features have you used?
+    t: 你使用過以下哪些 web component 的功能？
   - key: options.web_components_features.host_pseudos.description
     t: |
       `:host` , `:host()` , `:host-context()`
