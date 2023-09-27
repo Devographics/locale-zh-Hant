@@ -326,22 +326,22 @@ translations:
     t: <span aria-hidden="true">🚫</span> 以上皆非
 
   - key: features.using_web_components_pain_points
-    t: Using Web Components Pain Points
+    t: 使用 Web Components 的痛點
   - key: features.using_web_components_pain_points.question
-    t: What are your biggest pain points around *consuming* web components?
+    t: 你*使用* web components 最大的痛點是什麼？
   - key: features.using_web_components_pain_points.description
-    t: Using Web Components that you or others have made. Missing features, browser incompatibilities, etc.
+    t: 使用你或其他人製作的 Web Components。缺少功能、瀏覽器不兼容等。
   - key: features.using_web_components_pain_points.placeholder
     t: |
       痛點 #{index}…
 
   - key: features.making_web_components_pain_points
-    t: Making Web Components Pain Points
+    t: 開發 Web Components 的痛點
   - key: features.making_web_components_pain_points.question
-    t: What are your biggest pain points around *making* web components?
+    t: 你*開發* web components 最大的痛點是什麼？
   - key: features.making_web_components_pain_points.description
     t: |
-      What prevents you from creating the amazing components you envision? Missing features, browser incompatibilities, etc.
+      是什麼阻止你創造出令人驚艷的 component？缺少功能、瀏覽器不兼容等。
   - key: features.making_web_components_pain_points.placeholder
     t: |
       痛點 #{index}…
@@ -349,145 +349,145 @@ translations:
   # Accessibility
 
   - key: features.accessibility_features
-    t: Accessibility Features
+    t: 無障礙功能
   - key: features.accessibility_features.question
-    t: Which of these accessibility features have you used?
+    t: 你曾經使用過哪些無障礙功能？
 
   - key: features.accessibility_tools
-    t: Accessibility Tools
+    t: 無障礙工具
   - key: features.accessibility_tools.question
-    t: What tools do you use for accessibility testing?
+    t: 你使用什麼工具進行無障礙測試？
 
   - key: features.accessibility_pain_points
-    t: Accessibility Pain Points
+    t: 無障礙通點
   - key: features.accessibility_pain_points.question
-    t: What are your biggest pain points around web accessibility?
+    t: 你在網路無障礙方面最大的痛點是什麼？
   - key: features.accessibility_pain_points.placeholder
     t: |
       痛點 #{index}…
 
   - key: features.accessibility_disabilities
-    t: User Disabilities
+    t: 使用者障礙
   - key: features.accessibility_disabilities.question
-    t: What kind of user disabilities do you account for when making websites?
+    t: 在製作網站時，你會考慮哪些類型的使用者障礙？
 
   - key: options.accessibility_disabilities.hearing_impairments
-    t: Hearing impairments
+    t: 聽力障礙
   - key: options.accessibility_disabilities.hearing_impairments.description
-    t: Deafness, tinnitus, etc.
+    t: 耳聾、耳鳴等等。
 
   - key: options.accessibility_disabilities.mobility_impairments
-    t: Mobility impairments
+    t: 行動障礙
   - key: options.accessibility_disabilities.mobility_impairments.description
-    t: Arthritis, carpal tunnel, etc.
+    t: 關節炎、腕隧道症等等。
 
   - key: options.accessibility_disabilities.learning_disabilities
-    t: Learning disabilities
+    t: 學習障礙
   - key: options.accessibility_disabilities.learning_disabilities.description
-    t: Dyslexia, dyscalculia, etc.
+    t: 失讀症、算術障礙等等。
 
   - key: options.accessibility_disabilities.cognitive_impairments
     t: |
-      Other cognitive impairments
+      其他認知障礙
   - key: options.accessibility_disabilities.cognitive_impairments.description
     t: |
-      Anxiety, Autism, OCD, ADHD, etc.
+      焦慮、自閉症、強迫症、過動症等等。
 
   - key: options.accessibility_disabilities.vestibular_disorders
-    t: Vestibular disorders
+    t: 前庭疾病
   - key: options.accessibility_disabilities.vestibular_disorders.description
-    t: Epilepsy, vertigo, etc.
+    t: 癲癇、暈眩等等。
 
   - key: options.accessibility_disabilities.low_vision
-    t: Low vision
+    t: 低視能
   - key: options.accessibility_disabilities.low_vision.description
-    t: Blindness, high myopia, etc.
+    t: 失明、高度近視等等。
 
   - key: options.accessibility_disabilities.atypical_vision
-    t: Atypical color vision
+    t: 非典型視覺
   - key: options.accessibility_disabilities.atypical_vision.description
-    t: Color blindness
+    t: 色盲
 
   - key: features.accessibility_screenreaders
-    t: Screen Readers
+    t: 螢幕閱讀器
   - key: features.accessibility_screenreaders.question
-    t: Which screen readers do you use for accessibility testing?
+    t: 你使用哪種螢幕閱讀器進行無障礙測試？
 
   - key: features.accessibility_techniques
-    t: Other Accessibility Techniques
+    t: 其他無障礙使用技術
   - key: features.accessibility_techniques.question
-    t: What other techniques are part of your regular accessibility strategy?
+    t: 你的常規無障礙策略中還有哪些技術？
 
   - key: options.accessibility_techniques.tabindex
     t: |
-      Improving focus order with `tabindex`
+      使用 `tabindex` 改善焦點順序
   - key: options.accessibility_techniques.tabindex.description
     t: |
-      Roving `tabindex`, `tabindex="0"` to enable focus, etc.
+      移動 `tabindex`、`tabindex="0"` 以啟用焦點等等。
   - key: options.accessibility_techniques.keyboard_navigation
-    t: Intuitive keyboard navigation
+    t: 直覺的鍵盤導航
   - key: options.accessibility_techniques.keyboard_navigation.description
-    t: Other than tab order.
+    t: 除了 tab 鍵順序之外。
   - key: options.accessibility_techniques.aria_attributes
-    t: ARIA attributes
+    t: ARIA 屬性
   - key: options.accessibility_techniques.aria_attributes.description
     t: |
-      `role` and `aria-*` attributes
+      `role` 和 `aria-*` 屬性
   - key: options.accessibility_techniques.descriptive_alt_text
     t: |
-      Descriptive `alt` text
+      描述性 `alt` 文字
   - key: options.accessibility_techniques.descriptive_alt_text.description
-    t: Providing alt text that describes the purpose or content of an image.
+    t: 提供描述圖片的目的或內容的替代文字。
   - key: options.accessibility_techniques.skip_to_content
-    t: Skip-to-content link
+    t: 跳至內容連結
   - key: options.accessibility_techniques.skip_to_content.description
-    t: Letting users skip straight to the main content of a page.
+    t: 讓使用者直接跳到頁面的主要內容。
   - key: options.accessibility_techniques.fieldset_and_legend
     t: |
-      `<fieldset>` and `<legend>`
+      `<fieldset>` 和 `<legend>`
   - key: options.accessibility_techniques.fieldset_and_legend.description
     t: |
-      Using `<fieldset>` and `<legend>`  to group related form elements.
+      使用 `<fieldset>` 和 `<legend>` 對相關表單元素進行分組。
   - key: options.accessibility_techniques.headings_hierarchy
-    t: Information Hierarchy
+    t: 資訊層次結構
   - key: options.accessibility_techniques.headings_hierarchy.description
     t: |
-      Using headings (`<h1>` - `<h6>`) that correctly represent a page's information hierarchy.
+      使用正確表示頁面資訊層次結構的標題（`<h1>` - `<h6>`）。
   - key: options.accessibility_techniques.meaningful_link_text
-    t: Meaningful Link Text
+    t: 有意義的連結文字
   - key: options.accessibility_techniques.meaningful_link_text.description
-    t: Ensuring that link text makes sense out of context
+    t: 確保連結文字脫離上下文有意義
   - key: options.accessibility_techniques.form_control_label
-    t: Form Control Labels
+    t: 表單控制標籤
   - key: options.accessibility_techniques.form_control_label.description
     t: |
-      Ensuring every form control has a `<label>` (or `aria-label`, etc.).
+      確保每個表單控制都有一個 `<label>`（或 `aria-label` 等等）。
   - key: options.accessibility_techniques.visible_focus
-    t: Visible Focus Ring
+    t: 可見 Focus Ring
   - key: options.accessibility_techniques.visible_focus.description
-    t: Ensuring focus ring outline is clearly visible when needed.
+    t: 確保在需要時 focus ring 輪廓清晰可見。
   - key: options.accessibility_techniques.pointer_alternative
-    t: Not Relying on Pointer Only
+    t: 不只依賴 Pointer
   - key: options.accessibility_techniques.pointer_alternative.description
-    t: Ensuring pointer interactions (e.g. hover) have a keyboard alternative.
+    t: 確保 pointer 互動（例如：hover）有鍵盤替代方案。
   - key: options.accessibility_techniques.good_color_contrast
-    t: Sufficient Contrast
+    t: 足夠的對比度
   - key: options.accessibility_techniques.good_color_contrast.description
-    t: Using contrast checkers to ensure sufficient color contrast.
+    t: 使用對比度檢查器確保足夠的色彩對比。
   - key: options.accessibility_techniques.color_alternative
-    t: Not Relying on Color Only
+    t: 不只依賴顏色
   - key: options.accessibility_techniques.color_alternative.description
-    t: Ensuring that no information is conveyed by color alone.
+    t: 確保不會僅透過顏色來傳達任何訊息。
   - key: options.accessibility_techniques.prefers_reduced_motion
     t: |
       `prefers-reduced-motion` media query
   - key: options.accessibility_techniques.prefers_reduced_motion.description
-    t: Providing alternative CSS for users who prefer reduced motion.
+    t: 為喜歡較少 motion 的使用者提供替代 CSS。
   - key: options.accessibility_techniques.prefers_contrast
     t: |
       `prefers-contrast` media query
   - key: options.accessibility_techniques.prefers_contrast.description
-    t: Providing alternative CSS for users who prefer increased contrast.
+    t: 為喜歡增加對比度的使用者提供替代 CSS。
 
   # PWAs
 
