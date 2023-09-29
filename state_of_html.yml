@@ -492,16 +492,16 @@ translations:
   # PWAs
 
   - key: features.pwa_features
-    t: PWA Features
+    t: PWA 功能
   - key: features.pwa_features.question
-    t: Have you used any of the following PWA technologies/APIs?
+    t: 你是否使用過以下哪些 PWA 技術/APIs？
   - key: options.pwa_features.na
     t: <span aria-hidden="true">🚫</span> 以上皆非
 
   - key: features.local_storage_features
-    t: Local storage features
+    t: Local storage 功能
   - key: features.local_storage_features.question
-    t: Have you used any of the following to store data client-side?
+    t: 你是否使用過以下任何一種來儲存客戶端資料？
   - key: options.local_storage_features.na
     t: <span aria-hidden="true">🚫</span> 以上皆非
 
@@ -509,37 +509,37 @@ translations:
     t: App Manifest Fields
   - key: features.pwa_app_manifest_fields.question
     t: |
-      Which of these app manifest fields (`<link rel="manifest">`) have you used, if any?
+      你使用過以下哪些 app manifest fields（`<link rel="manifest">`），如果有？
 
   - key: features.native_apps_tools
-    t: Native Apps Tools
+    t: 原生應用程式工具
   - key: features.native_apps_tools.question
-    t: Have you used any of these tools to build native apps?
+    t: 你是否使用過這些工具來建立原生應用程式？
   - key: features.native_apps_tools.description
-    t: Excluding scripts, command-line apps, server-side code, etc.
+    t: 除了 scripts、command-line 應用程式、server-side 端程式碼等。
   - key: options.native_apps_tools.na
-    t: <span aria-hidden="true">🚫</span> I haven't developed native apps
+    t: <span aria-hidden="true">🚫</span> 我未曾開發過原生應用程式
   - key: options.native_apps_tools.native_languages
-    t: Native technologies
+    t: 原生技術
   - key: options.native_apps_tools.native_languages.description
-    t: Objective-C, Swift, Kotlin, .NET, etc.
+    t: Objective-C、Swift、Kotlin、.NET 等。
   - key: options.native_apps_tools.webviews
-    t: Web app loaded via Webviews
+    t: 網頁應用程式透過 WebViews 載入
   - key: options.native_apps_tools.js_frameworks
-    t: JavaScript-based frameworks
+    t: 基於 JavaScript 的框架
   - key: options.native_apps_tools.js_frameworks.description
-    t: React Native, Ionic, Electron, etc.
+    t: React Native、Ionic、Electron 等。
   - key: options.native_apps_tools.other_frameworks
-    t: Non-JavaScript frameworks
+    t: 非 JavaScript 框架
   - key: options.native_apps_tools.other_frameworks.description
-    t: Tauri, Flutter, etc.
+    t: Tauri、Flutter 等。
 
   - key: features.mobile_web_apps_pain_points
-    t: Native-like Web Apps Pain Points
+    t: 類原生網頁應用程式通點
   - key: features.mobile_web_apps_pain_points.question
-    t: What are your biggest pain points around making web apps that feel native?
+    t: 在製作原生 Web 應用程式方面，你最大的痛點是什麼？
   - key: features.mobile_web_apps_pain_points.description
-    t: Capabilities the Web Platform doesn't yet have, browser differences in related APIs, etc.
+    t: Web 平台尚不具備的功能、相關 API 的瀏覽器差異等。
   - key: features.mobile_web_apps_pain_points.placeholder
     t: |
       痛點 #{index}
