@@ -547,14 +547,14 @@ translations:
   # Other Tools
 
   - key: other_tools.site_generators
-    t: Site Generators
+    t: 網站產生器
   - key: other_tools.site_generators.question
-    t: Which of these static or dynamic site generators do you regularly use?
+    t: 你經常使用下列哪些靜態或動態網站產生器？
 
   - key: other_tools.ai_tools
-    t: AI Tools
+    t: AI 工具
   - key: other_tools.ai_tools.question
-    t: Which of these AI tools do you regularly use to help you write code?
+    t: 你經常使用以下哪些 AI 工具來幫助你撰寫程式碼？
 
   - key: other_tools.machine_readable_features
     aliasFor: features.machine_readable_features
@@ -567,7 +567,7 @@ translations:
   - key: other_tools.blast_from_the_past
     t: Blast from the Past!
   - key: other_tools.blast_from_the_past.question
-    t: Have you ever used any of the following old-school elements?
+    t: 你曾經使用過以下任何 old-school 的元素嗎？
   - key: other_tools.blast_from_the_past.description
     t: Blast from the past!
   - key: options.blast_from_the_past.na
