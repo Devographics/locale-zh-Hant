@@ -565,11 +565,11 @@ translations:
     t: <span aria-hidden="true">🚫</span> 以上皆非
 
   - key: other_tools.blast_from_the_past
-    t: Blast from the Past!
+    t: 過去的往事！
   - key: other_tools.blast_from_the_past.question
     t: 你曾經使用過以下任何 old-school 的元素嗎？
   - key: other_tools.blast_from_the_past.description
-    t: Blast from the past!
+    t: 過去的往事！
   - key: options.blast_from_the_past.na
     t: <span aria-hidden="true">🚫</span> 以上皆非
 
@@ -587,37 +587,37 @@ translations:
   #     ﹤foo type="bar"﹥ (browser incompatibilities, styling limitations, doesn't do X)
 
   - key: usage.html_interoperability_features
-    t: Browser Interoperability
+    t: 瀏覽器互通性
   - key: usage.html_interoperability_features.question
-    t: Which existing HTML features or browser APIs are you unable to use because of browser differences or lack of support?
+    t: 由於瀏覽器差異或缺乏支援，你無法使用哪些現有 HTML 功能或瀏覽器 API？
   # - key: usage.html_interoperability_features.description
   #   t: |
   #     Any type of API the survey has asked about is within scope.
   - key: usage.html_interoperability_features.placeholder
     t: |
-      Feature #{index}
+      功能 #{index}
 
   - key: usage.html_functionality_features
-    t: Limited Functionality
+    t: 有限的功能
   - key: usage.html_functionality_features.question
-    t: Which existing HTML features or browser APIs are you unable to use for other reasons (and why)?
+    t: 由於其他因素（以及原因），你無法使用哪些現有的 HTML 功能或瀏覽器 API？
   - key: usage.html_functionality_features.description
     t: |
-      Good candidates might be existing HTML features that you often have to recreate or augment using JS.
+      好的候選者可能是你經常需要使用 JS 重新建立或加強的現有 HTML 功能。
 
-      Please also specify the reason, such as lack of functionality, difficult styling, poor accessibility, etc.
+      請同時說明原因，例如缺乏功能、樣式困難、無障礙體驗差等。
 
   - key: usage.html_functionality_features.placeholder.1
     t: |
-      Feature #1 (hard to style)
+      功能 #1 (hard to style)
   - key: usage.html_functionality_features.placeholder.2
     t: |
-      Feature #2 (limited functionality, poor accessibility)
+      功能 #2 (limited functionality, poor accessibility)
 
   - key: usage.what_do_you_use_html_for
-    t: HTML Usage
+    t: HTML 使用
   - key: usage.what_do_you_use_html_for.question
-    t: What do you use HTML for?
+    t: 你使用 HTML 做什麼？
   - key: options.what_do_you_use_html_for.blogs
     aliasFor: options.what_do_you_use_css_for.blogs
   - key: options.what_do_you_use_html_for.design_systems
@@ -636,33 +636,33 @@ translations:
     aliasFor: options.what_do_you_use_css_for.web_apps
 
   - key: usage.tools_for_other_developers
-    t: Ecosystem Impact
+    t: 生態系影響
   - key: usage.tools_for_other_developers.question
-    t: Other than yourself, how many developers use the libraries, packages, components, APIs etc. that you create or maintain?
+    t: 除了你自己之外，還有多少開發人員使用你建立或維護的函式庫、套件、元件、API 等？
   - key: usage.tools_for_other_developers.description
     t: |
-      Total, if you work on multiple projects that are used by other developers.
-      If you’re not sure, pick the closest to your best estimate.
-      For open source code, npm downloads might offer a useful data point.
+      如果你從事其他開發人員使用的多個專案。
+      如果你不確定，請選擇最接近你最佳估計的值。
+      對於開源程式碼，npm 下載可能會提供有用的資料點。
   - key: options.tools_for_other_developers.na
-    t: 🚫 None (Just me)
+    t: 🚫 無（只有我自己）
   - key: options.tools_for_other_developers.a_few
-    t: A few other developers (e.g. developers within a small team)
+    t: 一些其他開發人員（例如：小團隊內的開發人員）
   - key: options.tools_for_other_developers.less_than_100
-    t: Less than a hundred developers
+    t: 少於一百名開發者
   - key: options.tools_for_other_developers.less_than_1000
-    t: Less than a thousand developers
+    t: 少於一千名開發者
   - key: options.tools_for_other_developers.more_than_100
-    t: Hundreds of developers
+    t: 上百位開發者
   - key: options.tools_for_other_developers.more_than_1000
-    t: Thousands of developers
+    t: 上千位開發者
   - key: options.tools_for_other_developers.more_than_1000000
-    t: Millions of developers
+    t: 上百萬開發者
 
   - key: usage.html_missing_elements
-    t: Missing Elements
+    t: 缺乏元素
   - key: usage.html_missing_elements.question
-    t: If you could add 3 elements to HTML, what would they be?
+    t: 如果你可以為 HTML 加入 3 個元素，它們會是什麼？
   # - key: usage.html_missing_elements.description
   #   t: |
   #     If you use any component technologies, the components you find yourself reusing across multiple projects could be good candidates.
@@ -715,14 +715,14 @@ translations:
     t: Star Rating
 
   - key: usage.html_pain_points_freeform
-    t: Other Pain Points
+    t: 其他痛點
   - key: usage.html_pain_points_freeform.question
-    t: Any other pain points around using HTML and related technologies?
+    t: 使用 HTML 和相關技術還有其他痛點嗎？
 
   - key: usage.html_css_js_balance
-    t: HTML/CSS vs JavaScript/TypeScript Balance
+    t: HTML/CSS 和 JavaScript/TypeScript 平衡
   - key: usage.html_css_js_balance.question
-    t: How do you divide your time between writing HTML/CSS and JavaScript (or TypeScript) code?
+    t: 你如何分配撰寫 HTML/CSS 和 JavaScript（或 TypeScript）程式碼的時間？
   - key: options.html_css_js_balance.0
     t: 100% HTML/CSS
   - key: options.html_css_js_balance.4
@@ -736,40 +736,40 @@ translations:
     t: "`{id}` attribute"
 
   - key: features.slot_assignment
-    t: Explicit slot assignment (`slot="foo"`)
+    t: 明確 slot 分配（`slot="foo"`）
 
   - key: features.tabindex
     t: "`tabindex` attribute"
 
   - key: features.respimg
-    t: "`srcset` and `sizes` attributes"
+    t: "`srcset` 和 `sizes` 屬性"
 
   - key: features.model_element
-    t: "`<model>` for AR/VR/3D content"
+    t: "AR/VR/3D 內容的 `<model>`"
 
   - key: features.slot_def
-    t: Defining slots (`<slot>` and `::slotted()`)
+    t: 定義 slots（`<slot>` 和 `::slotted()`）
 
   - key: features.controlslist
-    t: "`controlslist` attribute"
+    t: "`controlslist` 屬性"
 
   - key: features.popover_api
     t: Popover API
 
   - key: features.lazy_loading
-    t: Lazy loading
+    t: 延遲載入
 
   - key: features.sandbox_attr
-    t: "`sandbox` attribute for iframes"
+    t: "iframes 的 `sandbox` 屬性"
 
   - key: features.details_element
-    t: "`<details>` and `<summary>`"
+    t: "`<details>` 和 `<summary>`"
 
   - key: features.crossorigin
-    t: "`crossorigin` attribute"
+    t: "`crossorigin` 屬性"
 
   - key: features.host_css
-    t: Styling component host (`:host`, `:host()`, `:host-context()`)
+    t: 樣式元件的的 host（`:host`、`:host()`、`:host-context()`）
 
   - key: features.element_internals
     t: "`ElementInternals` API"
@@ -778,19 +778,19 @@ translations:
     t: CORS
 
   - key: features.csp
-    t: Content-Security Policy (CSP)
+    t: Content-Security Policy（CSP）
 
   - key: features.structured_data
-    t: Structured data (RDFa, Microdata, Microformats)
+    t: 結構化資料（RDFa、Microdata、Microformats）
 
   - key: features.extended_builtins
-    t: Extended built-ins
+    t: 擴充內建
 
   - key: features.html_modules
     t: HTML Modules
 
   - key: features.accordion
-    t: Exclusive accordion
+    t: 專用的 accordion
 
   - key: features.imperative_slot
     t: Imperative slot assignment
@@ -799,7 +799,7 @@ translations:
   #   t: "`focusgroup` attribute"
 
   - key: features.form_validation
-    t: Form validation
+    t: 表單驗證
 
   - key: features.aria
     t: ARIA
@@ -823,25 +823,25 @@ translations:
     t: Declarative Shadow DOM (`<template shadowrootmode="open">`)
 
   - key: features.referrerpolicy
-    t: "`referrerpolicy` attribute"
+    t: "`referrerpolicy` 屬性"
 
   - key: features.integrity
-    t: Subresource Integrity (`integrity` attribute)
+    t: 子資源完整性（`integrity` 屬性）
 
   - key: features.pwa_manifest
     t: PWA manifest
 
   - key: features.part_attr
-    t: Exposing component parts (`part` attribute)
+    t: Exposing component parts（`part` 屬性）
 
   - key: features.part_selector
-    t: Styling component parts (`::part()`)
+    t: Styling component parts（`::part()`）
 
   - key: features.svg_element
-    t: Inline SVG (`<svg>`)
+    t: Inline SVG（`<svg>`）
 
   - key: features.math_element
-    t: Inline MathML (`<math>`)
+    t: Inline MathML（`<math>`）
 
   - key: features.scoped_element_registries
     t: Scoped Custom Element Registries
@@ -850,13 +850,13 @@ translations:
     t: Navigation API
 
   - key: features.custom_elements_defining
-    t: Defining Custom Elements
+    t: 定義自訂元素
 
   - key: features.decoding
-    t: "`decoding` attribute"
+    t: "`decoding` 屬性"
 
   - key: features.custom_elements_using
-    t: Using Custom Elements
+    t: 使用自訂元素
 
   - key: features.fencedframe
     t: Fenced frames
@@ -868,22 +868,22 @@ translations:
     t: HTML Media Capture
 
   - key: features.contenteditable_plaintext
-    t: "`plaintext-only` value for `contenteditable`"
+    t: "`contenteditable` 的 `plaintext-only` 值"
 
   - key: features.dom_parts
-    t: DOM Parts
+    t: DOM 部分
 
   - key: features.fetchpriority
-    t: Fetch Priority API (`fetchpriority` attribute)
+    t: Fetch Priority API（`fetchpriority` 屬性）
 
   - key: features.autocomplete
     t: '`autocomplete="hint"`'
 
   - key: features.inert_attribute
-    t: "`inert` attribute"
+    t: "`inert` 屬性"
 
   - key: features.client_hints
-    t: HTTP client hints
+    t: HTTP 客戶端提示
 
   ###########################################################################
   # Survey Help
@@ -891,7 +891,7 @@ translations:
 
   - key: features.features_intro_html
     t: |
-      Welcome to the survey! These first couple sections are all about figuring out
-      which **features** of HTML (and related APIs) you know about.
+      歡迎參與調查！ 前幾節都是關於弄清楚
+      你了解 HTML（和相關 API）的哪些**功能**。
 
-      By the way, if you want to learn more about any item in the survey, you can add it to your reading list by clicking its little "+" icon!
+      順帶一提，如果你想了解有關調查中任何項目的更多訊息，可以通過點擊小「+」圖示將本頁加入到你的閱讀列表中！
