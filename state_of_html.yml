@@ -86,26 +86,26 @@ translations:
   - key: features.form_controls
     t: 表單控制
   - key: features.form_controls.question
-    t: 你使用過哪些表單控制？
+    t: 使用過哪些表單控制？
 
   - key: features.form_input_types
     t: 輸入類型
   - key: features.form_input_types.question
-    t: 你使用過哪些輸入類型？
+    t: 使用過哪些輸入類型？
   - key: options.form_input_types.na
     t: <span aria-hidden="true">🚫</span> 以上皆非
 
   - key: features.form_validation_features
     t: 表單驗證
   - key: features.form_validation_features.question
-    t: 你使用過以下哪些表單驗證功能？
+    t: 使用過以下哪些表單驗證功能？
   - key: options.form_validation_features.na
     t: <span aria-hidden="true">🚫</span> 以上皆非
 
   - key: features.forms_pain_points
     t: 表單的痛點
   - key: features.forms_pain_points.question
-    t: 你使用 HTML 表單有哪些痛點？
+    t: 使用 HTML 表單有哪些痛點？
   - key: features.forms_pain_points.description
     t: |
       考慮各種表單選項（例如
@@ -120,12 +120,12 @@ translations:
   - key: features.dom_attribute_features
     t: DOM 屬性相關方法
   - key: features.dom_attribute_features.question
-    t: 你使用過以下哪些與 DOM 屬性相關的方法？
+    t: 使用過以下哪些與 DOM 屬性相關的方法？
 
   - key: features.dom_html_features
     t: HTML 字串處理功能
   - key: features.dom_html_features.question
-    t: 你使用過以下哪些 DOM HTML 字串處理功能？
+    t: 使用過以下哪些 DOM HTML 字串處理功能？
 
   - key: features.dom_methods
     t: Element reparenting DOM Methods元素重新調整的 DOM 方法
@@ -133,7 +133,7 @@ translations:
   - key: features.dom_moving_element_features
     t: Element-moving DOM Methods 元素移動的 DOM 方法
   - key: features.dom_moving_element_features.question
-    t: 你使用過以下哪些方法來移動 DOM 元素？
+    t: 使用過以下哪些方法來移動 DOM 元素？
   # - key: options.dom_methods.element_innerhtml.description
   #   t: |
   #     `element.innerHTML = rawHTML`
@@ -176,7 +176,7 @@ translations:
   - key: features.interactivity_pain_points
     t: 互動性的痛點
   - key: features.interactivity_pain_points.question
-    t: 你在動態 HTML 改變有什麼痛點？
+    t: 動態 HTML 改變有什麼痛點？
   - key: features.interactivity_pain_points.description
     t: |
       瀏覽器不相容或缺乏支援、缺少功能以及你面臨的其他問題
@@ -189,15 +189,15 @@ translations:
   - key: features.interactivity_techniques
     t: 互動方法
   - key: features.interactivity_techniques.question
-    t: 你使用過哪些方法來加入互動或動態修改 HTML？
+    t: 使用過哪些方法來加入互動或動態修改 HTML？
   - key: options.interactivity_techniques.css_for_interactivity
-    t: 用於互動的 CSS（toggles, tabs, etc.）
+    t: 用於互動的 CSS（toggles, tabs 等等）
   - key: options.interactivity_techniques.js_dom_libraries
-    t: JavaScript DOM 函式庫（jQuery, etc.）
+    t: JavaScript DOM 函式庫（jQuery 等等）
   - key: options.interactivity_techniques.js_framework
-    t: JavaScript 框架（React, Vue, etc.）
+    t: JavaScript 框架（React, Vue 等等）
   - key: options.interactivity_techniques.vanilla_js
-    t: 純 JavaScript（無 frameworks 或 libraries）
+    t: 純 JavaScript（無框架或函式庫）
   - key: options.interactivity_techniques.web_components
     t: Web Components
   - key: options.interactivity_techniques.na
@@ -208,7 +208,7 @@ translations:
   - key: features.machine_readable_features
     t: 機器可讀資料
   - key: features.machine_readable_features.question
-    t: 你使用下列哪一種方法在 HTML 中包含機器可讀的資料？
+    t: 使用下列哪一種方法在 HTML 中包含機器可讀的資料？
   - key: options.machine_readable_features.rdfa.description
     t: |
       `property`、`typeof` 等等。
@@ -226,7 +226,7 @@ translations:
   - key: options.multiple_languages_support.never
     t: 從來沒有
   - key: options.multiple_languages_support.infrequently
-    t: 不經常（每年少於一次）
+    t: 不常（每年少於一次）
   - key: options.multiple_languages_support.frequently
     t: 經常（每年超過一次）
   - key: options.multiple_languages_support.all_the_time
@@ -235,7 +235,7 @@ translations:
   - key: features.i18n_features
     t: 國際化功能
   - key: features.i18n_features.question
-    t: 你使用過以下哪些國際化功能
+    t: 使用過以下哪些國際化功能？
   - key: options.i18n_features.na
     t: <span aria-hidden="true">🚫</span> 以上皆非
 
@@ -261,10 +261,10 @@ translations:
   - key: features.content_pain_points
     t: 內容痛點
   - key: features.content_pain_points.question
-    t: 你在管理 HTML 內容有哪些痛點？
+    t: 在管理 HTML 內容有哪些痛點？
   - key: features.content_pain_points.description
     t: |
-      考慮嵌入（多媒體、iframe、SVG 等）、機器可讀資料、國際化和本地化、安全性和隱私、效能等。
+      考慮嵌入（多媒體、iframe、SVG 等等）、機器可讀資料、國際化和本地化、安全性和隱私、效能等。
       缺少功能、瀏覽器不兼容以及你面臨的其他問題都是很正常的。
   - key: features.content_pain_points.placeholder
     t: |
@@ -284,7 +284,7 @@ translations:
       安全性 & 隱私功能
   - key: features.privacy_security_features.question
     t: |
-      你使用過以下哪些安全性和隱私功能？
+      使用過以下哪些安全性和隱私功能？
   - key: options.privacy_security_features.na
     t: <span aria-hidden="true">🚫</span> 以上皆非
 
@@ -310,12 +310,12 @@ translations:
   - key: features.web_components_libraries
     t: Web Components 函式庫
   - key: features.web_components_libraries.question
-    t: 你有使用過任何 Web Components 函式庫嗎？
+    t: 有使用過任何 Web Components 函式庫嗎？
 
   - key: features.web_components_features
     t: 其他 Web Component 功能
   - key: features.web_components_features.question
-    t: 你使用過以下哪些 web component 的功能？
+    t: 使用過以下哪些 web component 的功能？
   - key: options.web_components_features.host_pseudos.description
     t: |
       `:host` , `:host()` , `:host-context()`
@@ -328,7 +328,7 @@ translations:
   - key: features.using_web_components_pain_points
     t: 使用 Web Components 的痛點
   - key: features.using_web_components_pain_points.question
-    t: 你*使用* web components 最大的痛點是什麼？
+    t: _使用_ web components 最大的痛點是什麼？
   - key: features.using_web_components_pain_points.description
     t: 使用你或其他人製作的 Web Components。缺少功能、瀏覽器不兼容等。
   - key: features.using_web_components_pain_points.placeholder
@@ -338,7 +338,7 @@ translations:
   - key: features.making_web_components_pain_points
     t: 開發 Web Components 的痛點
   - key: features.making_web_components_pain_points.question
-    t: 你*開發* web components 最大的痛點是什麼？
+    t: _開發_ web components 最大的痛點是什麼？
   - key: features.making_web_components_pain_points.description
     t: |
       是什麼阻止你創造出令人驚艷的 component？缺少功能、瀏覽器不兼容等。
@@ -351,17 +351,17 @@ translations:
   - key: features.accessibility_features
     t: 無障礙功能
   - key: features.accessibility_features.question
-    t: 你曾經使用過哪些無障礙功能？
+    t: 曾經使用過哪些無障礙功能？
 
   - key: features.accessibility_tools
     t: 無障礙工具
   - key: features.accessibility_tools.question
-    t: 你使用什麼工具進行無障礙測試？
+    t: 使用什麼工具進行無障礙測試？
 
   - key: features.accessibility_pain_points
     t: 無障礙通點
   - key: features.accessibility_pain_points.question
-    t: 你在網路無障礙方面最大的痛點是什麼？
+    t: 在網路無障礙方面最大的痛點是什麼？
   - key: features.accessibility_pain_points.placeholder
     t: |
       痛點 #{index}…
@@ -411,12 +411,12 @@ translations:
   - key: features.accessibility_screenreaders
     t: 螢幕閱讀器
   - key: features.accessibility_screenreaders.question
-    t: 你使用哪種螢幕閱讀器進行無障礙測試？
+    t: 使用哪種螢幕閱讀器進行無障礙測試？
 
   - key: features.accessibility_techniques
     t: 其他無障礙使用技術
   - key: features.accessibility_techniques.question
-    t: 你的常規無障礙策略中還有哪些技術？
+    t: 常規無障礙策略中還有哪些技術？
 
   - key: options.accessibility_techniques.tabindex
     t: |
@@ -494,14 +494,14 @@ translations:
   - key: features.pwa_features
     t: PWA 功能
   - key: features.pwa_features.question
-    t: 你是否使用過以下哪些 PWA 技術/APIs？
+    t: 是否使用過以下哪些 PWA 技術/APIs？
   - key: options.pwa_features.na
     t: <span aria-hidden="true">🚫</span> 以上皆非
 
   - key: features.local_storage_features
     t: Local storage 功能
   - key: features.local_storage_features.question
-    t: 你是否使用過以下任何一種來儲存客戶端資料？
+    t: 是否使用過以下任何一種來儲存客戶端資料？
   - key: options.local_storage_features.na
     t: <span aria-hidden="true">🚫</span> 以上皆非
 
@@ -509,12 +509,12 @@ translations:
     t: App Manifest Fields
   - key: features.pwa_app_manifest_fields.question
     t: |
-      你使用過以下哪些 app manifest fields（`<link rel="manifest">`），如果有？
+      使用過以下哪些 app manifest fields（`<link rel="manifest">`），如果有？
 
   - key: features.native_apps_tools
     t: 原生應用程式工具
   - key: features.native_apps_tools.question
-    t: 你是否使用過這些工具來建立原生應用程式？
+    t: 是否使用過這些工具來建立原生應用程式？
   - key: features.native_apps_tools.description
     t: 除了 scripts、command-line 應用程式、server-side 端程式碼等。
   - key: options.native_apps_tools.na
@@ -522,20 +522,20 @@ translations:
   - key: options.native_apps_tools.native_languages
     t: 原生技術
   - key: options.native_apps_tools.native_languages.description
-    t: Objective-C、Swift、Kotlin、.NET 等。
+    t: Objective-C、Swift、Kotlin、.NET 等等。
   - key: options.native_apps_tools.webviews
     t: 網頁應用程式透過 WebViews 載入
   - key: options.native_apps_tools.js_frameworks
     t: 基於 JavaScript 的框架
   - key: options.native_apps_tools.js_frameworks.description
-    t: React Native、Ionic、Electron 等。
+    t: React Native、Ionic、Electron 等等。
   - key: options.native_apps_tools.other_frameworks
     t: 非 JavaScript 框架
   - key: options.native_apps_tools.other_frameworks.description
-    t: Tauri、Flutter 等。
+    t: Tauri、Flutter 等等。
 
   - key: features.mobile_web_apps_pain_points
-    t: 類原生網頁應用程式通點
+    t: 類原生網頁應用程式痛點
   - key: features.mobile_web_apps_pain_points.question
     t: 在製作原生 Web 應用程式方面，你最大的痛點是什麼？
   - key: features.mobile_web_apps_pain_points.description
@@ -567,7 +567,7 @@ translations:
   - key: other_tools.blast_from_the_past
     t: 過去的往事！
   - key: other_tools.blast_from_the_past.question
-    t: 你曾經使用過以下任何 old-school 的元素嗎？
+    t: 曾經使用過以下任何 old-school 的元素嗎？
   - key: other_tools.blast_from_the_past.description
     t: 過去的往事！
   - key: options.blast_from_the_past.na
@@ -617,7 +617,7 @@ translations:
   - key: usage.what_do_you_use_html_for
     t: HTML 使用
   - key: usage.what_do_you_use_html_for.question
-    t: 你使用 HTML 做什麼？
+    t: 使用 HTML 做什麼？
   - key: options.what_do_you_use_html_for.blogs
     aliasFor: options.what_do_you_use_css_for.blogs
   - key: options.what_do_you_use_html_for.design_systems
@@ -722,7 +722,7 @@ translations:
   - key: usage.html_css_js_balance
     t: HTML/CSS 和 JavaScript/TypeScript 平衡
   - key: usage.html_css_js_balance.question
-    t: 你如何分配撰寫 HTML/CSS 和 JavaScript（或 TypeScript）程式碼的時間？
+    t: 如何分配撰寫 HTML/CSS 和 JavaScript（或 TypeScript）程式碼的時間？
   - key: options.html_css_js_balance.0
     t: 100% HTML/CSS
   - key: options.html_css_js_balance.4
