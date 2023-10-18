@@ -89,18 +89,18 @@ translations:
     t: 使用過哪些表單控制？
 
   - key: features.form_input_types
-    t: 輸入類型
+    t: 輸入欄位類型
   - key: features.form_input_types.question
     t: 使用過哪些輸入類型？
   - key: options.form_input_types.na
-    t: <span aria-hidden="true">🚫</span> 以上皆非
+    t: <span aria-hidden="true">🚫</span> 以上皆無
 
   - key: features.form_validation_features
     t: 表單驗證
   - key: features.form_validation_features.question
     t: 使用過以下哪些表單驗證功能？
   - key: options.form_validation_features.na
-    t: <span aria-hidden="true">🚫</span> 以上皆非
+    t: <span aria-hidden="true">🚫</span> 以上皆無
 
   - key: features.forms_pain_points
     t: 表單的痛點
@@ -110,7 +110,7 @@ translations:
     t: |
       考慮各種表單選項（例如
       ：`<input>`, `<textarea>`, `<select>`, `<button>` 等等。）、行為（例如：驗證、自動完成）、透過 JS 處理表單、編輯 APIs（例如：`contentEditable`）等等。
-      任何困擾你的事情都是公平的——瀏覽器支援、缺少的功能、樣式等等。
+      任何困擾你的事情都可以說——瀏覽器支援、缺少的功能、樣式等等。
   - key: features.forms_pain_points.placeholder
     t: |
       痛點 #{index}…
@@ -128,10 +128,10 @@ translations:
     t: 使用過以下哪些 DOM HTML 字串處理功能？
 
   - key: features.dom_methods
-    t: Element reparenting DOM Methods元素重新調整的 DOM 方法
+    t: 移動的 DOM 到其他元件下的方法
 
   - key: features.dom_moving_element_features
-    t: Element-moving DOM Methods 元素移動的 DOM 方法
+    t: 移動元素的 DOM 方法
   - key: features.dom_moving_element_features.question
     t: 使用過以下哪些方法來移動 DOM 元素？
   # - key: options.dom_methods.element_innerhtml.description
@@ -171,16 +171,16 @@ translations:
   #   t: |
   #     `let fragment = document.createDocumentFragment()`
   - key: options.dom_methods.na
-    t: <span aria-hidden="true">🚫</span> 以上皆非
+    t: <span aria-hidden="true">🚫</span> 以上皆無
 
   - key: features.interactivity_pain_points
     t: 互動性的痛點
   - key: features.interactivity_pain_points.question
-    t: 動態 HTML 改變有什麼痛點？
+    t: 在動態改變 HTML 時有碰過什麼痛點？
   - key: features.interactivity_pain_points.description
     t: |
-      瀏覽器不相容或缺乏支援、缺少功能以及你面臨的其他問題
-        圍繞互動元素和行為（表單除外）、DOM 操作、事件和相關 API。
+      使用互動元素和行為（表單除外）、DOM 改動或移動、事件，
+      和相關 API 上所碰到的瀏覽器不相容、缺乏支援、或缺少功能等的問題。
 
   - key: features.interactivity_pain_points.placeholder
     t: |
@@ -201,7 +201,7 @@ translations:
   - key: options.interactivity_techniques.web_components
     t: Web Components
   - key: options.interactivity_techniques.na
-    t: <span aria-hidden="true">🚫</span> 以上皆非
+    t: <span aria-hidden="true">🚫</span> 以上皆無
 
   # content
 
@@ -220,9 +220,9 @@ translations:
       `itemprop`、`itemscope` 等等。
 
   - key: features.multiple_languages_support
-    t: 支援多國語系
+    t: 多國語系支援
   - key: features.multiple_languages_support.question
-    t: 你經常參與需要支援多國語系的專案嗎？
+    t: 你經常參與需要多國語系支援的專案嗎？
   - key: options.multiple_languages_support.never
     t: 從來沒有
   - key: options.multiple_languages_support.infrequently
@@ -237,7 +237,7 @@ translations:
   - key: features.i18n_features.question
     t: 使用過以下哪些國際化功能？
   - key: options.i18n_features.na
-    t: <span aria-hidden="true">🚫</span> 以上皆非
+    t: <span aria-hidden="true">🚫</span> 以上皆無
 
   # - key: options.i18n_features.intl_datetimeformat.description
   #   t:
@@ -264,8 +264,8 @@ translations:
     t: 在管理 HTML 內容有哪些痛點？
   - key: features.content_pain_points.description
     t: |
-      考慮嵌入（多媒體、iframe、SVG 等等）、機器可讀資料、國際化和本地化、安全性和隱私、效能等。
-      缺少功能、瀏覽器不兼容以及你面臨的其他問題都是很正常的。
+      使用嵌入內容（多媒體、iframe、SVG 等等）、機器可讀資料、國際化和本地化、安全性和隱私、效能等時，
+      所碰過的缺少功能、瀏覽器不兼容，或任何其他的問題。
   - key: features.content_pain_points.placeholder
     t: |
       痛點 #{index}…
@@ -277,7 +277,7 @@ translations:
   - key: features.external_content_elements.question
     t: 你使用過下列哪些元素？
   - key: options.external_content_elements.na
-    t: <span aria-hidden="true">🚫</span> 以上皆非
+    t: <span aria-hidden="true">🚫</span> 以上皆無
 
   - key: features.privacy_security_features
     t: |
@@ -286,13 +286,13 @@ translations:
     t: |
       使用過以下哪些安全性和隱私功能？
   - key: options.privacy_security_features.na
-    t: <span aria-hidden="true">🚫</span> 以上皆非
+    t: <span aria-hidden="true">🚫</span> 以上皆無
 
   - key: features.rel_attribute
     t: 資源提示
   - key: features.rel_attribute.question
     t: |
-      你將以下哪些值用於 `<link>` 的 `rel` 屬性？
+      你曾使用過以下哪些 `<link>` 的 `rel` 屬性值？
 
   # - key: features.external_content_pain_points
   #   t: External Content Pain Points
@@ -323,14 +323,14 @@ translations:
     t: |
       `<button is="fancy-button">`
   - key: options.web_components_features.na
-    t: <span aria-hidden="true">🚫</span> 以上皆非
+    t: <span aria-hidden="true">🚫</span> 以上皆無
 
   - key: features.using_web_components_pain_points
     t: 使用 Web Components 的痛點
   - key: features.using_web_components_pain_points.question
     t: _使用_ web components 最大的痛點是什麼？
   - key: features.using_web_components_pain_points.description
-    t: 使用你或其他人製作的 Web Components。缺少功能、瀏覽器不兼容等。
+    t: 使用你或其他人製作的 Web Components 時所碰到缺少功能、瀏覽器不兼容等問題。
   - key: features.using_web_components_pain_points.placeholder
     t: |
       痛點 #{index}…
@@ -341,7 +341,7 @@ translations:
     t: _開發_ web components 最大的痛點是什麼？
   - key: features.making_web_components_pain_points.description
     t: |
-      是什麼阻止你創造出令人驚艷的 component？缺少功能、瀏覽器不兼容等。
+      有哪些問題讓你無法創造出令人驚艷的 component 嗎？缺少功能、瀏覽器不兼容等。
   - key: features.making_web_components_pain_points.placeholder
     t: |
       痛點 #{index}…
@@ -416,14 +416,14 @@ translations:
   - key: features.accessibility_techniques
     t: 其他無障礙使用技術
   - key: features.accessibility_techniques.question
-    t: 常規無障礙策略中還有哪些技術？
+    t: 無障礙策略中平常有使用哪些技術？
 
   - key: options.accessibility_techniques.tabindex
     t: |
-      使用 `tabindex` 改善焦點順序
+      使用 `tabindex` 改善 focus 順序
   - key: options.accessibility_techniques.tabindex.description
     t: |
-      移動 `tabindex`、`tabindex="0"` 以啟用焦點等等。
+      移動 `tabindex`、`tabindex="0"` 以啟用 focus 功能等等。
   - key: options.accessibility_techniques.keyboard_navigation
     t: 直覺的鍵盤導航
   - key: options.accessibility_techniques.keyboard_navigation.description
@@ -456,7 +456,7 @@ translations:
   - key: options.accessibility_techniques.meaningful_link_text
     t: 有意義的連結文字
   - key: options.accessibility_techniques.meaningful_link_text.description
-    t: 確保連結文字脫離上下文有意義
+    t: 確保連結文字在脫離上下文的時候仍有意義
   - key: options.accessibility_techniques.form_control_label
     t: 表單控制標籤
   - key: options.accessibility_techniques.form_control_label.description
@@ -467,9 +467,9 @@ translations:
   - key: options.accessibility_techniques.visible_focus.description
     t: 確保在需要時 focus ring 輪廓清晰可見。
   - key: options.accessibility_techniques.pointer_alternative
-    t: 不只依賴 Pointer
+    t: 不只依賴游標
   - key: options.accessibility_techniques.pointer_alternative.description
-    t: 確保 pointer 互動（例如：hover）有鍵盤替代方案。
+    t: 確保游標互動行為（例如：滑鼠覆蓋）有鍵盤替代方案。
   - key: options.accessibility_techniques.good_color_contrast
     t: 足夠的對比度
   - key: options.accessibility_techniques.good_color_contrast.description
@@ -482,12 +482,12 @@ translations:
     t: |
       `prefers-reduced-motion` media query
   - key: options.accessibility_techniques.prefers_reduced_motion.description
-    t: 為喜歡較少 motion 的使用者提供替代 CSS。
+    t: 為有設定「偏好較少動態」的使用者提供替代 CSS。
   - key: options.accessibility_techniques.prefers_contrast
     t: |
       `prefers-contrast` media query
   - key: options.accessibility_techniques.prefers_contrast.description
-    t: 為喜歡增加對比度的使用者提供替代 CSS。
+    t: 為有設定「偏好增加對比度」的使用者提供替代 CSS。
 
   # PWAs
 
@@ -496,27 +496,27 @@ translations:
   - key: features.pwa_features.question
     t: 是否使用過以下哪些 PWA 技術/APIs？
   - key: options.pwa_features.na
-    t: <span aria-hidden="true">🚫</span> 以上皆非
+    t: <span aria-hidden="true">🚫</span> 以上皆無
 
   - key: features.local_storage_features
     t: Local storage 功能
   - key: features.local_storage_features.question
     t: 是否使用過以下任何一種來儲存客戶端資料？
   - key: options.local_storage_features.na
-    t: <span aria-hidden="true">🚫</span> 以上皆非
+    t: <span aria-hidden="true">🚫</span> 以上皆無
 
   - key: features.pwa_app_manifest_fields
     t: App Manifest Fields
   - key: features.pwa_app_manifest_fields.question
     t: |
-      使用過以下哪些 app manifest fields（`<link rel="manifest">`），如果有？
+      使用過以下哪些 app manifest fields（`<link rel="manifest">`）？
 
   - key: features.native_apps_tools
     t: 原生應用程式工具
   - key: features.native_apps_tools.question
     t: 是否使用過這些工具來建立原生應用程式？
   - key: features.native_apps_tools.description
-    t: 除了 scripts、command-line 應用程式、server-side 端程式碼等。
+    t: 除了 scripts、command-line 應用程式、伺服器端程式碼等。
   - key: options.native_apps_tools.na
     t: <span aria-hidden="true">🚫</span> 我未曾開發過原生應用程式
   - key: options.native_apps_tools.native_languages
@@ -524,9 +524,9 @@ translations:
   - key: options.native_apps_tools.native_languages.description
     t: Objective-C、Swift、Kotlin、.NET 等等。
   - key: options.native_apps_tools.webviews
-    t: 網頁應用程式透過 WebViews 載入
+    t: 用過 WebViews 載入網頁應用程式
   - key: options.native_apps_tools.js_frameworks
-    t: 基於 JavaScript 的框架
+    t: JavaScript 的框架
   - key: options.native_apps_tools.js_frameworks.description
     t: React Native、Ionic、Electron 等等。
   - key: options.native_apps_tools.other_frameworks
@@ -562,16 +562,16 @@ translations:
     aliasFor: features.machine_readable_features.question
 
   - key: options.machine_readable_features.na
-    t: <span aria-hidden="true">🚫</span> 以上皆非
+    t: <span aria-hidden="true">🚫</span> 以上皆無
 
   - key: other_tools.blast_from_the_past
-    t: 過去的往事！
+    t: 過去的經典！
   - key: other_tools.blast_from_the_past.question
-    t: 曾經使用過以下任何 old-school 的元素嗎？
+    t: 曾經使用過以下任何老派元素嗎？
   - key: other_tools.blast_from_the_past.description
-    t: 過去的往事！
+    t: 過去的經典！
   - key: options.blast_from_the_past.na
-    t: <span aria-hidden="true">🚫</span> 以上皆非
+    t: <span aria-hidden="true">🚫</span> 以上皆無
 
   # Usage
 
@@ -600,19 +600,19 @@ translations:
   - key: usage.html_functionality_features
     t: 有限的功能
   - key: usage.html_functionality_features.question
-    t: 由於其他因素（以及原因），你無法使用哪些現有的 HTML 功能或瀏覽器 API？
+    t: 是否有哪些現有的 HTML 功能或瀏覽器 API 因為其他問題而無法使用？
   - key: usage.html_functionality_features.description
     t: |
-      好的候選者可能是你經常需要使用 JS 重新建立或加強的現有 HTML 功能。
+      例如經常需要使用 JavaScript 自己從頭寫起或加強的現有 HTML 功能。
 
       請同時說明原因，例如缺乏功能、樣式困難、無障礙體驗差等。
 
   - key: usage.html_functionality_features.placeholder.1
     t: |
-      功能 #1 (hard to style)
+      功能 #1（難以自訂外表）
   - key: usage.html_functionality_features.placeholder.2
     t: |
-      功能 #2 (limited functionality, poor accessibility)
+      功能 #2（缺少功能、不符合無障礙需求）
 
   - key: usage.what_do_you_use_html_for
     t: HTML 使用
@@ -641,9 +641,9 @@ translations:
     t: 除了你自己之外，還有多少開發人員使用你建立或維護的函式庫、套件、元件、API 等？
   - key: usage.tools_for_other_developers.description
     t: |
-      如果你從事其他開發人員使用的多個專案。
-      如果你不確定，請選擇最接近你最佳估計的值。
-      對於開源程式碼，npm 下載可能會提供有用的資料點。
+      如果有，總共有多少其他開發人員使用你所做的專案？
+      如果你確定，提供最接近的估計的值就可以了。
+      開源程式碼的話可以使用 npm 下載數量作為依據。
   - key: options.tools_for_other_developers.na
     t: 🚫 無（只有我自己）
   - key: options.tools_for_other_developers.a_few
@@ -662,7 +662,7 @@ translations:
   - key: usage.html_missing_elements
     t: 缺乏元素
   - key: usage.html_missing_elements.question
-    t: 如果你可以為 HTML 加入 3 個元素，它們會是什麼？
+    t: 如果你可以加入 3 個元素到 HTML 中，它們會是什麼？
   # - key: usage.html_missing_elements.description
   #   t: |
   #     If you use any component technologies, the components you find yourself reusing across multiple projects could be good candidates.
@@ -684,7 +684,7 @@ translations:
   - key: options.html_missing_elements.context_menu
     t: Context Menu / Right-Click Menu
   - key: options.html_missing_elements.datatable
-    t: Data table (with sorting, filtering, etc.)
+    t: Data table（具備排序、過濾 等等）
   - key: options.html_missing_elements.dropdown_menu
     t: Dropdown Menu
   - key: options.html_missing_elements.image_zoom
@@ -733,13 +733,13 @@ translations:
   # other features
 
   - key: features.foo_attribute
-    t: "`{id}` attribute"
+    t: "`{id}` 屬性"
 
   - key: features.slot_assignment
     t: 明確 slot 分配（`slot="foo"`）
 
   - key: features.tabindex
-    t: "`tabindex` attribute"
+    t: "`tabindex` 屬性"
 
   - key: features.respimg
     t: "`srcset` 和 `sizes` 屬性"
@@ -769,7 +769,7 @@ translations:
     t: "`crossorigin` 屬性"
 
   - key: features.host_css
-    t: 樣式元件的的 host（`:host`、`:host()`、`:host-context()`）
+    t: 自訂元件 host 的樣式（`:host`、`:host()`、`:host-context()`）
 
   - key: features.element_internals
     t: "`ElementInternals` API"
@@ -790,10 +790,10 @@ translations:
     t: HTML Modules
 
   - key: features.accordion
-    t: 專用的 accordion
+    t: 單項開關的 accordion
 
   - key: features.imperative_slot
-    t: Imperative slot assignment
+    t: 陳述式 slot 分配
 
   # - key: features.focusgroup
   #   t: "`focusgroup` attribute"
@@ -805,22 +805,22 @@ translations:
     t: ARIA
 
   - key: features.rh_preconnect
-    t: "Resource Hints: preconnect (`<link rel=preconnect>`)"
+    t: "資源提示：preconnect（`<link rel=preconnect>`）"
 
   - key: features.rh_prerender
-    t: "Resource Hints: prerender (`<link rel=prerender>`)"
+    t: "資源提示：prerender（`<link rel=prerender>`）"
 
   - key: features.rh_preload
-    t: "Resource Hints: preload (`<link rel=preload>`)"
+    t: "資源提示：preload（`<link rel=preload>`）"
 
   - key: features.resource_hints
-    t: Resource Hints (all)
+    t: 資源提示：ll）
 
   - key: features.rh_prefetch
-    t: "Resource Hints: prefetch (`<link rel=prefetch>`)"
+    t: "資源提示：prefetch（`<link rel=prefetch>`）"
 
   - key: features.declarative_shadow
-    t: Declarative Shadow DOM (`<template shadowrootmode="open">`)
+    t: 聲明式 Shadow DOM（`<template shadowrootmode="open">`）
 
   - key: features.referrerpolicy
     t: "`referrerpolicy` 屬性"
@@ -891,7 +891,7 @@ translations:
 
   - key: features.features_intro_html
     t: |
-      歡迎參與調查！ 前幾節都是關於弄清楚
-      你了解 HTML（和相關 API）的哪些**功能**。
+      歡迎參與問券調查！前幾節都是希望能知道
+      你了解 HTML（和相關 API）裡頭的哪些**功能**。
 
-      順帶一提，如果你想了解有關調查中任何項目的更多訊息，可以通過點擊小「+」圖示將本頁加入到你的閱讀列表中！
+      順帶一提，如果你想了解有關調查中任何項目的更多訊息，可以點擊「+」圖示把該功能資訊加入到你的閱讀列表裡！
