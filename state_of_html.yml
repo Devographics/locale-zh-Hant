@@ -84,56 +84,56 @@ translations:
   # forms
 
   - key: features.form_controls
-    t: Form Controls
+    t: 表單控制
   - key: features.form_controls.question
-    t: Which form controls have you used?
+    t: 使用過哪些表單控制？
 
   - key: features.form_input_types
-    t: Input Types
+    t: 輸入欄位類型
   - key: features.form_input_types.question
-    t: Which input types have you used?
+    t: 使用過哪些輸入類型？
   - key: options.form_input_types.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> 以上皆無
 
   - key: features.form_validation_features
-    t: Form Validation
+    t: 表單驗證
   - key: features.form_validation_features.question
-    t: Which of the following form validation features have you used?
+    t: 使用過以下哪些表單驗證功能？
   - key: options.form_validation_features.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> 以上皆無
 
   - key: features.forms_pain_points
-    t: Form Pain Points
+    t: 表單的痛點
   - key: features.forms_pain_points.question
-    t: What are your pain points around HTML forms?
+    t: 使用 HTML 表單有哪些痛點？
   - key: features.forms_pain_points.description
     t: |
-      Think of the various form controls (e.g. `<input>`, `<textarea>`, `<select>`, `<button>` etc.),
-      behaviors (e.g. validation, autocomplete), handling forms via JS, editing APIs (e.g. `contentEditable`) etc.
-      Anything that bothers you is fair game — browser support, missing features, styling, etc.
+      考慮各種表單選項（例如
+      ：`<input>`, `<textarea>`, `<select>`, `<button>` 等等。）、行為（例如：驗證、自動完成）、透過 JS 處理表單、編輯 APIs（例如：`contentEditable`）等等。
+      任何困擾你的事情都可以說——瀏覽器支援、缺少的功能、樣式等等。
   - key: features.forms_pain_points.placeholder
     t: |
-      Pain point #{index}…
+      痛點 #{index}…
 
   # interactivity
 
   - key: features.dom_attribute_features
-    t: DOM Attribute-related methods
+    t: DOM 屬性相關方法
   - key: features.dom_attribute_features.question
-    t: Which of the following DOM attribute-related methods have you used?
+    t: 使用過以下哪些與 DOM 屬性相關的方法？
 
   - key: features.dom_html_features
-    t: HTML String-handling Features
+    t: HTML 字串處理功能
   - key: features.dom_html_features.question
-    t: Which of the following DOM HTML string-handling features have you used?
+    t: 使用過以下哪些 DOM HTML 字串處理功能？
 
   - key: features.dom_methods
-    t: Element reparenting DOM Methods
+    t: 移動的 DOM 到其他元件下的方法
 
   - key: features.dom_moving_element_features
-    t: Element-moving DOM Methods
+    t: 移動元素的 DOM 方法
   - key: features.dom_moving_element_features.question
-    t: Which of the following element-moving DOM methods have you used?
+    t: 使用過以下哪些方法來移動 DOM 元素？
   # - key: options.dom_methods.element_innerhtml.description
   #   t: |
   #     `element.innerHTML = rawHTML`
@@ -171,73 +171,73 @@ translations:
   #   t: |
   #     `let fragment = document.createDocumentFragment()`
   - key: options.dom_methods.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> 以上皆無
 
   - key: features.interactivity_pain_points
-    t: Interactivity Pain Points
+    t: 互動性的痛點
   - key: features.interactivity_pain_points.question
-    t: What are your pain points around dynamic HTML changes?
+    t: 在動態改變 HTML 時有碰過什麼痛點？
   - key: features.interactivity_pain_points.description
     t: |
-      Browser incompatibilities or lack of support, missing features, and other problems you face
-      around interactive elements and behaviors (except forms), DOM manipulation, events, and related APIs.
+      使用互動元素和行為（表單除外）、DOM 改動或移動、事件，
+      和相關 API 上所碰到的瀏覽器不相容、缺乏支援、或缺少功能等的問題。
 
   - key: features.interactivity_pain_points.placeholder
     t: |
-      Pain point #{index}…
+      痛點 #{index}…
 
   - key: features.interactivity_techniques
-    t: Interactivity Methods
+    t: 互動方法
   - key: features.interactivity_techniques.question
-    t: Which of these methods have you used to add interactivity or dynamically modify HTML?
+    t: 使用過哪些方法來加入互動或動態修改 HTML？
   - key: options.interactivity_techniques.css_for_interactivity
-    t: CSS for interactivity (toggles, tabs, etc.)
+    t: 用於互動的 CSS（toggles, tabs 等等）
   - key: options.interactivity_techniques.js_dom_libraries
-    t: JavaScript DOM libraries (jQuery, etc.)
+    t: JavaScript DOM 函式庫（jQuery 等等）
   - key: options.interactivity_techniques.js_framework
-    t: JavaScript frameworks (React, Vue, etc.)
+    t: JavaScript 框架（React, Vue 等等）
   - key: options.interactivity_techniques.vanilla_js
-    t: Plain JavaScript (no frameworks or libraries)
+    t: 純 JavaScript（無框架或函式庫）
   - key: options.interactivity_techniques.web_components
     t: Web Components
   - key: options.interactivity_techniques.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> 以上皆無
 
   # content
 
   - key: features.machine_readable_features
-    t: Machine-Readable Data
+    t: 機器可讀資料
   - key: features.machine_readable_features.question
-    t: Which of the following have you used to include machine-readable data in HTML?
+    t: 使用下列哪一種方法在 HTML 中包含機器可讀的資料？
   - key: options.machine_readable_features.rdfa.description
     t: |
-      `property`, `typeof`, etc.
+      `property`、`typeof` 等等。
   - key: options.machine_readable_features.json_ld.description
     t: |
       `<script type="application/ld+json">`
   - key: options.machine_readable_features.microdata.description
     t: |
-      `itemprop`, `itemscope`, etc.
+      `itemprop`、`itemscope` 等等。
 
   - key: features.multiple_languages_support
-    t: Multiple-Language Support
+    t: 多國語系支援
   - key: features.multiple_languages_support.question
-    t: How often do you work on projects that require supporting more than one language?
+    t: 你經常參與需要多國語系支援的專案嗎？
   - key: options.multiple_languages_support.never
-    t: Never
+    t: 從來沒有
   - key: options.multiple_languages_support.infrequently
-    t: Infrequently (less than once a year)
+    t: 不常（每年少於一次）
   - key: options.multiple_languages_support.frequently
-    t: Frequently (more than once a year)
+    t: 經常（每年超過一次）
   - key: options.multiple_languages_support.all_the_time
-    t: All the time
+    t: 時時刻刻
 
   - key: features.i18n_features
-    t: Internationalization Features
+    t: 國際化功能
   - key: features.i18n_features.question
-    t: Which of the following internationalization features have you used?
+    t: 使用過以下哪些國際化功能？
   - key: options.i18n_features.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> 以上皆無
 
   # - key: options.i18n_features.intl_datetimeformat.description
   #   t:
@@ -259,40 +259,40 @@ translations:
   #   t:
 
   - key: features.content_pain_points
-    t: Content Pain Points
+    t: 內容痛點
   - key: features.content_pain_points.question
-    t: What are your pain points around managing content in HTML?
+    t: 在管理 HTML 內容有哪些痛點？
   - key: features.content_pain_points.description
     t: |
-      Think of embedding (multimedia, iframes, SVG, etc), machine-readable data, internationalization & localization, security & privacy, performance etc.
-      Missing features, browser incompatibilities, and other problems you face are all fair game.
+      使用嵌入內容（多媒體、iframe、SVG 等等）、機器可讀資料、國際化和本地化、安全性和隱私、效能等時，
+      所碰過的缺少功能、瀏覽器不兼容，或任何其他的問題。
   - key: features.content_pain_points.placeholder
     t: |
-      Pain point #{index}…
+      痛點 #{index}…
 
   # Content
 
   - key: features.external_content_elements
-    t: External Content Elements
+    t: 外部內容元素
   - key: features.external_content_elements.question
-    t: Which of the following elements have you used?
+    t: 你使用過下列哪些元素？
   - key: options.external_content_elements.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> 以上皆無
 
   - key: features.privacy_security_features
     t: |
-      Security & Privacy Features
+      安全性 & 隱私功能
   - key: features.privacy_security_features.question
     t: |
-      Which of the following security & privacy features have you used?
+      使用過以下哪些安全性和隱私功能？
   - key: options.privacy_security_features.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> 以上皆無
 
   - key: features.rel_attribute
-    t: Resource Hints
+    t: 資源提示
   - key: features.rel_attribute.question
     t: |
-      Which of these values have you used for the `rel` attribute of `<link>` ?
+      你曾使用過以下哪些 `<link>` 的 `rel` 屬性值？
 
   # - key: features.external_content_pain_points
   #   t: External Content Pain Points
@@ -308,14 +308,14 @@ translations:
   # Web Components
 
   - key: features.web_components_libraries
-    t: Web Components Libraries
+    t: Web Components 函式庫
   - key: features.web_components_libraries.question
-    t: Have you used any Web Components libraries?
+    t: 有使用過任何 Web Components 函式庫嗎？
 
   - key: features.web_components_features
-    t: Other Web Component Features
+    t: 其他 Web Component 功能
   - key: features.web_components_features.question
-    t: Which of the following web component features have you used?
+    t: 使用過以下哪些 web component 的功能？
   - key: options.web_components_features.host_pseudos.description
     t: |
       `:host` , `:host()` , `:host-context()`
@@ -323,238 +323,238 @@ translations:
     t: |
       `<button is="fancy-button">`
   - key: options.web_components_features.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> 以上皆無
 
   - key: features.using_web_components_pain_points
-    t: Using Web Components Pain Points
+    t: 使用 Web Components 的痛點
   - key: features.using_web_components_pain_points.question
-    t: What are your biggest pain points around *consuming* web components?
+    t: _使用_ web components 最大的痛點是什麼？
   - key: features.using_web_components_pain_points.description
-    t: Using Web Components that you or others have made. Missing features, browser incompatibilities, etc.
+    t: 使用你或其他人製作的 Web Components 時所碰到缺少功能、瀏覽器不兼容等問題。
   - key: features.using_web_components_pain_points.placeholder
     t: |
-      Pain point #{index}…
+      痛點 #{index}…
 
   - key: features.making_web_components_pain_points
-    t: Making Web Components Pain Points
+    t: 開發 Web Components 的痛點
   - key: features.making_web_components_pain_points.question
-    t: What are your biggest pain points around *making* web components?
+    t: _開發_ web components 最大的痛點是什麼？
   - key: features.making_web_components_pain_points.description
     t: |
-      What prevents you from creating the amazing components you envision? Missing features, browser incompatibilities, etc.
+      有哪些問題讓你無法創造出令人驚艷的 component 嗎？缺少功能、瀏覽器不兼容等。
   - key: features.making_web_components_pain_points.placeholder
     t: |
-      Pain point #{index}…
+      痛點 #{index}…
 
   # Accessibility
 
   - key: features.accessibility_features
-    t: Accessibility Features
+    t: 無障礙功能
   - key: features.accessibility_features.question
-    t: Which of these accessibility features have you used?
+    t: 曾經使用過哪些無障礙功能？
 
   - key: features.accessibility_tools
-    t: Accessibility Tools
+    t: 無障礙工具
   - key: features.accessibility_tools.question
-    t: What tools do you use for accessibility testing?
+    t: 使用什麼工具進行無障礙測試？
 
   - key: features.accessibility_pain_points
-    t: Accessibility Pain Points
+    t: 無障礙通點
   - key: features.accessibility_pain_points.question
-    t: What are your biggest pain points around web accessibility?
+    t: 在網路無障礙方面最大的痛點是什麼？
   - key: features.accessibility_pain_points.placeholder
     t: |
-      Pain point #{index}…
+      痛點 #{index}…
 
   - key: features.accessibility_disabilities
-    t: User Disabilities
+    t: 使用者障礙
   - key: features.accessibility_disabilities.question
-    t: What kind of user disabilities do you account for when making websites?
+    t: 在製作網站時，你會考慮哪些類型的使用者障礙？
 
   - key: options.accessibility_disabilities.hearing_impairments
-    t: Hearing impairments
+    t: 聽力障礙
   - key: options.accessibility_disabilities.hearing_impairments.description
-    t: Deafness, tinnitus, etc.
+    t: 耳聾、耳鳴等等。
 
   - key: options.accessibility_disabilities.mobility_impairments
-    t: Mobility impairments
+    t: 行動障礙
   - key: options.accessibility_disabilities.mobility_impairments.description
-    t: Arthritis, carpal tunnel, etc.
+    t: 關節炎、腕隧道症等等。
 
   - key: options.accessibility_disabilities.learning_disabilities
-    t: Learning disabilities
+    t: 學習障礙
   - key: options.accessibility_disabilities.learning_disabilities.description
-    t: Dyslexia, dyscalculia, etc.
+    t: 失讀症、算術障礙等等。
 
   - key: options.accessibility_disabilities.cognitive_impairments
     t: |
-      Other cognitive impairments
+      其他認知障礙
   - key: options.accessibility_disabilities.cognitive_impairments.description
     t: |
-      Anxiety, Autism, OCD, ADHD, etc.
+      焦慮、自閉症、強迫症、過動症等等。
 
   - key: options.accessibility_disabilities.vestibular_disorders
-    t: Vestibular disorders
+    t: 前庭疾病
   - key: options.accessibility_disabilities.vestibular_disorders.description
-    t: Epilepsy, vertigo, etc.
+    t: 癲癇、暈眩等等。
 
   - key: options.accessibility_disabilities.low_vision
-    t: Low vision
+    t: 低視能
   - key: options.accessibility_disabilities.low_vision.description
-    t: Blindness, high myopia, etc.
+    t: 失明、高度近視等等。
 
   - key: options.accessibility_disabilities.atypical_vision
-    t: Atypical color vision
+    t: 非典型視覺
   - key: options.accessibility_disabilities.atypical_vision.description
-    t: Color blindness
+    t: 色盲
 
   - key: features.accessibility_screenreaders
-    t: Screen Readers
+    t: 螢幕閱讀器
   - key: features.accessibility_screenreaders.question
-    t: Which screen readers do you use for accessibility testing?
+    t: 使用哪種螢幕閱讀器進行無障礙測試？
 
   - key: features.accessibility_techniques
-    t: Other Accessibility Techniques
+    t: 其他無障礙使用技術
   - key: features.accessibility_techniques.question
-    t: What other techniques are part of your regular accessibility strategy?
+    t: 無障礙策略中平常有使用哪些技術？
 
   - key: options.accessibility_techniques.tabindex
     t: |
-      Improving focus order with `tabindex`
+      使用 `tabindex` 改善 focus 順序
   - key: options.accessibility_techniques.tabindex.description
     t: |
-      Roving `tabindex`, `tabindex="0"` to enable focus, etc.
+      移動 `tabindex`、`tabindex="0"` 以啟用 focus 功能等等。
   - key: options.accessibility_techniques.keyboard_navigation
-    t: Intuitive keyboard navigation
+    t: 直覺的鍵盤導航
   - key: options.accessibility_techniques.keyboard_navigation.description
-    t: Other than tab order.
+    t: 除了 tab 鍵順序之外。
   - key: options.accessibility_techniques.aria_attributes
-    t: ARIA attributes
+    t: ARIA 屬性
   - key: options.accessibility_techniques.aria_attributes.description
     t: |
-      `role` and `aria-*` attributes
+      `role` 和 `aria-*` 屬性
   - key: options.accessibility_techniques.descriptive_alt_text
     t: |
-      Descriptive `alt` text
+      描述性 `alt` 文字
   - key: options.accessibility_techniques.descriptive_alt_text.description
-    t: Providing alt text that describes the purpose or content of an image.
+    t: 提供描述圖片的目的或內容的替代文字。
   - key: options.accessibility_techniques.skip_to_content
-    t: Skip-to-content link
+    t: 跳至內容連結
   - key: options.accessibility_techniques.skip_to_content.description
-    t: Letting users skip straight to the main content of a page.
+    t: 讓使用者直接跳到頁面的主要內容。
   - key: options.accessibility_techniques.fieldset_and_legend
     t: |
-      `<fieldset>` and `<legend>`
+      `<fieldset>` 和 `<legend>`
   - key: options.accessibility_techniques.fieldset_and_legend.description
     t: |
-      Using `<fieldset>` and `<legend>`  to group related form elements.
+      使用 `<fieldset>` 和 `<legend>` 對相關表單元素進行分組。
   - key: options.accessibility_techniques.headings_hierarchy
-    t: Information Hierarchy
+    t: 資訊層次結構
   - key: options.accessibility_techniques.headings_hierarchy.description
     t: |
-      Using headings (`<h1>` - `<h6>`) that correctly represent a page's information hierarchy.
+      使用正確表示頁面資訊層次結構的標題（`<h1>` - `<h6>`）。
   - key: options.accessibility_techniques.meaningful_link_text
-    t: Meaningful Link Text
+    t: 有意義的連結文字
   - key: options.accessibility_techniques.meaningful_link_text.description
-    t: Ensuring that link text makes sense out of context
+    t: 確保連結文字在脫離上下文的時候仍有意義
   - key: options.accessibility_techniques.form_control_label
-    t: Form Control Labels
+    t: 表單控制標籤
   - key: options.accessibility_techniques.form_control_label.description
     t: |
-      Ensuring every form control has a `<label>` (or `aria-label`, etc.).
+      確保每個表單控制都有一個 `<label>`（或 `aria-label` 等等）。
   - key: options.accessibility_techniques.visible_focus
-    t: Visible Focus Ring
+    t: 可見 Focus Ring
   - key: options.accessibility_techniques.visible_focus.description
-    t: Ensuring focus ring outline is clearly visible when needed.
+    t: 確保在需要時 focus ring 輪廓清晰可見。
   - key: options.accessibility_techniques.pointer_alternative
-    t: Not Relying on Pointer Only
+    t: 不只依賴游標
   - key: options.accessibility_techniques.pointer_alternative.description
-    t: Ensuring pointer interactions (e.g. hover) have a keyboard alternative.
+    t: 確保游標互動行為（例如：滑鼠覆蓋）有鍵盤替代方案。
   - key: options.accessibility_techniques.good_color_contrast
-    t: Sufficient Contrast
+    t: 足夠的對比度
   - key: options.accessibility_techniques.good_color_contrast.description
-    t: Using contrast checkers to ensure sufficient color contrast.
+    t: 使用對比度檢查器確保足夠的色彩對比。
   - key: options.accessibility_techniques.color_alternative
-    t: Not Relying on Color Only
+    t: 不只依賴顏色
   - key: options.accessibility_techniques.color_alternative.description
-    t: Ensuring that no information is conveyed by color alone.
+    t: 確保不會僅透過顏色來傳達任何訊息。
   - key: options.accessibility_techniques.prefers_reduced_motion
     t: |
       `prefers-reduced-motion` media query
   - key: options.accessibility_techniques.prefers_reduced_motion.description
-    t: Providing alternative CSS for users who prefer reduced motion.
+    t: 為有設定「偏好較少動態」的使用者提供替代 CSS。
   - key: options.accessibility_techniques.prefers_contrast
     t: |
       `prefers-contrast` media query
   - key: options.accessibility_techniques.prefers_contrast.description
-    t: Providing alternative CSS for users who prefer increased contrast.
+    t: 為有設定「偏好增加對比度」的使用者提供替代 CSS。
 
   # PWAs
 
   - key: features.pwa_features
-    t: PWA Features
+    t: PWA 功能
   - key: features.pwa_features.question
-    t: Have you used any of the following PWA technologies/APIs?
+    t: 是否使用過以下哪些 PWA 技術/APIs？
   - key: options.pwa_features.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> 以上皆無
 
   - key: features.local_storage_features
-    t: Local storage features
+    t: Local storage 功能
   - key: features.local_storage_features.question
-    t: Have you used any of the following to store data client-side?
+    t: 是否使用過以下任何一種來儲存客戶端資料？
   - key: options.local_storage_features.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> 以上皆無
 
   - key: features.pwa_app_manifest_fields
     t: App Manifest Fields
   - key: features.pwa_app_manifest_fields.question
     t: |
-      Which of these app manifest fields (`<link rel="manifest">`) have you used, if any?
+      使用過以下哪些 app manifest fields（`<link rel="manifest">`）？
 
   - key: features.native_apps_tools
-    t: Native Apps Tools
+    t: 原生應用程式工具
   - key: features.native_apps_tools.question
-    t: Have you used any of these tools to build native apps?
+    t: 是否使用過這些工具來建立原生應用程式？
   - key: features.native_apps_tools.description
-    t: Excluding scripts, command-line apps, server-side code, etc.
+    t: 除了 scripts、command-line 應用程式、伺服器端程式碼等。
   - key: options.native_apps_tools.na
-    t: <span aria-hidden="true">🚫</span> I haven't developed native apps
+    t: <span aria-hidden="true">🚫</span> 我未曾開發過原生應用程式
   - key: options.native_apps_tools.native_languages
-    t: Native technologies
+    t: 原生技術
   - key: options.native_apps_tools.native_languages.description
-    t: Objective-C, Swift, Kotlin, .NET, etc.
+    t: Objective-C、Swift、Kotlin、.NET 等等。
   - key: options.native_apps_tools.webviews
-    t: Web app loaded via Webviews
+    t: 用過 WebViews 載入網頁應用程式
   - key: options.native_apps_tools.js_frameworks
-    t: JavaScript-based frameworks
+    t: JavaScript 的框架
   - key: options.native_apps_tools.js_frameworks.description
-    t: React Native, Ionic, Electron, etc.
+    t: React Native、Ionic、Electron 等等。
   - key: options.native_apps_tools.other_frameworks
-    t: Non-JavaScript frameworks
+    t: 非 JavaScript 框架
   - key: options.native_apps_tools.other_frameworks.description
-    t: Tauri, Flutter, etc.
+    t: Tauri、Flutter 等等。
 
   - key: features.mobile_web_apps_pain_points
-    t: Native-like Web Apps Pain Points
+    t: 類原生網頁應用程式痛點
   - key: features.mobile_web_apps_pain_points.question
-    t: What are your biggest pain points around making web apps that feel native?
+    t: 在製作原生 Web 應用程式方面，你最大的痛點是什麼？
   - key: features.mobile_web_apps_pain_points.description
-    t: Capabilities the Web Platform doesn't yet have, browser differences in related APIs, etc.
+    t: Web 平台尚不具備的功能、相關 API 的瀏覽器差異等。
   - key: features.mobile_web_apps_pain_points.placeholder
     t: |
-      Pain point #{index}
+      痛點 #{index}
 
   # Other Tools
 
   - key: other_tools.site_generators
-    t: Site Generators
+    t: 網站產生器
   - key: other_tools.site_generators.question
-    t: Which of these static or dynamic site generators do you regularly use?
+    t: 你經常使用下列哪些靜態或動態網站產生器？
 
   - key: other_tools.ai_tools
-    t: AI Tools
+    t: AI 工具
   - key: other_tools.ai_tools.question
-    t: Which of these AI tools do you regularly use to help you write code?
+    t: 你經常使用以下哪些 AI 工具來幫助你撰寫程式碼？
 
   - key: other_tools.machine_readable_features
     aliasFor: features.machine_readable_features
@@ -562,16 +562,16 @@ translations:
     aliasFor: features.machine_readable_features.question
 
   - key: options.machine_readable_features.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> 以上皆無
 
   - key: other_tools.blast_from_the_past
-    t: Blast from the Past!
+    t: 過去的經典！
   - key: other_tools.blast_from_the_past.question
-    t: Have you ever used any of the following old-school elements?
+    t: 曾經使用過以下任何老派元素嗎？
   - key: other_tools.blast_from_the_past.description
-    t: Blast from the past!
+    t: 過去的經典！
   - key: options.blast_from_the_past.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> 以上皆無
 
   # Usage
 
@@ -587,37 +587,37 @@ translations:
   #     ﹤foo type="bar"﹥ (browser incompatibilities, styling limitations, doesn't do X)
 
   - key: usage.html_interoperability_features
-    t: Browser Interoperability
+    t: 瀏覽器互通性
   - key: usage.html_interoperability_features.question
-    t: Which existing HTML features or browser APIs are you unable to use because of browser differences or lack of support?
+    t: 由於瀏覽器差異或缺乏支援，你無法使用哪些現有 HTML 功能或瀏覽器 API？
   # - key: usage.html_interoperability_features.description
   #   t: |
   #     Any type of API the survey has asked about is within scope.
   - key: usage.html_interoperability_features.placeholder
     t: |
-      Feature #{index}
+      功能 #{index}
 
   - key: usage.html_functionality_features
-    t: Limited Functionality
+    t: 有限的功能
   - key: usage.html_functionality_features.question
-    t: Which existing HTML features or browser APIs are you unable to use for other reasons (and why)?
+    t: 是否有哪些現有的 HTML 功能或瀏覽器 API 因為其他問題而無法使用？
   - key: usage.html_functionality_features.description
     t: |
-      Good candidates might be existing HTML features that you often have to recreate or augment using JS.
+      例如經常需要使用 JavaScript 自己從頭寫起或加強的現有 HTML 功能。
 
-      Please also specify the reason, such as lack of functionality, difficult styling, poor accessibility, etc.
+      請同時說明原因，例如缺乏功能、樣式困難、無障礙體驗差等。
 
   - key: usage.html_functionality_features.placeholder.1
     t: |
-      Feature #1 (hard to style)
+      功能 #1（難以自訂外表）
   - key: usage.html_functionality_features.placeholder.2
     t: |
-      Feature #2 (limited functionality, poor accessibility)
+      功能 #2（缺少功能、不符合無障礙需求）
 
   - key: usage.what_do_you_use_html_for
-    t: HTML Usage
+    t: HTML 使用
   - key: usage.what_do_you_use_html_for.question
-    t: What do you use HTML for?
+    t: 使用 HTML 做什麼？
   - key: options.what_do_you_use_html_for.blogs
     aliasFor: options.what_do_you_use_css_for.blogs
   - key: options.what_do_you_use_html_for.design_systems
@@ -636,33 +636,33 @@ translations:
     aliasFor: options.what_do_you_use_css_for.web_apps
 
   - key: usage.tools_for_other_developers
-    t: Ecosystem Impact
+    t: 生態系影響
   - key: usage.tools_for_other_developers.question
-    t: Other than yourself, how many developers use the libraries, packages, components, APIs etc. that you create or maintain?
+    t: 除了你自己之外，還有多少開發人員使用你建立或維護的函式庫、套件、元件、API 等？
   - key: usage.tools_for_other_developers.description
     t: |
-      Total, if you work on multiple projects that are used by other developers.
-      If you’re not sure, pick the closest to your best estimate.
-      For open source code, npm downloads might offer a useful data point.
+      如果有，總共有多少其他開發人員使用你所做的專案？
+      如果你確定，提供最接近的估計的值就可以了。
+      開源程式碼的話可以使用 npm 下載數量作為依據。
   - key: options.tools_for_other_developers.na
-    t: 🚫 None (Just me)
+    t: 🚫 無（只有我自己）
   - key: options.tools_for_other_developers.a_few
-    t: A few other developers (e.g. developers within a small team)
+    t: 一些其他開發人員（例如：小團隊內的開發人員）
   - key: options.tools_for_other_developers.less_than_100
-    t: Less than a hundred developers
+    t: 少於一百名開發者
   - key: options.tools_for_other_developers.less_than_1000
-    t: Less than a thousand developers
+    t: 少於一千名開發者
   - key: options.tools_for_other_developers.more_than_100
-    t: Hundreds of developers
+    t: 上百位開發者
   - key: options.tools_for_other_developers.more_than_1000
-    t: Thousands of developers
+    t: 上千位開發者
   - key: options.tools_for_other_developers.more_than_1000000
-    t: Millions of developers
+    t: 上百萬開發者
 
   - key: usage.html_missing_elements
-    t: Missing Elements
+    t: 缺乏元素
   - key: usage.html_missing_elements.question
-    t: If you could add 3 elements to HTML, what would they be?
+    t: 如果你可以加入 3 個元素到 HTML 中，它們會是什麼？
   # - key: usage.html_missing_elements.description
   #   t: |
   #     If you use any component technologies, the components you find yourself reusing across multiple projects could be good candidates.
@@ -684,7 +684,7 @@ translations:
   - key: options.html_missing_elements.context_menu
     t: Context Menu / Right-Click Menu
   - key: options.html_missing_elements.datatable
-    t: Data table (with sorting, filtering, etc.)
+    t: Data table（具備排序、過濾 等等）
   - key: options.html_missing_elements.dropdown_menu
     t: Dropdown Menu
   - key: options.html_missing_elements.image_zoom
@@ -715,14 +715,14 @@ translations:
     t: Star Rating
 
   - key: usage.html_pain_points_freeform
-    t: Other Pain Points
+    t: 其他痛點
   - key: usage.html_pain_points_freeform.question
-    t: Any other pain points around using HTML and related technologies?
+    t: 使用 HTML 和相關技術還有其他痛點嗎？
 
   - key: usage.html_css_js_balance
-    t: HTML/CSS vs JavaScript/TypeScript Balance
+    t: HTML/CSS 和 JavaScript/TypeScript 平衡
   - key: usage.html_css_js_balance.question
-    t: How do you divide your time between writing HTML/CSS and JavaScript (or TypeScript) code?
+    t: 如何分配撰寫 HTML/CSS 和 JavaScript（或 TypeScript）程式碼的時間？
   - key: options.html_css_js_balance.0
     t: 100% HTML/CSS
   - key: options.html_css_js_balance.4
@@ -733,43 +733,43 @@ translations:
   # other features
 
   - key: features.foo_attribute
-    t: "`{id}` attribute"
+    t: "`{id}` 屬性"
 
   - key: features.slot_assignment
-    t: Explicit slot assignment (`slot="foo"`)
+    t: 明確 slot 分配（`slot="foo"`）
 
   - key: features.tabindex
-    t: "`tabindex` attribute"
+    t: "`tabindex` 屬性"
 
   - key: features.respimg
-    t: "`srcset` and `sizes` attributes"
+    t: "`srcset` 和 `sizes` 屬性"
 
   - key: features.model_element
-    t: "`<model>` for AR/VR/3D content"
+    t: "AR/VR/3D 內容的 `<model>`"
 
   - key: features.slot_def
-    t: Defining slots (`<slot>` and `::slotted()`)
+    t: 定義 slots（`<slot>` 和 `::slotted()`）
 
   - key: features.controlslist
-    t: "`controlslist` attribute"
+    t: "`controlslist` 屬性"
 
   - key: features.popover_api
     t: Popover API
 
   - key: features.lazy_loading
-    t: Lazy loading
+    t: 延遲載入
 
   - key: features.sandbox_attr
-    t: "`sandbox` attribute for iframes"
+    t: "iframes 的 `sandbox` 屬性"
 
   - key: features.details_element
-    t: "`<details>` and `<summary>`"
+    t: "`<details>` 和 `<summary>`"
 
   - key: features.crossorigin
-    t: "`crossorigin` attribute"
+    t: "`crossorigin` 屬性"
 
   - key: features.host_css
-    t: Styling component host (`:host`, `:host()`, `:host-context()`)
+    t: 自訂元件 host 的樣式（`:host`、`:host()`、`:host-context()`）
 
   - key: features.element_internals
     t: "`ElementInternals` API"
@@ -778,70 +778,70 @@ translations:
     t: CORS
 
   - key: features.csp
-    t: Content-Security Policy (CSP)
+    t: Content-Security Policy（CSP）
 
   - key: features.structured_data
-    t: Structured data (RDFa, Microdata, Microformats)
+    t: 結構化資料（RDFa、Microdata、Microformats）
 
   - key: features.extended_builtins
-    t: Extended built-ins
+    t: 擴充內建
 
   - key: features.html_modules
     t: HTML Modules
 
   - key: features.accordion
-    t: Exclusive accordion
+    t: 單項開關的 accordion
 
   - key: features.imperative_slot
-    t: Imperative slot assignment
+    t: 陳述式 slot 分配
 
   # - key: features.focusgroup
   #   t: "`focusgroup` attribute"
 
   - key: features.form_validation
-    t: Form validation
+    t: 表單驗證
 
   - key: features.aria
     t: ARIA
 
   - key: features.rh_preconnect
-    t: "Resource Hints: preconnect (`<link rel=preconnect>`)"
+    t: "資源提示：preconnect（`<link rel=preconnect>`）"
 
   - key: features.rh_prerender
-    t: "Resource Hints: prerender (`<link rel=prerender>`)"
+    t: "資源提示：prerender（`<link rel=prerender>`）"
 
   - key: features.rh_preload
-    t: "Resource Hints: preload (`<link rel=preload>`)"
+    t: "資源提示：preload（`<link rel=preload>`）"
 
   - key: features.resource_hints
-    t: Resource Hints (all)
+    t: 資源提示：ll）
 
   - key: features.rh_prefetch
-    t: "Resource Hints: prefetch (`<link rel=prefetch>`)"
+    t: "資源提示：prefetch（`<link rel=prefetch>`）"
 
   - key: features.declarative_shadow
-    t: Declarative Shadow DOM (`<template shadowrootmode="open">`)
+    t: 聲明式 Shadow DOM（`<template shadowrootmode="open">`）
 
   - key: features.referrerpolicy
-    t: "`referrerpolicy` attribute"
+    t: "`referrerpolicy` 屬性"
 
   - key: features.integrity
-    t: Subresource Integrity (`integrity` attribute)
+    t: 子資源完整性（`integrity` 屬性）
 
   - key: features.pwa_manifest
     t: PWA manifest
 
   - key: features.part_attr
-    t: Exposing component parts (`part` attribute)
+    t: Exposing component parts（`part` 屬性）
 
   - key: features.part_selector
-    t: Styling component parts (`::part()`)
+    t: Styling component parts（`::part()`）
 
   - key: features.svg_element
-    t: Inline SVG (`<svg>`)
+    t: Inline SVG（`<svg>`）
 
   - key: features.math_element
-    t: Inline MathML (`<math>`)
+    t: Inline MathML（`<math>`）
 
   - key: features.scoped_element_registries
     t: Scoped Custom Element Registries
@@ -850,13 +850,13 @@ translations:
     t: Navigation API
 
   - key: features.custom_elements_defining
-    t: Defining Custom Elements
+    t: 定義自訂元素
 
   - key: features.decoding
-    t: "`decoding` attribute"
+    t: "`decoding` 屬性"
 
   - key: features.custom_elements_using
-    t: Using Custom Elements
+    t: 使用自訂元素
 
   - key: features.fencedframe
     t: Fenced frames
@@ -868,22 +868,22 @@ translations:
     t: HTML Media Capture
 
   - key: features.contenteditable_plaintext
-    t: "`plaintext-only` value for `contenteditable`"
+    t: "`contenteditable` 的 `plaintext-only` 值"
 
   - key: features.dom_parts
-    t: DOM Parts
+    t: DOM 部分
 
   - key: features.fetchpriority
-    t: Fetch Priority API (`fetchpriority` attribute)
+    t: Fetch Priority API（`fetchpriority` 屬性）
 
   - key: features.autocomplete
     t: '`autocomplete="hint"`'
 
   - key: features.inert_attribute
-    t: "`inert` attribute"
+    t: "`inert` 屬性"
 
   - key: features.client_hints
-    t: HTTP client hints
+    t: HTTP 客戶端提示
 
   ###########################################################################
   # Survey Help
@@ -891,7 +891,7 @@ translations:
 
   - key: features.features_intro_html
     t: |
-      Welcome to the survey! These first couple sections are all about figuring out
-      which **features** of HTML (and related APIs) you know about.
+      歡迎參與問券調查！前幾節都是希望能知道
+      你了解 HTML（和相關 API）裡頭的哪些**功能**。
 
-      By the way, if you want to learn more about any item in the survey, you can add it to your reading list by clicking its little "+" icon!
+      順帶一提，如果你想了解有關調查中任何項目的更多訊息，可以點擊「+」圖示把該功能資訊加入到你的閱讀列表裡！
