@@ -1027,7 +1027,7 @@ translations:
   # learning method
   - key: resources.first_steps
     t: 初學方法
-  - key: resources.first_steps.description
+  - key: resources.first_steps.question
     t: 當初是如何學寫程式的？
   - key: resources.first_steps.others
     t: 其他初學方法
@@ -1037,7 +1037,7 @@ translations:
   # blogs & magazines
   - key: resources.blogs_news_magazines
     t: 部落格 & 雜誌
-  - key: resources.blogs_news_magazines.description
+  - key: resources.blogs_news_magazines.question
     t: 閱讀哪些部落格、雜誌⋯等？
   - key: resources.blogs_news_magazines.others
     t: 其他部落格 & 雜誌
@@ -1047,7 +1047,7 @@ translations:
   # sites & courses
   - key: resources.sites_courses
     t: 網站 & 課程
-  - key: resources.sites_courses.description
+  - key: resources.sites_courses.question
     t: 參考哪些網站、課程⋯等？
   - key: resources.sites_courses.others
     t: 其他網站 & 課程
@@ -1057,7 +1057,7 @@ translations:
   # podcasts
   - key: resources.podcasts
     t: Podcast
-  - key: resources.podcasts.description
+  - key: resources.podcasts.question
     t: 在聽哪些程式相關的 Podcast？
   - key: resources.podcasts.others
     t: 其他 Podcast
@@ -1082,7 +1082,7 @@ translations:
   # other surveys
   - key: resources.other_surveys
     t: 其它調查
-  - key: resources.other_surveys.description
+  - key: resources.other_surveys.question
     t: 還有參加哪些開發者調查？
   - key: resources.other_surveys.others
     t: 其它沒有在以上提到的
