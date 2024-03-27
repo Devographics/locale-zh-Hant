@@ -812,55 +812,55 @@ translations:
   # age
   - key: user_info.age
     t: 年齡
-  - key: user_info.age.description
+  - key: user_info.age.question
     t: 年紀是？以歲數來算。
 
   # years of experience
   - key: user_info.years_of_experience
     t: 年資
-  - key: user_info.years_of_experience.description
+  - key: user_info.years_of_experience.question
     t: 在此領域，已經工作或研究多久？
 
   # company size
   - key: user_info.company_size
     t: 公司規模
-  - key: user_info.company_size.description
+  - key: user_info.company_size.question
     t: 任職的公司有多大？
 
   # salary ranges
   - key: user_info.yearly_salary
     t: 年薪
-  - key: user_info.yearly_salary.description
+  - key: user_info.yearly_salary.question
     t: 美金為單位。
 
   # job title
   - key: user_info.job_title
     t: 職稱
-  - key: user_info.job_title.description
+  - key: user_info.job_title.question
     t: 在聚會中如何介紹自己？
 
   # javascript proficiency
   - key: user_info.javascript_proficiency
     t: JavaScript 熟悉程度
-  - key: user_info.javascript_proficiency.description
+  - key: user_info.javascript_proficiency.question
     t: 對於 JavaScript 的熟悉程度？
 
   # css proficiency
   - key: user_info.css_proficiency
     t: CSS 熟悉程度
-  - key: user_info.css_proficiency.description
+  - key: user_info.css_proficiency.question
     t: 對於 CSS 的熟悉程度？
 
   # backend proficiency
   - key: user_info.backend_proficiency
     t: 後端熟悉程度
-  - key: user_info.backend_proficiency.description
+  - key: user_info.backend_proficiency.question
     t: 對於後端開發的熟悉程度？
 
   # gender
   - key: user_info.gender
     t: 性別
-  - key: user_info.gender.description
+  - key: user_info.gender.question
     t: >
       下列選項中，如果有的話，哪個可以用來形容自己？請挑選一個。
   - key: user_info.gender.note
@@ -870,7 +870,7 @@ translations:
   # race & ethnicity
   - key: user_info.race_ethnicity
     t: 種族與族群
-  - key: user_info.race_ethnicity.description
+  - key: user_info.race_ethnicity.question
     t: >
       下列選項中，如果有的話，哪個可以用來形容自己？請勾選符合的。
   - key: user_info.race_ethnicity.note
@@ -884,7 +884,7 @@ translations:
   # disability status
   - key: user_info.disability_status
     t: 不便狀態
-  - key: user_info.disability_status.description
+  - key: user_info.disability_status.question
     t: >
       如果有的話，經歷過下列哪些不便？請勾選符合的。
       請注意這也包含暫時的不便或受傷。
@@ -924,7 +924,7 @@ translations:
 
   - key: user_info.industry_sector
     t: 產業領域
-  - key: user_info.industry_sector.description
+  - key: user_info.industry_sector.question
     t: 在哪些產業領域工作？
   - key: user_info.industry_sector.others
     t: 其他產業領域
@@ -934,7 +934,7 @@ translations:
   # degree
   - key: user_info.higher_education_degree
     t: 高等教育
-  - key: user_info.higher_education_degree.description
+  - key: user_info.higher_education_degree.question
     t: 有高等教育學歷嗎？
   # completion
   - key: user_info.completion_stats
