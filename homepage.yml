@@ -18,7 +18,7 @@ translations:
     t: 參加調查
 
   - key: homepage.view_results
-    t: 看 2019 年的結果
+    t: 看調查結果
 
   - key: share.help_spread
     t: 幫忙宣傳！
