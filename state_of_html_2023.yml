@@ -115,7 +115,7 @@ translations:
     t: |
       2023 HTML 現況調查 於 2023 年 9 月 19 日至 10 月 19 日進行，共收集了 20,904 份回覆。
 
-      這份調查的設計工作由 [Lea Verou](https://lea.verou.me/) 領導，感謝 Google 的資助。 Lea 還監督了新 UI 數據收集元素的原型設計、測試和實施；貢獻了數據處理；並協助數據可視化。
+      這份調查的設計工作由 [Lea Verou](https://lea.verou.me/) 領導，感謝 Google 的資助。Lea 還監督了新 UI 資料收集元素的原型設計、測試和實施；貢獻了資料處理；並協助資料視覺化。
 
       問卷調查的設計和開發由 [Sacha Greif](https://sachagreif.com/) 和 [Eric Burel](https://www.lbke.fr/) 負責，以及開源貢獻者和顧問團隊的幫助。
 
