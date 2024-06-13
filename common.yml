@@ -959,7 +959,7 @@ translations:
 
   - key: tools_others.libraries
     t: 函式庫
-  - key: tools_others.libraries.description
+  - key: tools_others.libraries.question
     t: 經常使用哪些函式庫？
   - key: tools_others.libraries.others
     t: 其他函式庫
@@ -968,7 +968,7 @@ translations:
 
   - key: tools_others.text_editors
     t: 文字編輯器
-  - key: tools_others.text_editors.description
+  - key: tools_others.text_editors.question
     t: 通常使用的文字編輯器是哪些？
   - key: tools_others.text_editors.others
     t: 其他文字編輯器
@@ -977,7 +977,7 @@ translations:
 
   - key: tools_others.utilities
     t: 工具
-  - key: tools_others.utilities.description
+  - key: tools_others.utilities.question
     t: 通常使用哪些工具程式庫 (utility libraries)？
   - key: tools_others.utilities.others
     t: 其他工具
@@ -986,7 +986,7 @@ translations:
 
   - key: tools_others.browsers
     t: 瀏覽器
-  - key: tools_others.browsers.description
+  - key: tools_others.browsers.question
     t: 在早期開發的時候，主要使用哪些瀏覽器？
   - key: tools_others.browsers.others
     t: 其他瀏覽器
@@ -995,7 +995,7 @@ translations:
 
   - key: tools_others.build_tools
     t: Build 工具
-  - key: tools_others.build_tools.description
+  - key: tools_others.build_tools.question
     t: 在用哪些 Build 工具？
   - key: tools_others.build_tools.others
     t: 其他 Build 工具
@@ -1004,7 +1004,7 @@ translations:
 
   - key: tools_others.non_js_languages
     t: JavaScript 以外的語言
-  - key: tools_others.non_js_languages.description
+  - key: tools_others.non_js_languages.question
     t: 還有在用哪些程式語言？
   - key: tools_others.non_js_languages.others
     t: 其他語言
@@ -1013,7 +1013,7 @@ translations:
 
   - key: tools_others.javascript_flavors
     t: JavaScript Flavor
-  - key: tools_others.javascript_flavors.description
+  - key: tools_others.javascript_flavors.question
     t: 編譯為 JavaScript 的語言
   - key: tools_others.javascript_flavors.others
     t: 其他 JavaScript Flavor
