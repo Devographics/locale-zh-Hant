@@ -443,9 +443,9 @@ translations:
     t: 技術使用程度基數
   - key: blocks.all_sections_tools_cardinality_by_user.description
     t: >
-        For each section, which percentage of respondents **use**
-        (defined as having answered “would use again”) one, two, three, etc. technologies.
-        The bottom-most bar represents the sum of all other bars.
+      For each section, which percentage of respondents **use**
+      (defined as having answered “would use again”) one, two, three, etc. technologies.
+      The bottom-most bar represents the sum of all other bars.
 
   - key: blocks.cardinality.max
     t: 最多的回答
@@ -496,14 +496,14 @@ translations:
     t: 區分正面/負面
   - key: blocks.tools_experience_marimekko.description
     t: |
-        這張圖表以中間軸線往兩旁分為正面（想要學、還會再用）vs 負面（沒興趣、不會再用）的體驗。
+      這張圖表以中間軸線往兩旁分為正面（想要學、還會再用）vs 負面（沒興趣、不會再用）的體驗。
 
-        長條的寬度代表答題者知道某技術的數量。
+      長條的寬度代表答題者知道某技術的數量。
 
   # tool tier list
   - key: blocks.tools_tier_list
     t: 函式庫層級列表
-  - key: blocks.tools_tier_list.description
+  - key: blocks.tools_tier_list.note
     t: |
       這份圖表將函式庫根據滿意度比例來排名（願意再使用函式庫的使用者百分比）。請注意少於答題者 10% 的函式庫不算在內。
   - key: blocks.tools_tier_list.bounds
@@ -590,7 +590,7 @@ translations:
     t: 抱歉，這組資料還沒有辦法輸出 CSV。
   - key: export.graphql
     t: >
-        可以把這組查詢複製貼上到我們的<a target="_blank" rel="nofollow" href="https://graphiql.devographics.com/">公開 GraphQL API</a>。
+      可以把這組查詢複製貼上到我們的<a target="_blank" rel="nofollow" href="https://graphiql.devographics.com/">公開 GraphQL API</a>。
   - key: export.export_json
     t: 取得 JSON 資料
   - key: export.export_graphql
@@ -615,13 +615,13 @@ translations:
   - key: custom_data.details
     t: >
 
-        1. 複製「GraphQL 查詢」文字欄位的內容，貼到中間版面的 [GraphQL API explorer](https://graphiql.stateofjs.com/) 那邊。
+      1. 複製「GraphQL 查詢」文字欄位的內容，貼到中間版面的 [GraphQL API explorer](https://graphiql.stateofjs.com/) 那邊。
 
-        2. 修改查詢的方法是：利用左側 explorer 側邊欄增加一個或多個 **filter**。務必要讓資料的整體結構一樣。
+      2. 修改查詢的方法是：利用左側 explorer 側邊欄增加一個或多個 **filter**。務必要讓資料的整體結構一樣。
 
-        3. 在 explorer 視窗點擊 Play ("Execute Query") 按鈕。
+      3. 在 explorer 視窗點擊 Play ("Execute Query") 按鈕。
 
-        4. 複製修改過的 query (`{ data: … }` ) 結果到上方的「自訂資料」文字欄位，按下送出。
+      4. 複製修改過的 query (`{ data: … }` ) 結果到上方的「自訂資料」文字欄位，按下送出。
 
   # Tools usage variations
   - key: blocks.tools_usage_variations
@@ -687,7 +687,7 @@ translations:
   - key: charts.all_respondents
     t: 全部答題者
   - key: charts.facet_responses
-    t: '{count} 個回答'
+    t: "{count} 個回答"
 
   - key: charts.axis_legends.years_of_experience
     t: 年資
@@ -888,7 +888,6 @@ translations:
   - key: table.awareness_percentage
     aliasFor: charts.axis_legends.awareness_percentage
 
-
   - key: table.percentages_table
     t: 百分比
   - key: table.rankings_table
@@ -969,7 +968,6 @@ translations:
   - key: award.most_commented_feature_award.description
     t: Awarded to the feature which received the most comments.
 
-
   - key: award.most_commented_tool_award.title
     t: 最多留言的函式庫
   - key: award.most_commented_tool_award.description
@@ -981,35 +979,35 @@ translations:
 
   - key: hints.hint_hint
     t: >
-        整份調查問卷結果都有這樣的小提示，會顯示額外的功能和細節。
+      整份調查問卷結果都有這樣的小提示，會顯示額外的功能和細節。
 
   - key: hints.units_switcher_hint
     t: >
-        每區右上角的分段控制器（segmented control）可以切換顯示百分比或原始計數。
+      每區右上角的分段控制器（segmented control）可以切換顯示百分比或原始計數。
 
   - key: hints.export_hint
     t: >
-        每區上方的<span class="hint-export-button">匯出</span>按鈕可以取得圖表的原始 JSON 資料或 GraphQL query。
+      每區上方的<span class="hint-export-button">匯出</span>按鈕可以取得圖表的原始 JSON 資料或 GraphQL query。
 
   - key: hints.completion_hint
     t: >
-        問題都是選填，所以有些回答數可能比較少。完成比例圖示（<span class="hint-completion-indicator">◕</span>）會註明確切的答題人數。
+      問題都是選填，所以有些回答數可能比較少。完成比例圖示（<span class="hint-completion-indicator">◕</span>）會註明確切的答題人數。
 
   - key: hints.tool_modal_hint
     t: >
-        點選技術的名稱後，可以看到更多細節，並深入檢視相關資料。
+      點選技術的名稱後，可以看到更多細節，並深入檢視相關資料。
 
   - key: hints.rankings_modes_hint
     t: >
-        自由勾選排名圖表是否顯示滿意度、有興趣、實際使用、有聽過比例，使各類別的排名一目了然。
+      自由勾選排名圖表是否顯示滿意度、有興趣、實際使用、有聽過比例，使各類別的排名一目了然。
 
   - key: hints.sharing_hint
     t: >
-        科學研究顯示，透過 Twitter、Facebook 或 email 分享本研究調查，最高可以讓 JavaScript 功力增加 15%。
+      科學研究顯示，透過 Twitter、Facebook 或 email 分享本研究調查，最高可以讓 JavaScript 功力增加 15%。
 
   - key: hints.tshirt_hint
     t: >
-        另一項科學研究發現：購買我們的 T-shirt 可以讓 JavaScript 知識增加 9000 分！
+      另一項科學研究發現：購買我們的 T-shirt 可以讓 JavaScript 知識增加 9000 分！
 
   - key: hints.variants_hint
     t: >
@@ -1027,7 +1025,7 @@ translations:
     t: >
       <span class="hint-icon hint-comment-button">留言</span>分頁可以看到調查答題者，在填寫調查時，留下的回應。
 
-###########################################################################
+  ###########################################################################
   # Sponsor Chart
   ###########################################################################
 
@@ -1038,10 +1036,9 @@ translations:
     t: >
       誠摯感謝贊助本次調查。您的大頭照會在一小時左右後，出現在挑選的圖表旁邊。如果沒有的話，敬請[聯繫](mailto:chartsponsor@stateofjs.com)。
 
-
   - key: sponsor.sponsored_by
     t: >
-        **{name}** 以捐贈 **${amount}** 贊助這張圖表
+      **{name}** 以捐贈 **${amount}** 贊助這張圖表
 
   - key: sponsor.sponsor_button
     t: 贊助這張圖表
@@ -1051,10 +1048,10 @@ translations:
 
   - key: sponsor.sponsor_chart.description
     t: >
-        捐贈至少 10 元美金，以財務支援這份調查，就可以讓 Twiiter 大頭照特別顯示在圖表旁邊！
+      捐贈至少 10 元美金，以財務支援這份調查，就可以讓 Twiiter 大頭照特別顯示在圖表旁邊！
 
   - key: sponsor.chart_id
-    t: '圖表 ID: '
+    t: "圖表 ID: "
 
   - key: sponsor.sponsor_this_chart
     t: 贊助這張圖表 (${baseAmount}+)
@@ -1077,7 +1074,6 @@ translations:
 
 
       5. 網站會在背景重新組合一遍，你/妳的使用者名稱與贊助就會在**接下來的一小時內，出現在圖表旁邊**。
-
 
   - key: sponsor.faq.title
     t: 常見問答
@@ -1117,7 +1113,7 @@ translations:
 
   - key: sponsor.faq.feedback.description
     t: 可以[在 GitHub](https://github.com/StateOfJS/Monorepo/issues/69) 或 [Discord](https://discord.gg/tuWRUWVyJs)。
-###########################################################################
+  ###########################################################################
   # Data Explorer
   ###########################################################################
 
@@ -1244,20 +1240,20 @@ translations:
 
   - key: explorer.count_details.2
     t: |
-        **{yAxisPercentage}%** of “{yAxisLabel}” respondents selected “{yAnswerLabel}”.
+      **{yAxisPercentage}%** of “{yAxisLabel}” respondents selected “{yAnswerLabel}”.
 
   - key: explorer.count_details.3
     t: |
-        Applying that percentage to the previous **{xAxisTotal}** respondents figure
-        gives us an expected baseline of **{normalizedCount}** respondents in this intersection.
+      Applying that percentage to the previous **{xAxisTotal}** respondents figure
+      gives us an expected baseline of **{normalizedCount}** respondents in this intersection.
 
   - key: explorer.count_details.4_extra
     t: |
-        The actual count is **{bucketCount}**, and those extra **{normalizedCountDelta}** respondents are *highlighted*.
+      The actual count is **{bucketCount}**, and those extra **{normalizedCountDelta}** respondents are *highlighted*.
 
   - key: explorer.count_details.4_missing
     t: |
-        The actual count is **{bucketCount}**, and those missing **{normalizedCountDelta}** respondents appear as empty dots.
+      The actual count is **{bucketCount}**, and those missing **{normalizedCountDelta}** respondents appear as empty dots.
 
   - key: explorer.percentage_details.1_extra
     t: |
@@ -1271,11 +1267,11 @@ translations:
 
   - key: explorer.percentage_details.2_extra
     t: |
-        Those extra **{normalizedPercentageDelta}%** respondents are *highlighted*.
+      Those extra **{normalizedPercentageDelta}%** respondents are *highlighted*.
 
   - key: explorer.percentage_details.2_missing
     t: |
-        Those missing **{normalizedPercentageDelta}%** respondents appear as empty dots.
+      Those missing **{normalizedPercentageDelta}%** respondents appear as empty dots.
 
   # - key: explorer.percentage_details.1
   #   t: |
@@ -1298,7 +1294,6 @@ translations:
   #   t: |
   #       The actual count is **{bucketPercentage}%**, and those missing **{normalizedPercentageDelta}%** respondents appear as empty dots.
 
-
   - key: explorer.extra_missing_respondents
     t: |
       ### Extra & Missing Respondents
@@ -1313,11 +1308,9 @@ translations:
       correlation between both variables, and is highlighted on the chart with either colored
       dots (for extra respondents above the baseline) or empty dots (for missing respondents).
 
-
   ###########################################################################
   # Filters
   ###########################################################################
-
 
   - key: filters.compare_data
     t: Compare Data
