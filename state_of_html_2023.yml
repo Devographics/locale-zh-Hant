@@ -92,9 +92,9 @@ translations:
   # Conclusion
   ###########################################################################
 
-  - key: conclusion.html2023.bio
+  - key: conclusion.html2023.lea_verou.bio
     t: W3C 技術架構小組成員 & MIT CSAIL 研究員
-  - key: conclusion.html2023
+  - key: conclusion.html2023.lea_verou
     t: >
       *哇喔!* 這個調查奠基在全球六大洲數十人的努力。不僅創下了「現況調查」系列中首次回應最多的紀錄，也創新了資料收集的 UI，讓我們對開發者的態度有了前所未有的洞察，並將遠遠超出其範圍。有些人認為改進 HTML 是徒勞的，但調查結果卻明確地證明了相反。**開發者渴望更多互動式 HTML 元素**：不僅互動元素（如 `<datalist>` 或 Popover API ）在所有類別中積累了最多的正向情感，而且所有[缺失元素](https://2023.stateofhtml.com/en-US/usage/#html_missing_elements)中的前幾名都是互動式小部件。
 
