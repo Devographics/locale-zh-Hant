@@ -17,19 +17,19 @@ translations:
   - key: introduction.js2023
     t: |
 
-      <span class="first-letter">I</span>t should be clear by now that, for better or for worse, JavaScript is not slowing down. 
+      <span class="first-letter">現</span>在應該很清楚了，無論好壞，JavaScript 都不會慢下來。
 
-      Between server components, server actions, signals, compilers, and more, we're seeing new innovations pop up faster than most of us can handle. 
+      Server component、server action、signal、編譯器⋯⋯，新技術推出的速度超過大多數人的學習速度。
 
-      The trick to avoiding the dreaded JavaScript fatigue is remembering that you can pick your lane: sure, you can live life on the cutting edge with the early adopters; but you can also keep a slower pace and focus on stable, mature technologies – and eventually get to the new hotness once it's had a couple years to cool down. 
+      避免 JavaScript 疲勞的訣竅在於，記得你可以選擇自己的道路：當然，你可以走在科技最前端，成為最早擁抱新技術的人；但你也可以放慢腳步，專注在穩定、成熟的科技——給狂熱的新技術幾年時間冷卻，再接觸它們。
 
-      Speaking of taking it slow, you might be wondering why these 2023 survey results are being released six months into *2024*. The truth is, between launching the new [State of HTML](https://2023.stateofhtml.com/) survey, innovating new question formats, collecting more freeform data than ever, and rewriting a lot of our data visualization codebase, we ended up with a workload that was probably a bit too ambitious, to say the least. 
+      說到慢下來，你可能會疑惑：再六個月就 *2024* 年了，為什麼 2023 年的調查結果等到現在才發布？老實說，發起新的 [State of HTML](https://2023.stateofhtml.com/) 調查、構思新的問卷格式、收集比以往更自由的回答內容，以及重寫許多資料視覺化的程式碼，不誇張地說，最終的工作量恐怕已經超過負荷。
 
-      Hopefully the result of all this extra effort will be worth it though. And we do plan on much faster turnarounds going forward. 
+      希望這一切額外付出的心力帶來的成果是值得的。而我們也確實計畫未來要加快速度。
 
-      With all this out of the way, let's discover what JavaScript has been up to lately!
+      話不多說，一起看看 JavaScript 最近在忙什麼吧！
 
-      <span class="conclusion__byline">– Sacha Greif</span>
+      <span class="conclusion__byline">—— Sacha Greif</span>
 
   ###########################################################################
   # Tshirt
@@ -181,39 +181,39 @@ translations:
 
   - key: conclusion.js2023.cassidy_williams
     t: |
-      <span class="first-line">Y'all, what a cool year to be on the internet.</span>
+      <span class="first-line">各位，今年網際網路的發展真是太酷啦。</span>
 
-      There's so many interesting and exciting changes happening, and I've got my popcorn next to my keyboard, building and watching!
+      各式各樣令人振奮的改變正在發生，我已經準備好爆米花，一邊建構一邊看著！
 
-      The fact that so many "smaller" libraries like Preact, Solid, and htmx are climbing in positive sentiment over something massive like Next.js is fascinating. We're starting to see Angular make a bit of a comeback, and we'll see if that trend continues next year. We're seeing people fall out of love with some of the industry darlings. We're seeing very Rusty systems grow. Astro feels like it's off to the races in developer support.
+      無數「小巧」的套件（如 Preact、Solid，以及 htmx）所獲得的正向感受超過巨大的對手（如 Next.js），太驚人了。Angular 開始有稍微復出的跡象，這值得觀察是否會持續到明年。另外，有些人變得不再那麼喜歡業界寵兒。跟 Rust 有關的系統正在成長。Astro 似乎非常積極投入開發者支援。 
 
-      In terms of actual browser features, it almost feels like we're going too fast for the world to catch up. Which is not always a bad thing, necessarily! But I totally echo the sentiments that browser support is my primary concern over all the cool things coming out. 
+      瀏覽器功能方面似乎衝得太快了，沒人趕得上。這不一定是件壞事！但我完全可以理解把瀏覽器支援度放在那些酷玩意之前的考量。 
 
-      That being said, I'm personally loving using some of the new array features and the fact that more and more folks are supporting PWAs.
+      雖然這樣說，我個人很喜歡使用某些新的陣列方法，也很樂見越來愈多人開始支援 PWA。
 
-      Next year, let's improve the diversity of responses, get more people developing, and hopefully all of the new and exciting changes err on the side of fun, rather than intimidating! Thanks Sacha and team for including me here, and for running another awesome and valuable survey.
+      明年我們打算讓問卷回覆更多樣，讓更多人參與開發，希望所有新的、令人開心的改變都變得有趣而不可怕！感謝 Sacha 與團隊讓我參與，也謝謝你們再度執行了一次很棒又有價值的調查。
 
-      See you online!
+      線上見！
 
   - key: conclusion.js2023.cassidy_williams.bio
-    t: Dev advocate, engineer, open sourcer, and memer
+    t: 開發提倡者、工程師、開源參與者、迷因愛好者
 
   - key: conclusion.js2023.theo_browne
     t: |
-      <span class="first-line">Javascript is moving to the server, and we’re uneasy about it.</span>
+      <span class="first-line">Javascript 正往伺服器端移動，這讓人忐忑不安。</span>
 
-      In last year’s survey, we saw quickly growing adoption of server-rendered frameworks like Next, Nuxt, Remix, and SvelteKit. This year, we shifted to server-first patterns such as Partial Hydration and Islands, which doubled in their adoption.
+      從去年的調查結果中可以發現採用伺服器端渲染框架（如 Next、Nuxt、Remix、SvelteKit）快速成長的趨勢。今年換成 server 優先模式（例如 Partial Hydration 與 Island 架構）的採用率翻倍。
 
-      Frame-, err, libraries like htmx show that web devs aren’t the only ones benefiting from utilizing the server. SPAs aren’t going anywhere (take a look at [Inertia](https://inertiajs.com/) for proof), but as these new patterns continue to improve, the market seems to be following along.
+      框——呃，套件如 htmx 顯示，不只有 web 開發者受到善用 server 的好處。SPA 依舊不會消失（看看 [Inertia](https://inertiajs.com/) 吧），但隨著這些新的模式繼續改進，市場似乎也在跟進。
 
-      This move has not been unanimously loved. React’s continued to grow, but React developers are increasingly concerned about its direction. Getting here has been… rough, but progress is being made every day.
+      這個轉變方向並不完全受到青睞。React 持續成長，但 React 開發者開始擔憂它的方向。一路走來非常⋯⋯不容易，但每天都有新的進展。
 
-      We’re also seeing more options appear outside of the React ecosystem. From [Nuxt](https://roe.dev/blog/nuxt-server-components) to [SolidStart](https://docs.solidjs.com/solid-start/reference/server/use-server) to [Astro](https://astro.build/blog/astro-480/#experimental-astro-actions), all of the best React Server Component features are rolling out to every developer.
+      React 生態圈之外有愈來愈多選擇。從 [Nuxt](https://roe.dev/blog/nuxt-server-components) 到 [SolidStart](https://docs.solidjs.com/solid-start/reference/server/use-server) 再到 [Astro](https://astro.build/blog/astro-480/#experimental-astro-actions)，所有最好的 React Server Component 功能正朝每位開發者推出。
 
-      And of course, Vite has continued to dominate, and is the choice for app developers and framework authors alike. Hard to imagine where we’d be today without it!
+      當然，Vite 繼續主宰全場，它同時也是 app 開發者與框架作者的共同選擇。很難想像沒有它的日子！
 
   - key: conclusion.js2023.theo_browne.bio
-    t: Creator of Ping, uploadthing, create-t3-app, and video creator
+    t: Ping、uploadthing、create-t3-app 的作者，以及影片創作者
 
   ###########################################################################
   # Picks
