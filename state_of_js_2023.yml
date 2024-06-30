@@ -19,13 +19,13 @@ translations:
 
       <span class="first-letter">現</span>在應該很清楚了，無論好壞，JavaScript 都不會慢下來。
 
-      Server component、server action、signal、編譯器⋯⋯，新技術推出的速度超過大多數人的學習速度。
+      Server component、server action、signal、編譯器⋯⋯等，新技術推出的速度超過大多數人的學習速度。
 
-      避免 JavaScript 疲勞的訣竅在於，記得你可以選擇自己的道路：當然，你可以走在科技最前端，成為最早擁抱新技術的人；但你也可以放慢腳步，專注在穩定、成熟的科技——給狂熱的新技術幾年時間冷卻，再接觸它們。
+      避免 JavaScript 疲勞的訣竅在於，記得可以選擇自己的道路：你當然可以走在科技最前端，成為最早擁抱新技術的人；但也能放慢腳步，專注在穩定、成熟的科技——給狂熱的新技術幾年時間冷卻，再來接觸。
 
       說到慢下來，你可能會疑惑：再六個月就 *2024* 年了，為什麼 2023 年的調查結果等到現在才發布？老實說，發起新的 [State of HTML](https://2023.stateofhtml.com/) 調查、構思新的問卷格式、收集比以往更自由的回答內容，以及重寫許多資料視覺化的程式碼，不誇張地說，最終的工作量恐怕已經超過負荷。
 
-      希望這一切額外付出的心力帶來的成果是值得的。而我們也確實計畫未來要加快速度。
+      希望這一切額外付出的心力，成果是值得的。而我們也確實計畫未來要加快速度。
 
       話不多說，一起看看 JavaScript 最近在忙什麼吧！
 
@@ -185,9 +185,9 @@ translations:
 
       各式各樣令人振奮的改變正在發生，我已經準備好爆米花，一邊建構一邊看著！
 
-      無數「小巧」的套件（如 Preact、Solid，以及 htmx）所獲得的正向感受超過巨大的對手（如 Next.js），太驚人了。Angular 開始有稍微復出的跡象，這值得觀察是否會持續到明年。另外，有些人變得不再那麼喜歡業界寵兒。跟 Rust 有關的系統正在成長。Astro 似乎非常積極投入開發者支援。 
+      無數「小巧」的套件（如 Preact、Solid，以及 htmx）所獲得的正向感受，超過巨大的對手（如 Next.js），太驚人了。Angular 開始有稍微復出的跡象，值得觀察是否會持續到明年。另外，有些人變得不再那麼喜歡業界寵兒。跟 Rust 有關的系統正在成長。Astro 似乎非常積極投入開發者支援。 
 
-      瀏覽器功能方面似乎衝得太快了，沒人趕得上。這不一定是件壞事！但我完全可以理解把瀏覽器支援度放在那些酷玩意之前的考量。 
+      瀏覽器功能方面似乎衝得太快了，沒人趕得上。這不一定是件壞事！但我完全可以理解，把瀏覽器支援度放在那些酷玩意之前的考量。 
 
       雖然這樣說，我個人很喜歡使用某些新的陣列方法，也很樂見越來愈多人開始支援 PWA。
 
@@ -204,9 +204,9 @@ translations:
 
       從去年的調查結果中可以發現採用伺服器端渲染框架（如 Next、Nuxt、Remix、SvelteKit）快速成長的趨勢。今年換成 server 優先模式（例如 Partial Hydration 與 Island 架構）的採用率翻倍。
 
-      框——呃，套件如 htmx 顯示，不只有 web 開發者受到善用 server 的好處。SPA 依舊不會消失（看看 [Inertia](https://inertiajs.com/) 吧），但隨著這些新的模式繼續改進，市場似乎也在跟進。
+      框——呃，套件如 htmx 顯示，不只有 web 開發者獲得善用 server 的好處。SPA 依舊不會消失（看看 [Inertia](https://inertiajs.com/) 吧），但隨著這些新模式繼續改進，市場似乎也在跟進。
 
-      這個轉變方向並不完全受到青睞。React 持續成長，但 React 開發者開始擔憂它的方向。一路走來非常⋯⋯不容易，但每天都有新的進展。
+      這個轉變方向並不完全受到青睞。React 持續成長，但 React 開發者開始擔憂它的方向。一路走來非常⋯⋯不容易，但每天都有新進展。
 
       React 生態圈之外有愈來愈多選擇。從 [Nuxt](https://roe.dev/blog/nuxt-server-components) 到 [SolidStart](https://docs.solidjs.com/solid-start/reference/server/use-server) 再到 [Astro](https://astro.build/blog/astro-480/#experimental-astro-actions)，所有最好的 React Server Component 功能正朝每位開發者推出。
 
