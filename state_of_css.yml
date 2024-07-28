@@ -92,7 +92,7 @@ translations:
 
   - key: tools_others.pre_post_processors
     aliasFor: sections.pre_post_processors.title
-  - key: tools_others.pre_post_processors.description
+  - key: tools_others.pre_post_processors.question
     aliasFor: sections.pre_post_processors.description
 
   - key: tools_others.pre_post_processors.others
@@ -586,7 +586,7 @@ translations:
 
   - key: environments.form_factors
     t: 裝置
-  - key: environments.form_factors.description
+  - key: environments.form_factors.question
     t: 在哪些裝置上進行測試？
   - key: environments.form_factors.others
     t: 其它測試環境 Other Testing Environments
@@ -595,7 +595,7 @@ translations:
 
   - key: environments.accessibility_features
     t: 無障礙設計功能
-  - key: environments.accessibility_features.description
+  - key: environments.accessibility_features.question
     t: 常常實做哪些無障礙設計功能？
   - key: environments.accessibility_features.others
     t: 其他無障礙設計功能
@@ -604,17 +604,17 @@ translations:
 
   - key: environments.css_for_print
     t: 列印用的 CSS
-  - key: environments.css_for_print.description
+  - key: environments.css_for_print.question
     t: 有寫列印用的樣式嗎？
 
   - key: environments.css_for_email
     t: 電子郵件客戶端的 CSS
-  - key: environments.css_for_email.description
+  - key: environments.css_for_email.question
     t: 有寫電子郵件客戶端的 CSS 嗎？
 
   - key: environments.what_do_you_use_css_for
     t: 使用 CSS 的主要目的？
-  - key: environments.what_do_you_use_css_for.description
+  - key: environments.what_do_you_use_css_for.question
     t: 常常在哪類型的專案使用 CSS？
   - key: environments.what_do_you_use_css_for.others
     t: 其他專案種類
@@ -755,7 +755,7 @@ translations:
     t: CSS 的哪個功能，是最想要現在就可以使用的？左手邊的項目對上上方的項目時，獲勝次數的百分比。
   - key: usage.css_js_balance
     t: CSS 與 JavaScript 的平衡
-  - key: usage.css_js_balance.description
+  - key: usage.css_js_balance.question
     t: 如何分配撰寫 CSS（包含 HTML 語法）與 JavaScript 程式碼的時間？
 
   ###########################################################################
