@@ -1,6 +1,6 @@
 # locale-zh-Hant
 
-這個 Repo (Repository) 包含了 State of JS/CSS/HTML 等調查的中文（繁體）文件。你可以在這裡查看 [所有 Repository 列表](https://github.com/orgs/Devographics/repositories?q=locale-&type=all&language=&sort=name)。
+這個 repo 包含了 State of JS/CSS/HTML 等調查的正體中文文件。你可以[在此查看所有 repo 列表](https://github.com/orgs/Devographics/repositories?q=locale-&type=all&language=&sort=name)。
 
 ## 如何參與
 
