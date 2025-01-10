@@ -82,4 +82,4 @@ query GetLocaleData {
 
 ## 取得幫助
 
-加入 [我們的 Discord](https://discord.gg/zRDb35jfrt) 以取得幫助。
+加入[我們的 Discord](https://discord.gg/zRDb35jfrt) 以取得幫助。
