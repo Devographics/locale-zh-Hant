@@ -38,9 +38,9 @@ query GetLocaleData {
 
 - https://github.com/Devographics/locale-de-DE/blob/main/config.yml#L3
 
-#### 4. 即時推送你的更改
+#### 4. 推送更動
 
-目前沒有自動化的 GitHub Hooks 來更新翻譯好的文件，請直接從 Discord 文字頻道或私訊（`SachaG`）說明你完成了翻譯。
+目前沒有自動化的 GitHub Hooks 來更新翻譯好的文件，請直接在 Discord 私訊 `SachaG`，讓對方知道你完成了翻譯。
 
 ## 翻譯文件
 
