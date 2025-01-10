@@ -74,7 +74,7 @@ query GetLocaleData {
 
 ## 加入翻譯團隊
 
-建議你可以加入對應語言區域的 [翻譯團隊](https://github.com/orgs/Devographics/teams/translators/teams)。
+建議加入對應語言區域的[翻譯團隊](https://github.com/orgs/Devographics/teams/translators/teams)。
 
 ## 本地開發
 
