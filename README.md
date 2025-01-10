@@ -6,7 +6,7 @@
 
 #### 1. 成為翻譯者
 
-如果想協助翻譯，你可以 [加入 Discord](https://discord.com/invite/zRDb35jfrt) 並向（`SachaG`）私訊提供你的 GitHub 使用者名稱，以及希望翻譯的地區代碼（例如 `fr-FR`、`zh-Hant` 等）。
+如果想協助翻譯，可以[加入 Discord](https://discord.com/invite/zRDb35jfrt) 並私訊（`SachaG`）你的 GitHub 使用者名稱，以及希望翻譯的地區代碼（例如 `fr-FR`、`zh-Hant` 等）。
 
 待收到翻譯團隊邀請後，你便可以和其他團隊成員進行翻譯與維護。
 
